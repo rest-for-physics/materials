@@ -8,7 +8,7 @@ The main objective is to define material files with version traceability feature
 To allow for this traceability we should define a reference string at the beginning of the materials file, 
 enclosed in a comment between the following identificative header `##VERSION ##`.
 
-It shoould include a line as the following line.
+It should include a line as the following line.
 ```
 <!-- ##VERSION REST materials 1.0## -->
 ```
