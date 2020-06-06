@@ -13,3 +13,4 @@ It should include a line as the following line.
 <!-- ##VERSION REST materials 1.0## -->
 ```
 
+When ever an existing materials file is modified. Its version or reference name should be updated.
