@@ -69,7 +69,7 @@
 	    <T unit="K" value="gasTemperature"/>
 	    <P unit="bar" value="gasPressure"/>
 	    <MEE unit="eV" value="188"/>
-            <D unit="mg/cm3" value="targetDensity"/>
+            <D unit="mg/cm3" value="targetGasDensity"/>
 	    <fraction n="1" ref="Helium"/>
 	</material>
 
