@@ -5,6 +5,11 @@
         <element name="Hydrogen" formula="H" Z="1">
             <atom value="1.00794" />
         </element>
+       
+	<element name="Helium" formula="N" Z="2">
+	    <atom value="4.0026" />
+	</element>
+
         <element name="Carbon" formula="C" Z="6">
             <atom value="12.0107" />
         </element>
@@ -60,6 +65,14 @@
         <!-- }}} -->
 
         <!-- {{{ Gas mixtures -->
+        <material name="PureHelium" state="gas">
+	    <T unit="K" value="gasTemperature"/>
+	    <P unit="bar" value="gasPressure"/>
+	    <MEE unit="eV" value="188"/>
+            <D unit="mg/cm3" value="targetDensity"/>
+	    <fraction n="1" ref="Helium"/>
+	</material>
+
         <material name="PureXenon" state="gas">
             <T unit="K" value="gasTemperature"/>
             <P unit="bar" value="gasPressure"/>
