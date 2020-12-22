@@ -34,6 +34,9 @@
         <element name="Nickel" formula="Ni" Z="28" state="solid">
             <atom value="58.6934" />
         </element>
+        <element name="Aluminium" formula="Al" Z="13" state="solid">
+            <atom value="26.982" />
+        </element>
         <element name="Xenon" formula="Xe" Z="54" state="gas">
             <atom value="131.293" />
         </element>
@@ -141,6 +144,20 @@
         </material>
         <!-- }}} -->
 
+      <!-- {{{ Aluminium -->
+        <isotope N="27" Z="13" name="Al27">
+        <atom unit="g/mole" value="26.982"/>
+          </isotope>
+        <element name="Al">
+        <fraction n="1.0000" ref="Al27"/>
+        </element>
+        <material name="Aluminium" state="solid">
+         <MEE unit="eV" value="166"/>
+        <D unit="g/cm3" value="2.70"/>
+        <fraction n="1" ref="Al"/>
+         </material>
+    <!-- }}} -->   
+                                      
         <!-- {{{ Stainlesssteel -->
         <material name="Stainlesssteel" state="solid">
             <MEE unit="eV" value="280.927567486627"/>
