@@ -14,8 +14,8 @@ It should include a line as the following inside the header:
 <!-- ##VERSION REST materials 1.0## -->
 ```
 
-**⚠ IMPORTANT:** Whenever an existing materials file is modified. Its version or reference name should be updated.
-
 Feel free to add new materials, upgrade existing ones, or report any issues found within this materials library at the [REST forum](http://ezpc10.unizar.es).
 
-**⚠ WARNING: REST is under continous development.** This README is offered to you by the REST community. Your HELP is needed to keep this file up to date. You are very welcome to contribute fixing typos, updating information or adding new contributions. See also our [Contribution Guide](https://github.com/rest-for-physics/rest-framework/blob/master/CONTRIBUTING.md).
+**⚠ IMPORTANT:** Whenever an existing materials file is modified in this respository, its version or reference name should be updated.
+
+**⚠ WARNING: REST is under continous development.** This README is offered to you by the REST community. Your HELP is needed to keep this file up to date. You are very welcome to contribute to REST by fixing typos, updating information or adding new contributions. See also our [Contribution Guide](https://github.com/rest-for-physics/rest-framework/blob/master/CONTRIBUTING.md).
