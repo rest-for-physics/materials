@@ -378,6 +378,14 @@
             <fraction n="0.856289" ref="Carbon"/>
      	</material>
     	<!-- }}} -->
+	<!-- {{{Expanded Polystyrene -->
+    	<material name="PSE" state="solid">
+            <MEE unit="eV" value="68.7"/>
+            <D unit="g/cm3" value="1.06"/>
+            <fraction n="0.076923" ref="Hydrogen"/>
+            <fraction n="0.923077" ref="Carbon"/>
+     	</material>
+    	<!-- }}} -->
 
         <!-- {{{ Mylar -->
         <material name="Mylar" state="solid">
