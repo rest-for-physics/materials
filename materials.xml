@@ -58,7 +58,12 @@
           <element name="Chlorine" formula="Cl" Z="17">
 	<atom value="35.4532"/>
 	</element>
+        <element name="Iodide" formula="I" Z="53">
+	<atom value="126.9"/>
+	</element>
+      
 
+        
        
         <!-- }}} -->
 
@@ -171,6 +176,70 @@
         <fraction n="1" ref="Al"/>
          </material>
     <!-- }}} -->   
+
+ 	<!-- {{{ Cadmium-->
+        <isotope N="106" Z="48" name="Cd106">
+        <atom unit="g/mole" value="105.91"/>
+          </isotope>
+	<isotope N="108" Z="48" name="Cd108">
+        <atom unit="g/mole" value="107.90"/>
+          </isotope>
+	<isotope N="110" Z="48" name="Cd110">
+        <atom unit="g/mole" value="109.90"/>
+          </isotope>
+	<isotope N="111" Z="48" name="Cd111">
+        <atom unit="g/mole" value="110.90"/>
+          </isotope>
+	<isotope N="112" Z="48" name="Cd112">
+        <atom unit="g/mole" value="111.90"/>
+          </isotope>
+	<isotope N="113" Z="48" name="Cd113">
+        <atom unit="g/mole" value="112.90"/>
+          </isotope>
+	<isotope N="114" Z="48" name="Cd114">
+        <atom unit="g/mole" value="113.90"/>
+          </isotope>
+	<isotope N="116" Z="48" name="Cd116">
+        <atom unit="g/mole" value="115.90"/>
+          </isotope>
+        <element name="Cd">
+        <fraction n="0.0125" ref="Cd106"/>
+	 <fraction n="0.0089" ref="Cd108"/>
+	 <fraction n="0.1249" ref="Cd110"/>
+	 <fraction n="0.1280" ref="Cd111"/>
+	 <fraction n="0.2413" ref="Cd112"/>
+	<fraction n="0.1222" ref="Cd113"/>
+	 <fraction n="0.2873" ref="Cd114"/>
+	 <fraction n="0.0749" ref="Cd116"/>
+        </element>
+        <material name="Cadmium" state="solid">
+         <MEE unit="eV" value="469.0"/>
+        <D unit="g/cm3" value="8.65"/>
+ 	 <fraction n="1" ref="Cd"/>
+         </material>
+   	 <!-- }}} -->   
+
+         <!-- {{{ 6-Lithium -->
+   	 <isotope N="6" Z="3" name="Li6">
+        <atom unit="g/mole" value="6"/>
+    	</isotope>    
+   	 <element name="6Li">
+        <fraction n="1" ref="Li6"/>
+    	</element>
+   	 <material name="6-Lithium" state="solid">
+        <D unit="g/cm3" value="0.463"/>
+        <fraction n="1" ref="6Li"/>
+    	</material>
+          <!-- }}} -->
+        <!-- {{{  Lithium6 iodide -->
+    	<material name="6LiI" formula="6-LiI">
+        <MEE unit="eV" value="485.1"/>
+        <D unit="g/cm3" value="3.494" />
+        <composite n="1" ref="6-Lithium" />
+        <composite n="1" ref="iodide" />
+   	 </material>
+    <!-- }}} -->
+	
                                       
         <!-- {{{ Stainlesssteel -->
         <material name="Stainlesssteel" state="solid">
