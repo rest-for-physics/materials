@@ -236,7 +236,7 @@
         <MEE unit="eV" value="485.1"/>
         <D unit="g/cm3" value="3.494" />
         <composite n="1" ref="6Lithium" />
-        <composite n="1" ref="iodide" />
+        <composite n="1" ref="Iodide" />
    	 </material>
     <!-- }}} -->
 	
