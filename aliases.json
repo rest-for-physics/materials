@@ -1,0 +1,7 @@
+{
+    "G4_Cu": ["Copper"],
+    "G4_Pb": ["Lead"],
+    "G4_Al": ["Aluminium"],
+    "G4_Cd": ["Cadmium"],
+    "G4_STAINLESS-STEEL": ["Steel", "StainlessSteel"]
+}

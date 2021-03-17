@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials>
+   <!-- Plastic scintillator -->
+   <material name="Vacuum" state="gas">
+      <T unit="K" value="293.13"/>
+      <MEE unit="eV" value="85.7030667332999"/>
+      <D unit="g/cm3" value="1.e-20"/>
+      <fraction n="0.7" ref="G4_N"/>
+      <fraction n="0.3" ref="G4_O"/>
+   </material>
+   <!-- Plastic scintillator -->
+   <material name="BC408" state="solid">
+      <D unit="g/cm3" value="1.03"/>
+      <fraction n="0.085000" ref="G4_H"/>
+      <fraction n="0.915000" ref="G4_C"/>
+   </material>
+</materials>
