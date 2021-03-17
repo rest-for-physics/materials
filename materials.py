@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 # order is important! only files in this list will be procesed and combined into `materials.xml`, in the order they appear
 xml_files = ["NIST.xml", "gases.xml"]
 
-merge_filename = "materials.notfinal.xml" # do not name it `materials.xml` yet as not all materials all included
+merge_filename = "materials.xml"
 
 if __name__ == "__main__":
     references = set()
