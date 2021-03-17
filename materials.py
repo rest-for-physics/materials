@@ -2,18 +2,18 @@
 # Author: Luis Antonio Obis Aparicio (@lobis)
 
 # usage: running the script (python3 generate_materials.py) will process all files in 'xml_files' sequentially
-# and produce a merged file named 'merge_filename' after checking for duplicates (raising exception in that case)
+# and produce a merged file named 'filename' after checking for duplicates (raising exception in that case)
 
 import os
 import xml.etree.ElementTree as ET
 import json
 
-# order is important! only files in this list will be procesed and combined into `materials.xml`, in the order they appear
-xml_files = ["NIST.xml", "gases.xml", "other.xml"]
+files_to_generate = {
+    "materials.xml": ["NIST.xml", "userDefined/other.xml"],
+    "gases.xml": ["NIST.xml", "userDefined/gases.xml"]
+}
 
-merge_filename = "materials.xml"
-
-if __name__ == "__main__":
+def validate_and_merge(filename, xml_files):
     references = set()
     materials = ET.Element("materials")
     for xml_file in xml_files:
@@ -71,20 +71,40 @@ if __name__ == "__main__":
         # add custom header using the version file
         with open("version", "r") as f:
             version = f.readlines()[0].strip("\n").strip("\t").strip(" ")
-            print(f"increasing version from '{version}'...")
+            print(f"increasing version of '{filename}' from '{version}'...")
             version_split = version.split(".")
-            version_split[2] = str(int(version_split[2]) + 1) # increase minor version number
+            # increase minor version number
+            version_split[2] = str(int(version_split[2]) + 1)
             version = ".".join(version_split)
             print(f"...to '{version}'")
-        with open("version", "w") as f:
-            f.write(version + "\n") # update the version tracking file
 
         lines[0] = "<?xml version=\"" + version + "\" encoding=\"UTF-8\" ?>"
         s = "\n".join(lines)
-        with open(merge_filename, "w") as f:
+        with open(filename, "w") as f:
             f.write(s + "\n")
 
     except Exception as e:
         print(e)
         tree = ET.ElementTree(materials)
-        tree.write(merge_filename, encoding="utf-8", xml_declaration=True)
+        tree.write(filename, encoding="utf-8", xml_declaration=True)
+
+
+if __name__ == "__main__":
+
+    for filename, xml_files in files_to_generate.items():
+        print(filename, xml_files)
+        validate_and_merge(filename, xml_files)
+
+    # increase version file
+    with open("version", "r") as f:
+        version = f.readlines()[0].strip("\n").strip("\t").strip(" ")
+        print(f"increasing version file from '{version}'...")
+        version_split = version.split(".")
+        # increase minor version number
+        version_split[2] = str(int(version_split[2]) + 1)
+        version = ".".join(version_split)
+        print(f"...to '{version}'")
+
+    with open("version", "w") as fw:
+        fw.write(version + "\n")  # update the version tracking file
+

@@ -1,4 +1,4 @@
-<?xml version="0.0.1" encoding="UTF-8" ?>
+<?xml version="0.0.2" encoding="UTF-8" ?>
 <materials>
    <isotope N="1" Z="1" name="H1">
       <atom type="A" value="1.007825"/>
@@ -3104,70 +3104,6 @@
       <fraction n="0.432511" ref="C"/>
       <fraction n="0.252195" ref="N"/>
       <fraction n="0.288072" ref="O"/>
-   </material>
-   <material name="TMA" state="gas">
-      <D unit="mg/cm3" value="quencherDensity"/>
-      <T unit="K" value="gasTemperature"/>
-      <P unit="bar" value="gasPressure"/>
-      <composite n="3" ref="G4_C"/>
-      <composite n="9" ref="G4_H"/>
-      <composite n="1" ref="G4_N"/>
-   </material>
-   <material name="Isobutane" state="gas">
-      <D unit="mg/cm3" value="quencherDensity"/>
-      <T unit="K" value="gasTemperature"/>
-      <P unit="bar" value="gasPressure"/>
-      <composite n="4" ref="G4_C"/>
-      <composite n="10" ref="G4_H"/>
-   </material>
-   <material name="PureHelium" state="gas">
-      <T unit="K" value="gasTemperature"/>
-      <P unit="bar" value="gasPressure"/>
-      <MEE unit="eV" value="188"/>
-      <D unit="mg/cm3" value="targetGasDensity"/>
-      <fraction n="1" ref="G4_He"/>
-   </material>
-   <material name="PureXenon" state="gas">
-      <T unit="K" value="gasTemperature"/>
-      <P unit="bar" value="gasPressure"/>
-      <MEE unit="eV" value="482"/>
-      <D unit="mg/cm3" value="targetGasDensity"/>
-      <fraction n="1" ref="G4_Xe"/>
-   </material>
-   <material name="Xenon_TMA" state="gas">
-      <D unit="mg/cm3" value="targetGasDensity+quencherDensity"/>
-      <P unit="bar" value="gasPressure"/>
-      <T unit="K" value="gasTemperature"/>
-      <fraction n="quencherFraction" ref="TMA"/>
-      <fraction n="1-quencherFraction" ref="G4_Xe"/>
-   </material>
-   <material name="Xenon_ISO" state="gas">
-      <D unit="mg/cm3" value="targetGasDensity+quencherDensity"/>
-      <P unit="bar" value="gasPressure"/>
-      <T unit="K" value="gasTemperature"/>
-      <fraction n="quencherFraction" ref="Isobutane"/>
-      <fraction n="1-quencherFraction" ref="G4_Xe"/>
-   </material>
-   <material name="PureArgon" state="gas">
-      <T unit="K" value="gasTemperature"/>
-      <P unit="bar" value="gasPressure"/>
-      <MEE unit="eV" value="188"/>
-      <D unit="mg/cm3" value="targetGasDensity"/>
-      <fraction n="1" ref="G4_Ar"/>
-   </material>
-   <material name="Ar_ISO" state="gas">
-      <D unit="mg/cm3" value="targetGasDensity+quencherDensity"/>
-      <P unit="bar" value="gasPressure"/>
-      <T unit="K" value="gasTemperature"/>
-      <fraction n="quencherFraction" ref="Isobutane"/>
-      <fraction n="1-quencherFraction" ref="G4_Ar"/>
-   </material>
-   <material name="Neon_ISO" state="gas">
-      <D unit="mg/cm3" value="targetGasDensity+quencherDensity"/>
-      <P unit="bar" value="gasPressure"/>
-      <T unit="K" value="gasTemperature"/>
-      <fraction n="quencherFraction" ref="Isobutane"/>
-      <fraction n="1-quencherFraction" ref="G4_Ne"/>
    </material>
    <material name="Vacuum" state="gas">
       <T unit="K" value="293.13"/>
