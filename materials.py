@@ -45,16 +45,19 @@ if __name__ == "__main__":
             assert (
                 material in references), f"'{material}' is not a valid reference, probably not defined before"
             for alias in alias_list:
-                assert (alias not in references), f"'{alias}' is not a valid alias, it has been used before"
+                assert (
+                    alias not in references), f"'{alias}' is not a valid alias, it has been used before"
                 references.add(alias)
                 for child in materials:
                     if (child.attrib["name"] == material):
                         # we matched the alias, we copy the material and change its name to match our alias
                         alias_attrib = child.attrib.copy()
                         alias_attrib["name"] = alias
-                        material_alias = ET.SubElement(alias_elements, child.tag, **alias_attrib)                        
+                        material_alias = ET.SubElement(
+                            alias_elements, child.tag, **alias_attrib)
                         for subchild in child:
-                            ET.SubElement(material_alias, subchild.tag, **subchild.attrib)
+                            ET.SubElement(material_alias,
+                                          subchild.tag, **subchild.attrib)
 
     materials.extend(alias_elements)
 
@@ -64,13 +67,24 @@ if __name__ == "__main__":
 
         s = ET.tostring(materials)
         s = minidom.parseString(s).toprettyxml(indent="   ")
-        s = "\n".join([line for line in s.split('\n') if line.strip()])
+        lines = [line for line in s.split('\n') if line.strip()]
+        # add custom header using the version file
+        with open("version", "r") as f:
+            version = f.readlines()[0].strip("\n").strip("\t").strip(" ")
+            print(f"increasing version from '{version}'...")
+            version_split = version.split(".")
+            version_split[2] = str(int(version_split[2]) + 1) # increase minor version number
+            version = ".".join(version_split)
+            print(f"...to '{version}'")
+        with open("version", "w") as f:
+            f.write(version + "\n") # update the version tracking file
 
+        lines[0] = "<?xml version=\"" + version + "\" encoding=\"UTF-8\" ?>"
+        s = "\n".join(lines)
         with open(merge_filename, "w") as f:
             f.write(s + "\n")
 
     except Exception as e:
         print(e)
         tree = ET.ElementTree(materials)
-        tree.write(merge_filename, encoding="iso-8859-1",
-                   xml_declaration=True, method="xml")
+        tree.write(merge_filename, encoding="utf-8", xml_declaration=True)
