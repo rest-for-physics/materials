@@ -83,6 +83,7 @@ def validate_and_merge(filename, xml_files):
 
         #lines[0] = "<?xml version=\"" + version + "\" encoding=\"UTF-8\" ?>"
         """
+        lines[0] = ""
         s = "\n".join(lines)
         with open(filename, "w") as f:
             f.write(s + "\n")
