@@ -3145,4 +3145,16 @@
       <fraction n="0.169001" ref="Cr"/>
       <fraction n="0.084786" ref="Ni"/>
    </material>
+   <material name="Water" state="solid">
+      <D value="1.000000" unit="g/cm3"/>
+      <fraction n="0.111898" ref="H"/>
+      <fraction n="0.888102" ref="O"/>
+   </material>
+   <material name="Air" state="gas">
+      <D value="0.001205" unit="g/cm3"/>
+      <fraction n="0.000124" ref="C"/>
+      <fraction n="0.755268" ref="N"/>
+      <fraction n="0.231781" ref="O"/>
+      <fraction n="0.012827" ref="Ar"/>
+   </material>
 </materials>
