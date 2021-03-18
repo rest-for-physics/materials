@@ -13,6 +13,7 @@ files_to_generate = {
     "gases.xml": ["NIST.xml", "userDefined/gases.xml"]
 }
 
+
 def validate_and_merge(filename, xml_files):
     references = set()
     materials = ET.Element("materials")
@@ -69,6 +70,7 @@ def validate_and_merge(filename, xml_files):
         s = ET.tostring(materials)
         s = minidom.parseString(s).toprettyxml(indent="   ")
         lines = [line for line in s.split('\n') if line.strip()]
+        """
         # add custom header using the version file
         with open("version", "r") as f:
             version = f.readlines()[0].strip("\n").strip("\t").strip(" ")
@@ -79,7 +81,8 @@ def validate_and_merge(filename, xml_files):
             version = ".".join(version_split)
             print(f"...to '{version}'")
 
-        lines[0] = "<?xml version=\"" + version + "\" encoding=\"UTF-8\" ?>"
+        #lines[0] = "<?xml version=\"" + version + "\" encoding=\"UTF-8\" ?>"
+        """
         s = "\n".join(lines)
         with open(filename, "w") as f:
             f.write(s + "\n")
@@ -96,6 +99,7 @@ if __name__ == "__main__":
         print(filename, xml_files)
         validate_and_merge(filename, xml_files)
 
+"""
     # increase version file
     with open("version", "r") as f:
         version = f.readlines()[0].strip("\n").strip("\t").strip(" ")
@@ -108,4 +112,4 @@ if __name__ == "__main__":
 
     with open("version", "w") as fw:
         fw.write(version + "\n")  # update the version tracking file
-
+"""
