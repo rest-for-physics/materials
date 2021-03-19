@@ -53,7 +53,7 @@ void generateMaterials(const string &outputFilename = "NIST.xml") {
         }
 
         fprintf(pFile, "\t<material name=\"%s\" state=\"%s\">\n", material->GetName().c_str(), state.c_str());
-        fprintf(pFile, "\t\t<D value=\"%f\" unit=\"g/cm3\"/>\n", material->GetDensity() / CLHEP::gram * CLHEP::centimeter * CLHEP::centimeter * CLHEP::centimeter);
+        fprintf(pFile, "\t\t<D value=\"%.5e\" unit=\"g/cm3\"/>\n", material->GetDensity() / CLHEP::gram * CLHEP::centimeter * CLHEP::centimeter * CLHEP::centimeter);
         for (size_t i = 0; i < material->GetNumberOfElements(); i++) {
             fprintf(pFile, "\t\t<fraction n=\"%f\" ref=\"%s\"/>\n", material->GetFractionVector()[i], material->GetElement(i)->GetName().c_str());
         }

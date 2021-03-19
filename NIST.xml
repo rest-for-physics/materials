@@ -1606,602 +1606,602 @@
 	
 <!-- material G4_WATER -->
 	<material name="G4_WATER" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.111898" ref="H"/>
 		<fraction n="0.888102" ref="O"/>
 	</material>
 	
 <!-- material G4_H -->
 	<material name="G4_H" state="gas">
-		<D value="0.000084" unit="g/cm3"/>
+		<D value="8.37480e-05" unit="g/cm3"/>
 		<fraction n="1.000000" ref="H"/>
 	</material>
 	
 <!-- material G4_He -->
 	<material name="G4_He" state="gas">
-		<D value="0.000166" unit="g/cm3"/>
+		<D value="1.66322e-04" unit="g/cm3"/>
 		<fraction n="1.000000" ref="He"/>
 	</material>
 	
 <!-- material G4_Li -->
 	<material name="G4_Li" state="solid">
-		<D value="0.534000" unit="g/cm3"/>
+		<D value="5.34000e-01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Li"/>
 	</material>
 	
 <!-- material G4_Be -->
 	<material name="G4_Be" state="solid">
-		<D value="1.848000" unit="g/cm3"/>
+		<D value="1.84800e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Be"/>
 	</material>
 	
 <!-- material G4_B -->
 	<material name="G4_B" state="solid">
-		<D value="2.370000" unit="g/cm3"/>
+		<D value="2.37000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="B"/>
 	</material>
 	
 <!-- material G4_C -->
 	<material name="G4_C" state="solid">
-		<D value="2.000000" unit="g/cm3"/>
+		<D value="2.00000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="C"/>
 	</material>
 	
 <!-- material G4_N -->
 	<material name="G4_N" state="gas">
-		<D value="0.001165" unit="g/cm3"/>
+		<D value="1.16520e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="N"/>
 	</material>
 	
 <!-- material G4_O -->
 	<material name="G4_O" state="gas">
-		<D value="0.001332" unit="g/cm3"/>
+		<D value="1.33151e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="O"/>
 	</material>
 	
 <!-- material G4_F -->
 	<material name="G4_F" state="gas">
-		<D value="0.001580" unit="g/cm3"/>
+		<D value="1.58029e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="F"/>
 	</material>
 	
 <!-- material G4_Ne -->
 	<material name="G4_Ne" state="gas">
-		<D value="0.000839" unit="g/cm3"/>
+		<D value="8.38505e-04" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ne"/>
 	</material>
 	
 <!-- material G4_Na -->
 	<material name="G4_Na" state="solid">
-		<D value="0.971000" unit="g/cm3"/>
+		<D value="9.71000e-01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Na"/>
 	</material>
 	
 <!-- material G4_Mg -->
 	<material name="G4_Mg" state="solid">
-		<D value="1.740000" unit="g/cm3"/>
+		<D value="1.74000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Mg"/>
 	</material>
 	
 <!-- material G4_Al -->
 	<material name="G4_Al" state="solid">
-		<D value="2.699000" unit="g/cm3"/>
+		<D value="2.69900e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Al"/>
 	</material>
 	
 <!-- material G4_Si -->
 	<material name="G4_Si" state="solid">
-		<D value="2.330000" unit="g/cm3"/>
+		<D value="2.33000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Si"/>
 	</material>
 	
 <!-- material G4_P -->
 	<material name="G4_P" state="solid">
-		<D value="2.200000" unit="g/cm3"/>
+		<D value="2.20000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="P"/>
 	</material>
 	
 <!-- material G4_S -->
 	<material name="G4_S" state="solid">
-		<D value="2.000000" unit="g/cm3"/>
+		<D value="2.00000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="S"/>
 	</material>
 	
 <!-- material G4_Cl -->
 	<material name="G4_Cl" state="gas">
-		<D value="0.002995" unit="g/cm3"/>
+		<D value="2.99473e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Cl"/>
 	</material>
 	
 <!-- material G4_Ar -->
 	<material name="G4_Ar" state="gas">
-		<D value="0.001662" unit="g/cm3"/>
+		<D value="1.66201e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ar"/>
 	</material>
 	
 <!-- material G4_K -->
 	<material name="G4_K" state="solid">
-		<D value="0.862000" unit="g/cm3"/>
+		<D value="8.62000e-01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="K"/>
 	</material>
 	
 <!-- material G4_Ca -->
 	<material name="G4_Ca" state="solid">
-		<D value="1.550000" unit="g/cm3"/>
+		<D value="1.55000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ca"/>
 	</material>
 	
 <!-- material G4_Sc -->
 	<material name="G4_Sc" state="solid">
-		<D value="2.989000" unit="g/cm3"/>
+		<D value="2.98900e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Sc"/>
 	</material>
 	
 <!-- material G4_Ti -->
 	<material name="G4_Ti" state="solid">
-		<D value="4.540000" unit="g/cm3"/>
+		<D value="4.54000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ti"/>
 	</material>
 	
 <!-- material G4_V -->
 	<material name="G4_V" state="solid">
-		<D value="6.110000" unit="g/cm3"/>
+		<D value="6.11000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="V"/>
 	</material>
 	
 <!-- material G4_Cr -->
 	<material name="G4_Cr" state="solid">
-		<D value="7.180000" unit="g/cm3"/>
+		<D value="7.18000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Cr"/>
 	</material>
 	
 <!-- material G4_Mn -->
 	<material name="G4_Mn" state="solid">
-		<D value="7.440000" unit="g/cm3"/>
+		<D value="7.44000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Mn"/>
 	</material>
 	
 <!-- material G4_Fe -->
 	<material name="G4_Fe" state="solid">
-		<D value="7.874000" unit="g/cm3"/>
+		<D value="7.87400e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Fe"/>
 	</material>
 	
 <!-- material G4_Co -->
 	<material name="G4_Co" state="solid">
-		<D value="8.900000" unit="g/cm3"/>
+		<D value="8.90000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Co"/>
 	</material>
 	
 <!-- material G4_Ni -->
 	<material name="G4_Ni" state="solid">
-		<D value="8.902000" unit="g/cm3"/>
+		<D value="8.90200e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ni"/>
 	</material>
 	
 <!-- material G4_Cu -->
 	<material name="G4_Cu" state="solid">
-		<D value="8.960000" unit="g/cm3"/>
+		<D value="8.96000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Cu"/>
 	</material>
 	
 <!-- material G4_Zn -->
 	<material name="G4_Zn" state="solid">
-		<D value="7.133000" unit="g/cm3"/>
+		<D value="7.13300e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Zn"/>
 	</material>
 	
 <!-- material G4_Ga -->
 	<material name="G4_Ga" state="solid">
-		<D value="5.904000" unit="g/cm3"/>
+		<D value="5.90400e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ga"/>
 	</material>
 	
 <!-- material G4_Ge -->
 	<material name="G4_Ge" state="solid">
-		<D value="5.323000" unit="g/cm3"/>
+		<D value="5.32300e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ge"/>
 	</material>
 	
 <!-- material G4_As -->
 	<material name="G4_As" state="solid">
-		<D value="5.730000" unit="g/cm3"/>
+		<D value="5.73000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="As"/>
 	</material>
 	
 <!-- material G4_Se -->
 	<material name="G4_Se" state="solid">
-		<D value="4.500000" unit="g/cm3"/>
+		<D value="4.50000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Se"/>
 	</material>
 	
 <!-- material G4_Br -->
 	<material name="G4_Br" state="gas">
-		<D value="0.007072" unit="g/cm3"/>
+		<D value="7.07210e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Br"/>
 	</material>
 	
 <!-- material G4_Kr -->
 	<material name="G4_Kr" state="gas">
-		<D value="0.003478" unit="g/cm3"/>
+		<D value="3.47832e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Kr"/>
 	</material>
 	
 <!-- material G4_Rb -->
 	<material name="G4_Rb" state="solid">
-		<D value="1.532000" unit="g/cm3"/>
+		<D value="1.53200e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Rb"/>
 	</material>
 	
 <!-- material G4_Sr -->
 	<material name="G4_Sr" state="solid">
-		<D value="2.540000" unit="g/cm3"/>
+		<D value="2.54000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Sr"/>
 	</material>
 	
 <!-- material G4_Y -->
 	<material name="G4_Y" state="solid">
-		<D value="4.469000" unit="g/cm3"/>
+		<D value="4.46900e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Y"/>
 	</material>
 	
 <!-- material G4_Zr -->
 	<material name="G4_Zr" state="solid">
-		<D value="6.506000" unit="g/cm3"/>
+		<D value="6.50600e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Zr"/>
 	</material>
 	
 <!-- material G4_Nb -->
 	<material name="G4_Nb" state="solid">
-		<D value="8.570000" unit="g/cm3"/>
+		<D value="8.57000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Nb"/>
 	</material>
 	
 <!-- material G4_Mo -->
 	<material name="G4_Mo" state="solid">
-		<D value="10.220000" unit="g/cm3"/>
+		<D value="1.02200e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Mo"/>
 	</material>
 	
 <!-- material G4_Tc -->
 	<material name="G4_Tc" state="solid">
-		<D value="11.500000" unit="g/cm3"/>
+		<D value="1.15000e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Tc"/>
 	</material>
 	
 <!-- material G4_Ru -->
 	<material name="G4_Ru" state="solid">
-		<D value="12.410000" unit="g/cm3"/>
+		<D value="1.24100e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ru"/>
 	</material>
 	
 <!-- material G4_Rh -->
 	<material name="G4_Rh" state="solid">
-		<D value="12.410000" unit="g/cm3"/>
+		<D value="1.24100e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Rh"/>
 	</material>
 	
 <!-- material G4_Pd -->
 	<material name="G4_Pd" state="solid">
-		<D value="12.020000" unit="g/cm3"/>
+		<D value="1.20200e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Pd"/>
 	</material>
 	
 <!-- material G4_Ag -->
 	<material name="G4_Ag" state="solid">
-		<D value="10.500000" unit="g/cm3"/>
+		<D value="1.05000e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ag"/>
 	</material>
 	
 <!-- material G4_Cd -->
 	<material name="G4_Cd" state="solid">
-		<D value="8.650000" unit="g/cm3"/>
+		<D value="8.65000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Cd"/>
 	</material>
 	
 <!-- material G4_In -->
 	<material name="G4_In" state="solid">
-		<D value="7.310000" unit="g/cm3"/>
+		<D value="7.31000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="In"/>
 	</material>
 	
 <!-- material G4_Sn -->
 	<material name="G4_Sn" state="solid">
-		<D value="7.310000" unit="g/cm3"/>
+		<D value="7.31000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Sn"/>
 	</material>
 	
 <!-- material G4_Sb -->
 	<material name="G4_Sb" state="solid">
-		<D value="6.691000" unit="g/cm3"/>
+		<D value="6.69100e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Sb"/>
 	</material>
 	
 <!-- material G4_Te -->
 	<material name="G4_Te" state="solid">
-		<D value="6.240000" unit="g/cm3"/>
+		<D value="6.24000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Te"/>
 	</material>
 	
 <!-- material G4_I -->
 	<material name="G4_I" state="solid">
-		<D value="4.930000" unit="g/cm3"/>
+		<D value="4.93000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="I"/>
 	</material>
 	
 <!-- material G4_Xe -->
 	<material name="G4_Xe" state="gas">
-		<D value="0.005485" unit="g/cm3"/>
+		<D value="5.48536e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Xe"/>
 	</material>
 	
 <!-- material G4_Cs -->
 	<material name="G4_Cs" state="solid">
-		<D value="1.873000" unit="g/cm3"/>
+		<D value="1.87300e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Cs"/>
 	</material>
 	
 <!-- material G4_Ba -->
 	<material name="G4_Ba" state="solid">
-		<D value="3.500000" unit="g/cm3"/>
+		<D value="3.50000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ba"/>
 	</material>
 	
 <!-- material G4_La -->
 	<material name="G4_La" state="solid">
-		<D value="6.154000" unit="g/cm3"/>
+		<D value="6.15400e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="La"/>
 	</material>
 	
 <!-- material G4_Ce -->
 	<material name="G4_Ce" state="solid">
-		<D value="6.657000" unit="g/cm3"/>
+		<D value="6.65700e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ce"/>
 	</material>
 	
 <!-- material G4_Pr -->
 	<material name="G4_Pr" state="solid">
-		<D value="6.710000" unit="g/cm3"/>
+		<D value="6.71000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Pr"/>
 	</material>
 	
 <!-- material G4_Nd -->
 	<material name="G4_Nd" state="solid">
-		<D value="6.900000" unit="g/cm3"/>
+		<D value="6.90000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Nd"/>
 	</material>
 	
 <!-- material G4_Pm -->
 	<material name="G4_Pm" state="solid">
-		<D value="7.220000" unit="g/cm3"/>
+		<D value="7.22000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Pm"/>
 	</material>
 	
 <!-- material G4_Sm -->
 	<material name="G4_Sm" state="solid">
-		<D value="7.460000" unit="g/cm3"/>
+		<D value="7.46000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Sm"/>
 	</material>
 	
 <!-- material G4_Eu -->
 	<material name="G4_Eu" state="solid">
-		<D value="5.243000" unit="g/cm3"/>
+		<D value="5.24300e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Eu"/>
 	</material>
 	
 <!-- material G4_Gd -->
 	<material name="G4_Gd" state="solid">
-		<D value="7.900400" unit="g/cm3"/>
+		<D value="7.90040e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Gd"/>
 	</material>
 	
 <!-- material G4_Tb -->
 	<material name="G4_Tb" state="solid">
-		<D value="8.229000" unit="g/cm3"/>
+		<D value="8.22900e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Tb"/>
 	</material>
 	
 <!-- material G4_Dy -->
 	<material name="G4_Dy" state="solid">
-		<D value="8.550000" unit="g/cm3"/>
+		<D value="8.55000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Dy"/>
 	</material>
 	
 <!-- material G4_Ho -->
 	<material name="G4_Ho" state="solid">
-		<D value="8.795000" unit="g/cm3"/>
+		<D value="8.79500e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ho"/>
 	</material>
 	
 <!-- material G4_Er -->
 	<material name="G4_Er" state="solid">
-		<D value="9.066000" unit="g/cm3"/>
+		<D value="9.06600e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Er"/>
 	</material>
 	
 <!-- material G4_Tm -->
 	<material name="G4_Tm" state="solid">
-		<D value="9.321000" unit="g/cm3"/>
+		<D value="9.32100e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Tm"/>
 	</material>
 	
 <!-- material G4_Yb -->
 	<material name="G4_Yb" state="solid">
-		<D value="6.730000" unit="g/cm3"/>
+		<D value="6.73000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Yb"/>
 	</material>
 	
 <!-- material G4_Lu -->
 	<material name="G4_Lu" state="solid">
-		<D value="9.840000" unit="g/cm3"/>
+		<D value="9.84000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Lu"/>
 	</material>
 	
 <!-- material G4_Hf -->
 	<material name="G4_Hf" state="solid">
-		<D value="13.310000" unit="g/cm3"/>
+		<D value="1.33100e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Hf"/>
 	</material>
 	
 <!-- material G4_Ta -->
 	<material name="G4_Ta" state="solid">
-		<D value="16.654000" unit="g/cm3"/>
+		<D value="1.66540e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ta"/>
 	</material>
 	
 <!-- material G4_W -->
 	<material name="G4_W" state="solid">
-		<D value="19.300000" unit="g/cm3"/>
+		<D value="1.93000e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="W"/>
 	</material>
 	
 <!-- material G4_Re -->
 	<material name="G4_Re" state="solid">
-		<D value="21.020000" unit="g/cm3"/>
+		<D value="2.10200e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Re"/>
 	</material>
 	
 <!-- material G4_Os -->
 	<material name="G4_Os" state="solid">
-		<D value="22.570000" unit="g/cm3"/>
+		<D value="2.25700e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Os"/>
 	</material>
 	
 <!-- material G4_Ir -->
 	<material name="G4_Ir" state="solid">
-		<D value="22.420000" unit="g/cm3"/>
+		<D value="2.24200e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ir"/>
 	</material>
 	
 <!-- material G4_Pt -->
 	<material name="G4_Pt" state="solid">
-		<D value="21.450000" unit="g/cm3"/>
+		<D value="2.14500e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Pt"/>
 	</material>
 	
 <!-- material G4_Au -->
 	<material name="G4_Au" state="solid">
-		<D value="19.320000" unit="g/cm3"/>
+		<D value="1.93200e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Au"/>
 	</material>
 	
 <!-- material G4_Hg -->
 	<material name="G4_Hg" state="solid">
-		<D value="13.546000" unit="g/cm3"/>
+		<D value="1.35460e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Hg"/>
 	</material>
 	
 <!-- material G4_Tl -->
 	<material name="G4_Tl" state="solid">
-		<D value="11.720000" unit="g/cm3"/>
+		<D value="1.17200e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Tl"/>
 	</material>
 	
 <!-- material G4_Pb -->
 	<material name="G4_Pb" state="solid">
-		<D value="11.350000" unit="g/cm3"/>
+		<D value="1.13500e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Pb"/>
 	</material>
 	
 <!-- material G4_Bi -->
 	<material name="G4_Bi" state="solid">
-		<D value="9.747000" unit="g/cm3"/>
+		<D value="9.74700e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Bi"/>
 	</material>
 	
 <!-- material G4_Po -->
 	<material name="G4_Po" state="solid">
-		<D value="9.320000" unit="g/cm3"/>
+		<D value="9.32000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Po"/>
 	</material>
 	
 <!-- material G4_At -->
 	<material name="G4_At" state="solid">
-		<D value="9.320000" unit="g/cm3"/>
+		<D value="9.32000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="At"/>
 	</material>
 	
 <!-- material G4_Rn -->
 	<material name="G4_Rn" state="gas">
-		<D value="0.009007" unit="g/cm3"/>
+		<D value="9.00662e-03" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Rn"/>
 	</material>
 	
 <!-- material G4_Fr -->
 	<material name="G4_Fr" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Fr"/>
 	</material>
 	
 <!-- material G4_Ra -->
 	<material name="G4_Ra" state="solid">
-		<D value="5.000000" unit="g/cm3"/>
+		<D value="5.00000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ra"/>
 	</material>
 	
 <!-- material G4_Ac -->
 	<material name="G4_Ac" state="solid">
-		<D value="10.070000" unit="g/cm3"/>
+		<D value="1.00700e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ac"/>
 	</material>
 	
 <!-- material G4_Th -->
 	<material name="G4_Th" state="solid">
-		<D value="11.720000" unit="g/cm3"/>
+		<D value="1.17200e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Th"/>
 	</material>
 	
 <!-- material G4_Pa -->
 	<material name="G4_Pa" state="solid">
-		<D value="15.370000" unit="g/cm3"/>
+		<D value="1.53700e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Pa"/>
 	</material>
 	
 <!-- material G4_U -->
 	<material name="G4_U" state="solid">
-		<D value="18.950000" unit="g/cm3"/>
+		<D value="1.89500e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="U"/>
 	</material>
 	
 <!-- material G4_Np -->
 	<material name="G4_Np" state="solid">
-		<D value="20.250000" unit="g/cm3"/>
+		<D value="2.02500e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Np"/>
 	</material>
 	
 <!-- material G4_Pu -->
 	<material name="G4_Pu" state="solid">
-		<D value="19.840000" unit="g/cm3"/>
+		<D value="1.98400e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Pu"/>
 	</material>
 	
 <!-- material G4_Am -->
 	<material name="G4_Am" state="solid">
-		<D value="13.670000" unit="g/cm3"/>
+		<D value="1.36700e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Am"/>
 	</material>
 	
 <!-- material G4_Cm -->
 	<material name="G4_Cm" state="solid">
-		<D value="13.510000" unit="g/cm3"/>
+		<D value="1.35100e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Cm"/>
 	</material>
 	
 <!-- material G4_Bk -->
 	<material name="G4_Bk" state="solid">
-		<D value="14.000000" unit="g/cm3"/>
+		<D value="1.40000e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Bk"/>
 	</material>
 	
 <!-- material G4_Cf -->
 	<material name="G4_Cf" state="solid">
-		<D value="10.000000" unit="g/cm3"/>
+		<D value="1.00000e+01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Cf"/>
 	</material>
 	
 <!-- material G4_A-150_TISSUE -->
 	<material name="G4_A-150_TISSUE" state="solid">
-		<D value="1.127000" unit="g/cm3"/>
+		<D value="1.12700e+00" unit="g/cm3"/>
 		<fraction n="0.101327" ref="H"/>
 		<fraction n="0.775500" ref="C"/>
 		<fraction n="0.035057" ref="N"/>
@@ -2212,7 +2212,7 @@
 	
 <!-- material G4_ACETONE -->
 	<material name="G4_ACETONE" state="solid">
-		<D value="0.789900" unit="g/cm3"/>
+		<D value="7.89900e-01" unit="g/cm3"/>
 		<fraction n="0.620397" ref="C"/>
 		<fraction n="0.104127" ref="H"/>
 		<fraction n="0.275475" ref="O"/>
@@ -2220,14 +2220,14 @@
 	
 <!-- material G4_ACETYLENE -->
 	<material name="G4_ACETYLENE" state="gas">
-		<D value="0.001097" unit="g/cm3"/>
+		<D value="1.09670e-03" unit="g/cm3"/>
 		<fraction n="0.922577" ref="C"/>
 		<fraction n="0.077423" ref="H"/>
 	</material>
 	
 <!-- material G4_ADENINE -->
 	<material name="G4_ADENINE" state="solid">
-		<D value="1.600000" unit="g/cm3"/>
+		<D value="1.60000e+00" unit="g/cm3"/>
 		<fraction n="0.444423" ref="C"/>
 		<fraction n="0.037296" ref="H"/>
 		<fraction n="0.518281" ref="N"/>
@@ -2235,7 +2235,7 @@
 	
 <!-- material G4_ADIPOSE_TISSUE_ICRP -->
 	<material name="G4_ADIPOSE_TISSUE_ICRP" state="solid">
-		<D value="0.950000" unit="g/cm3"/>
+		<D value="9.50000e-01" unit="g/cm3"/>
 		<fraction n="0.114000" ref="H"/>
 		<fraction n="0.598000" ref="C"/>
 		<fraction n="0.007000" ref="N"/>
@@ -2247,7 +2247,7 @@
 	
 <!-- material G4_AIR -->
 	<material name="G4_AIR" state="gas">
-		<D value="0.001205" unit="g/cm3"/>
+		<D value="1.20479e-03" unit="g/cm3"/>
 		<fraction n="0.000124" ref="C"/>
 		<fraction n="0.755268" ref="N"/>
 		<fraction n="0.231781" ref="O"/>
@@ -2256,7 +2256,7 @@
 	
 <!-- material G4_ALANINE -->
 	<material name="G4_ALANINE" state="solid">
-		<D value="1.420000" unit="g/cm3"/>
+		<D value="1.42000e+00" unit="g/cm3"/>
 		<fraction n="0.404432" ref="C"/>
 		<fraction n="0.079193" ref="H"/>
 		<fraction n="0.157215" ref="N"/>
@@ -2265,14 +2265,14 @@
 	
 <!-- material G4_ALUMINUM_OXIDE -->
 	<material name="G4_ALUMINUM_OXIDE" state="solid">
-		<D value="3.970000" unit="g/cm3"/>
+		<D value="3.97000e+00" unit="g/cm3"/>
 		<fraction n="0.529250" ref="Al"/>
 		<fraction n="0.470750" ref="O"/>
 	</material>
 	
 <!-- material G4_AMBER -->
 	<material name="G4_AMBER" state="solid">
-		<D value="1.100000" unit="g/cm3"/>
+		<D value="1.10000e+00" unit="g/cm3"/>
 		<fraction n="0.105930" ref="H"/>
 		<fraction n="0.788974" ref="C"/>
 		<fraction n="0.105096" ref="O"/>
@@ -2280,14 +2280,14 @@
 	
 <!-- material G4_AMMONIA -->
 	<material name="G4_AMMONIA" state="gas">
-		<D value="0.000826" unit="g/cm3"/>
+		<D value="8.26019e-04" unit="g/cm3"/>
 		<fraction n="0.822448" ref="N"/>
 		<fraction n="0.177552" ref="H"/>
 	</material>
 	
 <!-- material G4_ANILINE -->
 	<material name="G4_ANILINE" state="solid">
-		<D value="1.023500" unit="g/cm3"/>
+		<D value="1.02350e+00" unit="g/cm3"/>
 		<fraction n="0.773831" ref="C"/>
 		<fraction n="0.075763" ref="H"/>
 		<fraction n="0.150405" ref="N"/>
@@ -2295,14 +2295,14 @@
 	
 <!-- material G4_ANTHRACENE -->
 	<material name="G4_ANTHRACENE" state="solid">
-		<D value="1.283000" unit="g/cm3"/>
+		<D value="1.28300e+00" unit="g/cm3"/>
 		<fraction n="0.943447" ref="C"/>
 		<fraction n="0.056553" ref="H"/>
 	</material>
 	
 <!-- material G4_B-100_BONE -->
 	<material name="G4_B-100_BONE" state="solid">
-		<D value="1.450000" unit="g/cm3"/>
+		<D value="1.45000e+00" unit="g/cm3"/>
 		<fraction n="0.065471" ref="H"/>
 		<fraction n="0.536944" ref="C"/>
 		<fraction n="0.021500" ref="N"/>
@@ -2313,7 +2313,7 @@
 	
 <!-- material G4_BAKELITE -->
 	<material name="G4_BAKELITE" state="solid">
-		<D value="1.250000" unit="g/cm3"/>
+		<D value="1.25000e+00" unit="g/cm3"/>
 		<fraction n="0.057441" ref="H"/>
 		<fraction n="0.774591" ref="C"/>
 		<fraction n="0.167968" ref="O"/>
@@ -2321,14 +2321,14 @@
 	
 <!-- material G4_BARIUM_FLUORIDE -->
 	<material name="G4_BARIUM_FLUORIDE" state="solid">
-		<D value="4.890000" unit="g/cm3"/>
+		<D value="4.89000e+00" unit="g/cm3"/>
 		<fraction n="0.783276" ref="Ba"/>
 		<fraction n="0.216724" ref="F"/>
 	</material>
 	
 <!-- material G4_BARIUM_SULFATE -->
 	<material name="G4_BARIUM_SULFATE" state="solid">
-		<D value="4.500000" unit="g/cm3"/>
+		<D value="4.50000e+00" unit="g/cm3"/>
 		<fraction n="0.588399" ref="Ba"/>
 		<fraction n="0.137393" ref="S"/>
 		<fraction n="0.274208" ref="O"/>
@@ -2336,21 +2336,21 @@
 	
 <!-- material G4_BENZENE -->
 	<material name="G4_BENZENE" state="solid">
-		<D value="0.878650" unit="g/cm3"/>
+		<D value="8.78650e-01" unit="g/cm3"/>
 		<fraction n="0.922577" ref="C"/>
 		<fraction n="0.077423" ref="H"/>
 	</material>
 	
 <!-- material G4_BERYLLIUM_OXIDE -->
 	<material name="G4_BERYLLIUM_OXIDE" state="solid">
-		<D value="3.010000" unit="g/cm3"/>
+		<D value="3.01000e+00" unit="g/cm3"/>
 		<fraction n="0.360320" ref="Be"/>
 		<fraction n="0.639680" ref="O"/>
 	</material>
 	
 <!-- material G4_BGO -->
 	<material name="G4_BGO" state="solid">
-		<D value="7.130000" unit="g/cm3"/>
+		<D value="7.13000e+00" unit="g/cm3"/>
 		<fraction n="0.671017" ref="Bi"/>
 		<fraction n="0.174865" ref="Ge"/>
 		<fraction n="0.154118" ref="O"/>
@@ -2358,7 +2358,7 @@
 	
 <!-- material G4_BLOOD_ICRP -->
 	<material name="G4_BLOOD_ICRP" state="solid">
-		<D value="1.060000" unit="g/cm3"/>
+		<D value="1.06000e+00" unit="g/cm3"/>
 		<fraction n="0.102000" ref="H"/>
 		<fraction n="0.110000" ref="C"/>
 		<fraction n="0.033000" ref="N"/>
@@ -2373,7 +2373,7 @@
 	
 <!-- material G4_BONE_COMPACT_ICRU -->
 	<material name="G4_BONE_COMPACT_ICRU" state="solid">
-		<D value="1.850000" unit="g/cm3"/>
+		<D value="1.85000e+00" unit="g/cm3"/>
 		<fraction n="0.064000" ref="H"/>
 		<fraction n="0.278000" ref="C"/>
 		<fraction n="0.027000" ref="N"/>
@@ -2386,7 +2386,7 @@
 	
 <!-- material G4_BONE_CORTICAL_ICRP -->
 	<material name="G4_BONE_CORTICAL_ICRP" state="solid">
-		<D value="1.920000" unit="g/cm3"/>
+		<D value="1.92000e+00" unit="g/cm3"/>
 		<fraction n="0.034000" ref="H"/>
 		<fraction n="0.155000" ref="C"/>
 		<fraction n="0.042000" ref="N"/>
@@ -2400,21 +2400,21 @@
 	
 <!-- material G4_BORON_CARBIDE -->
 	<material name="G4_BORON_CARBIDE" state="solid">
-		<D value="2.520000" unit="g/cm3"/>
+		<D value="2.52000e+00" unit="g/cm3"/>
 		<fraction n="0.782630" ref="B"/>
 		<fraction n="0.217370" ref="C"/>
 	</material>
 	
 <!-- material G4_BORON_OXIDE -->
 	<material name="G4_BORON_OXIDE" state="solid">
-		<D value="1.812000" unit="g/cm3"/>
+		<D value="1.81200e+00" unit="g/cm3"/>
 		<fraction n="0.310571" ref="B"/>
 		<fraction n="0.689429" ref="O"/>
 	</material>
 	
 <!-- material G4_BRAIN_ICRP -->
 	<material name="G4_BRAIN_ICRP" state="solid">
-		<D value="1.040000" unit="g/cm3"/>
+		<D value="1.04000e+00" unit="g/cm3"/>
 		<fraction n="0.107000" ref="H"/>
 		<fraction n="0.145000" ref="C"/>
 		<fraction n="0.022000" ref="N"/>
@@ -2428,14 +2428,14 @@
 	
 <!-- material G4_BUTANE -->
 	<material name="G4_BUTANE" state="gas">
-		<D value="0.002493" unit="g/cm3"/>
+		<D value="2.49343e-03" unit="g/cm3"/>
 		<fraction n="0.826583" ref="C"/>
 		<fraction n="0.173417" ref="H"/>
 	</material>
 	
 <!-- material G4_N-BUTYL_ALCOHOL -->
 	<material name="G4_N-BUTYL_ALCOHOL" state="solid">
-		<D value="0.809800" unit="g/cm3"/>
+		<D value="8.09800e-01" unit="g/cm3"/>
 		<fraction n="0.648163" ref="C"/>
 		<fraction n="0.135984" ref="H"/>
 		<fraction n="0.215853" ref="O"/>
@@ -2443,7 +2443,7 @@
 	
 <!-- material G4_C-552 -->
 	<material name="G4_C-552" state="solid">
-		<D value="1.760000" unit="g/cm3"/>
+		<D value="1.76000e+00" unit="g/cm3"/>
 		<fraction n="0.024680" ref="H"/>
 		<fraction n="0.501611" ref="C"/>
 		<fraction n="0.004527" ref="O"/>
@@ -2453,14 +2453,14 @@
 	
 <!-- material G4_CADMIUM_TELLURIDE -->
 	<material name="G4_CADMIUM_TELLURIDE" state="solid">
-		<D value="6.200000" unit="g/cm3"/>
+		<D value="6.20000e+00" unit="g/cm3"/>
 		<fraction n="0.468353" ref="Cd"/>
 		<fraction n="0.531647" ref="Te"/>
 	</material>
 	
 <!-- material G4_CADMIUM_TUNGSTATE -->
 	<material name="G4_CADMIUM_TUNGSTATE" state="solid">
-		<D value="7.900000" unit="g/cm3"/>
+		<D value="7.90000e+00" unit="g/cm3"/>
 		<fraction n="0.312037" ref="Cd"/>
 		<fraction n="0.510316" ref="W"/>
 		<fraction n="0.177647" ref="O"/>
@@ -2468,7 +2468,7 @@
 	
 <!-- material G4_CALCIUM_CARBONATE -->
 	<material name="G4_CALCIUM_CARBONATE" state="solid">
-		<D value="2.800000" unit="g/cm3"/>
+		<D value="2.80000e+00" unit="g/cm3"/>
 		<fraction n="0.400432" ref="Ca"/>
 		<fraction n="0.120003" ref="C"/>
 		<fraction n="0.479565" ref="O"/>
@@ -2476,21 +2476,21 @@
 	
 <!-- material G4_CALCIUM_FLUORIDE -->
 	<material name="G4_CALCIUM_FLUORIDE" state="solid">
-		<D value="3.180000" unit="g/cm3"/>
+		<D value="3.18000e+00" unit="g/cm3"/>
 		<fraction n="0.513328" ref="Ca"/>
 		<fraction n="0.486672" ref="F"/>
 	</material>
 	
 <!-- material G4_CALCIUM_OXIDE -->
 	<material name="G4_CALCIUM_OXIDE" state="solid">
-		<D value="3.300000" unit="g/cm3"/>
+		<D value="3.30000e+00" unit="g/cm3"/>
 		<fraction n="0.714691" ref="Ca"/>
 		<fraction n="0.285309" ref="O"/>
 	</material>
 	
 <!-- material G4_CALCIUM_SULFATE -->
 	<material name="G4_CALCIUM_SULFATE" state="solid">
-		<D value="2.960000" unit="g/cm3"/>
+		<D value="2.96000e+00" unit="g/cm3"/>
 		<fraction n="0.294385" ref="Ca"/>
 		<fraction n="0.235535" ref="S"/>
 		<fraction n="0.470080" ref="O"/>
@@ -2498,7 +2498,7 @@
 	
 <!-- material G4_CALCIUM_TUNGSTATE -->
 	<material name="G4_CALCIUM_TUNGSTATE" state="solid">
-		<D value="6.062000" unit="g/cm3"/>
+		<D value="6.06200e+00" unit="g/cm3"/>
 		<fraction n="0.139200" ref="Ca"/>
 		<fraction n="0.638522" ref="W"/>
 		<fraction n="0.222278" ref="O"/>
@@ -2506,21 +2506,21 @@
 	
 <!-- material G4_CARBON_DIOXIDE -->
 	<material name="G4_CARBON_DIOXIDE" state="gas">
-		<D value="0.001842" unit="g/cm3"/>
+		<D value="1.84212e-03" unit="g/cm3"/>
 		<fraction n="0.272912" ref="C"/>
 		<fraction n="0.727088" ref="O"/>
 	</material>
 	
 <!-- material G4_CARBON_TETRACHLORIDE -->
 	<material name="G4_CARBON_TETRACHLORIDE" state="solid">
-		<D value="1.594000" unit="g/cm3"/>
+		<D value="1.59400e+00" unit="g/cm3"/>
 		<fraction n="0.078083" ref="C"/>
 		<fraction n="0.921917" ref="Cl"/>
 	</material>
 	
 <!-- material G4_CELLULOSE_CELLOPHANE -->
 	<material name="G4_CELLULOSE_CELLOPHANE" state="solid">
-		<D value="1.420000" unit="g/cm3"/>
+		<D value="1.42000e+00" unit="g/cm3"/>
 		<fraction n="0.444456" ref="C"/>
 		<fraction n="0.062165" ref="H"/>
 		<fraction n="0.493380" ref="O"/>
@@ -2528,7 +2528,7 @@
 	
 <!-- material G4_CELLULOSE_BUTYRATE -->
 	<material name="G4_CELLULOSE_BUTYRATE" state="solid">
-		<D value="1.200000" unit="g/cm3"/>
+		<D value="1.20000e+00" unit="g/cm3"/>
 		<fraction n="0.067125" ref="H"/>
 		<fraction n="0.545403" ref="C"/>
 		<fraction n="0.387472" ref="O"/>
@@ -2536,7 +2536,7 @@
 	
 <!-- material G4_CELLULOSE_NITRATE -->
 	<material name="G4_CELLULOSE_NITRATE" state="solid">
-		<D value="1.490000" unit="g/cm3"/>
+		<D value="1.49000e+00" unit="g/cm3"/>
 		<fraction n="0.029216" ref="H"/>
 		<fraction n="0.271296" ref="C"/>
 		<fraction n="0.121276" ref="N"/>
@@ -2545,7 +2545,7 @@
 	
 <!-- material G4_CERIC_SULFATE -->
 	<material name="G4_CERIC_SULFATE" state="solid">
-		<D value="1.030000" unit="g/cm3"/>
+		<D value="1.03000e+00" unit="g/cm3"/>
 		<fraction n="0.107596" ref="H"/>
 		<fraction n="0.000800" ref="N"/>
 		<fraction n="0.874976" ref="O"/>
@@ -2555,21 +2555,21 @@
 	
 <!-- material G4_CESIUM_FLUORIDE -->
 	<material name="G4_CESIUM_FLUORIDE" state="solid">
-		<D value="4.115000" unit="g/cm3"/>
+		<D value="4.11500e+00" unit="g/cm3"/>
 		<fraction n="0.874931" ref="Cs"/>
 		<fraction n="0.125069" ref="F"/>
 	</material>
 	
 <!-- material G4_CESIUM_IODIDE -->
 	<material name="G4_CESIUM_IODIDE" state="solid">
-		<D value="4.510000" unit="g/cm3"/>
+		<D value="4.51000e+00" unit="g/cm3"/>
 		<fraction n="0.511549" ref="Cs"/>
 		<fraction n="0.488451" ref="I"/>
 	</material>
 	
 <!-- material G4_CHLOROBENZENE -->
 	<material name="G4_CHLOROBENZENE" state="solid">
-		<D value="1.105800" unit="g/cm3"/>
+		<D value="1.10580e+00" unit="g/cm3"/>
 		<fraction n="0.640250" ref="C"/>
 		<fraction n="0.044775" ref="H"/>
 		<fraction n="0.314975" ref="Cl"/>
@@ -2577,7 +2577,7 @@
 	
 <!-- material G4_CHLOROFORM -->
 	<material name="G4_CHLOROFORM" state="solid">
-		<D value="1.483200" unit="g/cm3"/>
+		<D value="1.48320e+00" unit="g/cm3"/>
 		<fraction n="0.100612" ref="C"/>
 		<fraction n="0.008443" ref="H"/>
 		<fraction n="0.890944" ref="Cl"/>
@@ -2585,7 +2585,7 @@
 	
 <!-- material G4_CONCRETE -->
 	<material name="G4_CONCRETE" state="solid">
-		<D value="2.300000" unit="g/cm3"/>
+		<D value="2.30000e+00" unit="g/cm3"/>
 		<fraction n="0.010000" ref="H"/>
 		<fraction n="0.001000" ref="C"/>
 		<fraction n="0.529107" ref="O"/>
@@ -2600,14 +2600,14 @@
 	
 <!-- material G4_CYCLOHEXANE -->
 	<material name="G4_CYCLOHEXANE" state="solid">
-		<D value="0.779000" unit="g/cm3"/>
+		<D value="7.79000e-01" unit="g/cm3"/>
 		<fraction n="0.856282" ref="C"/>
 		<fraction n="0.143718" ref="H"/>
 	</material>
 	
 <!-- material G4_1,2-DICHLOROBENZENE -->
 	<material name="G4_1,2-DICHLOROBENZENE" state="solid">
-		<D value="1.304800" unit="g/cm3"/>
+		<D value="1.30480e+00" unit="g/cm3"/>
 		<fraction n="0.490230" ref="C"/>
 		<fraction n="0.027427" ref="H"/>
 		<fraction n="0.482344" ref="Cl"/>
@@ -2615,7 +2615,7 @@
 	
 <!-- material G4_DICHLORODIETHYL_ETHER -->
 	<material name="G4_DICHLORODIETHYL_ETHER" state="solid">
-		<D value="1.219900" unit="g/cm3"/>
+		<D value="1.21990e+00" unit="g/cm3"/>
 		<fraction n="0.335939" ref="C"/>
 		<fraction n="0.056384" ref="H"/>
 		<fraction n="0.111875" ref="O"/>
@@ -2624,7 +2624,7 @@
 	
 <!-- material G4_1,2-DICHLOROETHANE -->
 	<material name="G4_1,2-DICHLOROETHANE" state="solid">
-		<D value="1.235100" unit="g/cm3"/>
+		<D value="1.23510e+00" unit="g/cm3"/>
 		<fraction n="0.242743" ref="C"/>
 		<fraction n="0.040742" ref="H"/>
 		<fraction n="0.716515" ref="Cl"/>
@@ -2632,7 +2632,7 @@
 	
 <!-- material G4_DIETHYL_ETHER -->
 	<material name="G4_DIETHYL_ETHER" state="solid">
-		<D value="0.713780" unit="g/cm3"/>
+		<D value="7.13780e-01" unit="g/cm3"/>
 		<fraction n="0.648163" ref="C"/>
 		<fraction n="0.135984" ref="H"/>
 		<fraction n="0.215853" ref="O"/>
@@ -2640,7 +2640,7 @@
 	
 <!-- material G4_N,N-DIMETHYL_FORMAMIDE -->
 	<material name="G4_N,N-DIMETHYL_FORMAMIDE" state="solid">
-		<D value="0.948700" unit="g/cm3"/>
+		<D value="9.48700e-01" unit="g/cm3"/>
 		<fraction n="0.492957" ref="C"/>
 		<fraction n="0.096528" ref="H"/>
 		<fraction n="0.191627" ref="N"/>
@@ -2649,7 +2649,7 @@
 	
 <!-- material G4_DIMETHYL_SULFOXIDE -->
 	<material name="G4_DIMETHYL_SULFOXIDE" state="solid">
-		<D value="1.101400" unit="g/cm3"/>
+		<D value="1.10140e+00" unit="g/cm3"/>
 		<fraction n="0.307437" ref="C"/>
 		<fraction n="0.077400" ref="H"/>
 		<fraction n="0.204767" ref="O"/>
@@ -2658,14 +2658,14 @@
 	
 <!-- material G4_ETHANE -->
 	<material name="G4_ETHANE" state="gas">
-		<D value="0.001253" unit="g/cm3"/>
+		<D value="1.25324e-03" unit="g/cm3"/>
 		<fraction n="0.798875" ref="C"/>
 		<fraction n="0.201125" ref="H"/>
 	</material>
 	
 <!-- material G4_ETHYL_ALCOHOL -->
 	<material name="G4_ETHYL_ALCOHOL" state="solid">
-		<D value="0.789300" unit="g/cm3"/>
+		<D value="7.89300e-01" unit="g/cm3"/>
 		<fraction n="0.521429" ref="C"/>
 		<fraction n="0.131275" ref="H"/>
 		<fraction n="0.347296" ref="O"/>
@@ -2673,7 +2673,7 @@
 	
 <!-- material G4_ETHYL_CELLULOSE -->
 	<material name="G4_ETHYL_CELLULOSE" state="solid">
-		<D value="1.130000" unit="g/cm3"/>
+		<D value="1.13000e+00" unit="g/cm3"/>
 		<fraction n="0.090027" ref="H"/>
 		<fraction n="0.585182" ref="C"/>
 		<fraction n="0.324791" ref="O"/>
@@ -2681,14 +2681,14 @@
 	
 <!-- material G4_ETHYLENE -->
 	<material name="G4_ETHYLENE" state="gas">
-		<D value="0.001175" unit="g/cm3"/>
+		<D value="1.17497e-03" unit="g/cm3"/>
 		<fraction n="0.856282" ref="C"/>
 		<fraction n="0.143718" ref="H"/>
 	</material>
 	
 <!-- material G4_EYE_LENS_ICRP -->
 	<material name="G4_EYE_LENS_ICRP" state="solid">
-		<D value="1.070000" unit="g/cm3"/>
+		<D value="1.07000e+00" unit="g/cm3"/>
 		<fraction n="0.096000" ref="H"/>
 		<fraction n="0.195000" ref="C"/>
 		<fraction n="0.057000" ref="N"/>
@@ -2701,28 +2701,28 @@
 	
 <!-- material G4_FERRIC_OXIDE -->
 	<material name="G4_FERRIC_OXIDE" state="solid">
-		<D value="5.200000" unit="g/cm3"/>
+		<D value="5.20000e+00" unit="g/cm3"/>
 		<fraction n="0.699426" ref="Fe"/>
 		<fraction n="0.300574" ref="O"/>
 	</material>
 	
 <!-- material G4_FERROBORIDE -->
 	<material name="G4_FERROBORIDE" state="solid">
-		<D value="7.150000" unit="g/cm3"/>
+		<D value="7.15000e+00" unit="g/cm3"/>
 		<fraction n="0.837809" ref="Fe"/>
 		<fraction n="0.162191" ref="B"/>
 	</material>
 	
 <!-- material G4_FERROUS_OXIDE -->
 	<material name="G4_FERROUS_OXIDE" state="solid">
-		<D value="5.700000" unit="g/cm3"/>
+		<D value="5.70000e+00" unit="g/cm3"/>
 		<fraction n="0.777305" ref="Fe"/>
 		<fraction n="0.222695" ref="O"/>
 	</material>
 	
 <!-- material G4_FERROUS_SULFATE -->
 	<material name="G4_FERROUS_SULFATE" state="solid">
-		<D value="1.024000" unit="g/cm3"/>
+		<D value="1.02400e+00" unit="g/cm3"/>
 		<fraction n="0.108259" ref="H"/>
 		<fraction n="0.000027" ref="N"/>
 		<fraction n="0.878636" ref="O"/>
@@ -2734,7 +2734,7 @@
 	
 <!-- material G4_FREON-12 -->
 	<material name="G4_FREON-12" state="solid">
-		<D value="1.120000" unit="g/cm3"/>
+		<D value="1.12000e+00" unit="g/cm3"/>
 		<fraction n="0.099335" ref="C"/>
 		<fraction n="0.314247" ref="F"/>
 		<fraction n="0.586418" ref="Cl"/>
@@ -2742,7 +2742,7 @@
 	
 <!-- material G4_FREON-12B2 -->
 	<material name="G4_FREON-12B2" state="solid">
-		<D value="1.800000" unit="g/cm3"/>
+		<D value="1.80000e+00" unit="g/cm3"/>
 		<fraction n="0.057245" ref="C"/>
 		<fraction n="0.181096" ref="F"/>
 		<fraction n="0.761659" ref="Br"/>
@@ -2750,7 +2750,7 @@
 	
 <!-- material G4_FREON-13 -->
 	<material name="G4_FREON-13" state="solid">
-		<D value="0.950000" unit="g/cm3"/>
+		<D value="9.50000e-01" unit="g/cm3"/>
 		<fraction n="0.114983" ref="C"/>
 		<fraction n="0.545621" ref="F"/>
 		<fraction n="0.339396" ref="Cl"/>
@@ -2758,7 +2758,7 @@
 	
 <!-- material G4_FREON-13B1 -->
 	<material name="G4_FREON-13B1" state="solid">
-		<D value="1.500000" unit="g/cm3"/>
+		<D value="1.50000e+00" unit="g/cm3"/>
 		<fraction n="0.080658" ref="C"/>
 		<fraction n="0.382751" ref="F"/>
 		<fraction n="0.536591" ref="Br"/>
@@ -2766,7 +2766,7 @@
 	
 <!-- material G4_FREON-13I1 -->
 	<material name="G4_FREON-13I1" state="solid">
-		<D value="1.800000" unit="g/cm3"/>
+		<D value="1.80000e+00" unit="g/cm3"/>
 		<fraction n="0.061309" ref="C"/>
 		<fraction n="0.290924" ref="F"/>
 		<fraction n="0.647767" ref="I"/>
@@ -2774,7 +2774,7 @@
 	
 <!-- material G4_GADOLINIUM_OXYSULFIDE -->
 	<material name="G4_GADOLINIUM_OXYSULFIDE" state="solid">
-		<D value="7.440000" unit="g/cm3"/>
+		<D value="7.44000e+00" unit="g/cm3"/>
 		<fraction n="0.830771" ref="Gd"/>
 		<fraction n="0.084526" ref="O"/>
 		<fraction n="0.084703" ref="S"/>
@@ -2782,14 +2782,14 @@
 	
 <!-- material G4_GALLIUM_ARSENIDE -->
 	<material name="G4_GALLIUM_ARSENIDE" state="solid">
-		<D value="5.310000" unit="g/cm3"/>
+		<D value="5.31000e+00" unit="g/cm3"/>
 		<fraction n="0.482030" ref="Ga"/>
 		<fraction n="0.517970" ref="As"/>
 	</material>
 	
 <!-- material G4_GEL_PHOTO_EMULSION -->
 	<material name="G4_GEL_PHOTO_EMULSION" state="solid">
-		<D value="1.291400" unit="g/cm3"/>
+		<D value="1.29140e+00" unit="g/cm3"/>
 		<fraction n="0.081180" ref="H"/>
 		<fraction n="0.416060" ref="C"/>
 		<fraction n="0.111240" ref="N"/>
@@ -2799,7 +2799,7 @@
 	
 <!-- material G4_Pyrex_Glass -->
 	<material name="G4_Pyrex_Glass" state="solid">
-		<D value="2.230000" unit="g/cm3"/>
+		<D value="2.23000e+00" unit="g/cm3"/>
 		<fraction n="0.040064" ref="B"/>
 		<fraction n="0.539561" ref="O"/>
 		<fraction n="0.028191" ref="Na"/>
@@ -2810,7 +2810,7 @@
 	
 <!-- material G4_GLASS_LEAD -->
 	<material name="G4_GLASS_LEAD" state="solid">
-		<D value="6.220000" unit="g/cm3"/>
+		<D value="6.22000e+00" unit="g/cm3"/>
 		<fraction n="0.156453" ref="O"/>
 		<fraction n="0.080866" ref="Si"/>
 		<fraction n="0.008092" ref="Ti"/>
@@ -2820,7 +2820,7 @@
 	
 <!-- material G4_GLASS_PLATE -->
 	<material name="G4_GLASS_PLATE" state="solid">
-		<D value="2.400000" unit="g/cm3"/>
+		<D value="2.40000e+00" unit="g/cm3"/>
 		<fraction n="0.459800" ref="O"/>
 		<fraction n="0.096441" ref="Na"/>
 		<fraction n="0.336553" ref="Si"/>
@@ -2829,7 +2829,7 @@
 	
 <!-- material G4_GLUTAMINE -->
 	<material name="G4_GLUTAMINE" state="solid">
-		<D value="1.460000" unit="g/cm3"/>
+		<D value="1.46000e+00" unit="g/cm3"/>
 		<fraction n="0.410919" ref="C"/>
 		<fraction n="0.068969" ref="H"/>
 		<fraction n="0.191683" ref="N"/>
@@ -2838,7 +2838,7 @@
 	
 <!-- material G4_GLYCEROL -->
 	<material name="G4_GLYCEROL" state="solid">
-		<D value="1.261300" unit="g/cm3"/>
+		<D value="1.26130e+00" unit="g/cm3"/>
 		<fraction n="0.391255" ref="C"/>
 		<fraction n="0.087558" ref="H"/>
 		<fraction n="0.521187" ref="O"/>
@@ -2846,7 +2846,7 @@
 	
 <!-- material G4_GUANINE -->
 	<material name="G4_GUANINE" state="solid">
-		<D value="2.200000" unit="g/cm3"/>
+		<D value="2.20000e+00" unit="g/cm3"/>
 		<fraction n="0.397373" ref="C"/>
 		<fraction n="0.033348" ref="H"/>
 		<fraction n="0.463412" ref="N"/>
@@ -2855,7 +2855,7 @@
 	
 <!-- material G4_GYPSUM -->
 	<material name="G4_GYPSUM" state="solid">
-		<D value="2.320000" unit="g/cm3"/>
+		<D value="2.32000e+00" unit="g/cm3"/>
 		<fraction n="0.232779" ref="Ca"/>
 		<fraction n="0.186244" ref="S"/>
 		<fraction n="0.557560" ref="O"/>
@@ -2864,21 +2864,21 @@
 	
 <!-- material G4_N-HEPTANE -->
 	<material name="G4_N-HEPTANE" state="solid">
-		<D value="0.683760" unit="g/cm3"/>
+		<D value="6.83760e-01" unit="g/cm3"/>
 		<fraction n="0.839055" ref="C"/>
 		<fraction n="0.160945" ref="H"/>
 	</material>
 	
 <!-- material G4_N-HEXANE -->
 	<material name="G4_N-HEXANE" state="solid">
-		<D value="0.660300" unit="g/cm3"/>
+		<D value="6.60300e-01" unit="g/cm3"/>
 		<fraction n="0.836251" ref="C"/>
 		<fraction n="0.163749" ref="H"/>
 	</material>
 	
 <!-- material G4_KAPTON -->
 	<material name="G4_KAPTON" state="solid">
-		<D value="1.420000" unit="g/cm3"/>
+		<D value="1.42000e+00" unit="g/cm3"/>
 		<fraction n="0.691128" ref="C"/>
 		<fraction n="0.026363" ref="H"/>
 		<fraction n="0.073271" ref="N"/>
@@ -2887,7 +2887,7 @@
 	
 <!-- material G4_LANTHANUM_OXYBROMIDE -->
 	<material name="G4_LANTHANUM_OXYBROMIDE" state="solid">
-		<D value="6.280000" unit="g/cm3"/>
+		<D value="6.28000e+00" unit="g/cm3"/>
 		<fraction n="0.591569" ref="La"/>
 		<fraction n="0.340293" ref="Br"/>
 		<fraction n="0.068138" ref="O"/>
@@ -2895,7 +2895,7 @@
 	
 <!-- material G4_LANTHANUM_OXYSULFIDE -->
 	<material name="G4_LANTHANUM_OXYSULFIDE" state="solid">
-		<D value="5.860000" unit="g/cm3"/>
+		<D value="5.86000e+00" unit="g/cm3"/>
 		<fraction n="0.812607" ref="La"/>
 		<fraction n="0.093598" ref="O"/>
 		<fraction n="0.093795" ref="S"/>
@@ -2903,14 +2903,14 @@
 	
 <!-- material G4_LEAD_OXIDE -->
 	<material name="G4_LEAD_OXIDE" state="solid">
-		<D value="9.530000" unit="g/cm3"/>
+		<D value="9.53000e+00" unit="g/cm3"/>
 		<fraction n="0.071682" ref="O"/>
 		<fraction n="0.928318" ref="Pb"/>
 	</material>
 	
 <!-- material G4_LITHIUM_AMIDE -->
 	<material name="G4_LITHIUM_AMIDE" state="solid">
-		<D value="1.178000" unit="g/cm3"/>
+		<D value="1.17800e+00" unit="g/cm3"/>
 		<fraction n="0.302231" ref="Li"/>
 		<fraction n="0.609980" ref="N"/>
 		<fraction n="0.087789" ref="H"/>
@@ -2918,7 +2918,7 @@
 	
 <!-- material G4_LITHIUM_CARBONATE -->
 	<material name="G4_LITHIUM_CARBONATE" state="solid">
-		<D value="2.110000" unit="g/cm3"/>
+		<D value="2.11000e+00" unit="g/cm3"/>
 		<fraction n="0.187850" ref="Li"/>
 		<fraction n="0.162551" ref="C"/>
 		<fraction n="0.649599" ref="O"/>
@@ -2926,35 +2926,35 @@
 	
 <!-- material G4_LITHIUM_FLUORIDE -->
 	<material name="G4_LITHIUM_FLUORIDE" state="solid">
-		<D value="2.635000" unit="g/cm3"/>
+		<D value="2.63500e+00" unit="g/cm3"/>
 		<fraction n="0.267558" ref="Li"/>
 		<fraction n="0.732442" ref="F"/>
 	</material>
 	
 <!-- material G4_LITHIUM_HYDRIDE -->
 	<material name="G4_LITHIUM_HYDRIDE" state="solid">
-		<D value="0.820000" unit="g/cm3"/>
+		<D value="8.20000e-01" unit="g/cm3"/>
 		<fraction n="0.873183" ref="Li"/>
 		<fraction n="0.126817" ref="H"/>
 	</material>
 	
 <!-- material G4_LITHIUM_IODIDE -->
 	<material name="G4_LITHIUM_IODIDE" state="solid">
-		<D value="3.494000" unit="g/cm3"/>
+		<D value="3.49400e+00" unit="g/cm3"/>
 		<fraction n="0.051852" ref="Li"/>
 		<fraction n="0.948148" ref="I"/>
 	</material>
 	
 <!-- material G4_LITHIUM_OXIDE -->
 	<material name="G4_LITHIUM_OXIDE" state="solid">
-		<D value="2.013000" unit="g/cm3"/>
+		<D value="2.01300e+00" unit="g/cm3"/>
 		<fraction n="0.464535" ref="Li"/>
 		<fraction n="0.535465" ref="O"/>
 	</material>
 	
 <!-- material G4_LITHIUM_TETRABORATE -->
 	<material name="G4_LITHIUM_TETRABORATE" state="solid">
-		<D value="2.440000" unit="g/cm3"/>
+		<D value="2.44000e+00" unit="g/cm3"/>
 		<fraction n="0.082072" ref="Li"/>
 		<fraction n="0.255701" ref="B"/>
 		<fraction n="0.662227" ref="O"/>
@@ -2962,7 +2962,7 @@
 	
 <!-- material G4_LUNG_ICRP -->
 	<material name="G4_LUNG_ICRP" state="solid">
-		<D value="1.040000" unit="g/cm3"/>
+		<D value="1.04000e+00" unit="g/cm3"/>
 		<fraction n="0.105000" ref="H"/>
 		<fraction n="0.083000" ref="C"/>
 		<fraction n="0.023000" ref="N"/>
@@ -2976,7 +2976,7 @@
 	
 <!-- material G4_M3_WAX -->
 	<material name="G4_M3_WAX" state="solid">
-		<D value="1.050000" unit="g/cm3"/>
+		<D value="1.05000e+00" unit="g/cm3"/>
 		<fraction n="0.114318" ref="H"/>
 		<fraction n="0.655824" ref="C"/>
 		<fraction n="0.092183" ref="O"/>
@@ -2986,7 +2986,7 @@
 	
 <!-- material G4_MAGNESIUM_CARBONATE -->
 	<material name="G4_MAGNESIUM_CARBONATE" state="solid">
-		<D value="2.958000" unit="g/cm3"/>
+		<D value="2.95800e+00" unit="g/cm3"/>
 		<fraction n="0.288268" ref="Mg"/>
 		<fraction n="0.142453" ref="C"/>
 		<fraction n="0.569279" ref="O"/>
@@ -2994,21 +2994,21 @@
 	
 <!-- material G4_MAGNESIUM_FLUORIDE -->
 	<material name="G4_MAGNESIUM_FLUORIDE" state="solid">
-		<D value="3.000000" unit="g/cm3"/>
+		<D value="3.00000e+00" unit="g/cm3"/>
 		<fraction n="0.390117" ref="Mg"/>
 		<fraction n="0.609883" ref="F"/>
 	</material>
 	
 <!-- material G4_MAGNESIUM_OXIDE -->
 	<material name="G4_MAGNESIUM_OXIDE" state="solid">
-		<D value="3.580000" unit="g/cm3"/>
+		<D value="3.58000e+00" unit="g/cm3"/>
 		<fraction n="0.603036" ref="Mg"/>
 		<fraction n="0.396964" ref="O"/>
 	</material>
 	
 <!-- material G4_MAGNESIUM_TETRABORATE -->
 	<material name="G4_MAGNESIUM_TETRABORATE" state="solid">
-		<D value="2.530000" unit="g/cm3"/>
+		<D value="2.53000e+00" unit="g/cm3"/>
 		<fraction n="0.135370" ref="Mg"/>
 		<fraction n="0.240854" ref="B"/>
 		<fraction n="0.623776" ref="O"/>
@@ -3016,21 +3016,21 @@
 	
 <!-- material G4_MERCURIC_IODIDE -->
 	<material name="G4_MERCURIC_IODIDE" state="solid">
-		<D value="6.360000" unit="g/cm3"/>
+		<D value="6.36000e+00" unit="g/cm3"/>
 		<fraction n="0.441452" ref="Hg"/>
 		<fraction n="0.558548" ref="I"/>
 	</material>
 	
 <!-- material G4_METHANE -->
 	<material name="G4_METHANE" state="gas">
-		<D value="0.000667" unit="g/cm3"/>
+		<D value="6.67151e-04" unit="g/cm3"/>
 		<fraction n="0.748682" ref="C"/>
 		<fraction n="0.251318" ref="H"/>
 	</material>
 	
 <!-- material G4_METHANOL -->
 	<material name="G4_METHANOL" state="solid">
-		<D value="0.791400" unit="g/cm3"/>
+		<D value="7.91400e-01" unit="g/cm3"/>
 		<fraction n="0.374845" ref="C"/>
 		<fraction n="0.125828" ref="H"/>
 		<fraction n="0.499327" ref="O"/>
@@ -3038,7 +3038,7 @@
 	
 <!-- material G4_MIX_D_WAX -->
 	<material name="G4_MIX_D_WAX" state="solid">
-		<D value="0.990000" unit="g/cm3"/>
+		<D value="9.90000e-01" unit="g/cm3"/>
 		<fraction n="0.134040" ref="H"/>
 		<fraction n="0.777960" ref="C"/>
 		<fraction n="0.035020" ref="O"/>
@@ -3048,7 +3048,7 @@
 	
 <!-- material G4_MS20_TISSUE -->
 	<material name="G4_MS20_TISSUE" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.081192" ref="H"/>
 		<fraction n="0.583442" ref="C"/>
 		<fraction n="0.017798" ref="N"/>
@@ -3059,7 +3059,7 @@
 	
 <!-- material G4_MUSCLE_SKELETAL_ICRP -->
 	<material name="G4_MUSCLE_SKELETAL_ICRP" state="solid">
-		<D value="1.050000" unit="g/cm3"/>
+		<D value="1.05000e+00" unit="g/cm3"/>
 		<fraction n="0.102000" ref="H"/>
 		<fraction n="0.143000" ref="C"/>
 		<fraction n="0.034000" ref="N"/>
@@ -3073,7 +3073,7 @@
 	
 <!-- material G4_MUSCLE_STRIATED_ICRU -->
 	<material name="G4_MUSCLE_STRIATED_ICRU" state="solid">
-		<D value="1.040000" unit="g/cm3"/>
+		<D value="1.04000e+00" unit="g/cm3"/>
 		<fraction n="0.102102" ref="H"/>
 		<fraction n="0.123123" ref="C"/>
 		<fraction n="0.035035" ref="N"/>
@@ -3086,7 +3086,7 @@
 	
 <!-- material G4_MUSCLE_WITH_SUCROSE -->
 	<material name="G4_MUSCLE_WITH_SUCROSE" state="solid">
-		<D value="1.110000" unit="g/cm3"/>
+		<D value="1.11000e+00" unit="g/cm3"/>
 		<fraction n="0.098234" ref="H"/>
 		<fraction n="0.156214" ref="C"/>
 		<fraction n="0.035451" ref="N"/>
@@ -3095,7 +3095,7 @@
 	
 <!-- material G4_MUSCLE_WITHOUT_SUCROSE -->
 	<material name="G4_MUSCLE_WITHOUT_SUCROSE" state="solid">
-		<D value="1.070000" unit="g/cm3"/>
+		<D value="1.07000e+00" unit="g/cm3"/>
 		<fraction n="0.101969" ref="H"/>
 		<fraction n="0.120058" ref="C"/>
 		<fraction n="0.035451" ref="N"/>
@@ -3104,14 +3104,14 @@
 	
 <!-- material G4_NAPHTHALENE -->
 	<material name="G4_NAPHTHALENE" state="solid">
-		<D value="1.145000" unit="g/cm3"/>
+		<D value="1.14500e+00" unit="g/cm3"/>
 		<fraction n="0.937088" ref="C"/>
 		<fraction n="0.062912" ref="H"/>
 	</material>
 	
 <!-- material G4_NITROBENZENE -->
 	<material name="G4_NITROBENZENE" state="solid">
-		<D value="1.198670" unit="g/cm3"/>
+		<D value="1.19867e+00" unit="g/cm3"/>
 		<fraction n="0.585368" ref="C"/>
 		<fraction n="0.040937" ref="H"/>
 		<fraction n="0.113775" ref="N"/>
@@ -3120,14 +3120,14 @@
 	
 <!-- material G4_NITROUS_OXIDE -->
 	<material name="G4_NITROUS_OXIDE" state="gas">
-		<D value="0.001831" unit="g/cm3"/>
+		<D value="1.83094e-03" unit="g/cm3"/>
 		<fraction n="0.636484" ref="N"/>
 		<fraction n="0.363516" ref="O"/>
 	</material>
 	
 <!-- material G4_NYLON-8062 -->
 	<material name="G4_NYLON-8062" state="solid">
-		<D value="1.080000" unit="g/cm3"/>
+		<D value="1.08000e+00" unit="g/cm3"/>
 		<fraction n="0.103509" ref="H"/>
 		<fraction n="0.648416" ref="C"/>
 		<fraction n="0.099536" ref="N"/>
@@ -3136,7 +3136,7 @@
 	
 <!-- material G4_NYLON-6-6 -->
 	<material name="G4_NYLON-6-6" state="solid">
-		<D value="1.140000" unit="g/cm3"/>
+		<D value="1.14000e+00" unit="g/cm3"/>
 		<fraction n="0.636848" ref="C"/>
 		<fraction n="0.097981" ref="H"/>
 		<fraction n="0.123781" ref="N"/>
@@ -3145,7 +3145,7 @@
 	
 <!-- material G4_NYLON-6-10 -->
 	<material name="G4_NYLON-6-10" state="solid">
-		<D value="1.140000" unit="g/cm3"/>
+		<D value="1.14000e+00" unit="g/cm3"/>
 		<fraction n="0.107062" ref="H"/>
 		<fraction n="0.680449" ref="C"/>
 		<fraction n="0.099189" ref="N"/>
@@ -3154,7 +3154,7 @@
 	
 <!-- material G4_NYLON-11_RILSAN -->
 	<material name="G4_NYLON-11_RILSAN" state="solid">
-		<D value="1.425000" unit="g/cm3"/>
+		<D value="1.42500e+00" unit="g/cm3"/>
 		<fraction n="0.115476" ref="H"/>
 		<fraction n="0.720818" ref="C"/>
 		<fraction n="0.076417" ref="N"/>
@@ -3163,28 +3163,28 @@
 	
 <!-- material G4_OCTANE -->
 	<material name="G4_OCTANE" state="solid">
-		<D value="0.702600" unit="g/cm3"/>
+		<D value="7.02600e-01" unit="g/cm3"/>
 		<fraction n="0.841170" ref="C"/>
 		<fraction n="0.158830" ref="H"/>
 	</material>
 	
 <!-- material G4_PARAFFIN -->
 	<material name="G4_PARAFFIN" state="solid">
-		<D value="0.930000" unit="g/cm3"/>
+		<D value="9.30000e-01" unit="g/cm3"/>
 		<fraction n="0.851387" ref="C"/>
 		<fraction n="0.148613" ref="H"/>
 	</material>
 	
 <!-- material G4_N-PENTANE -->
 	<material name="G4_N-PENTANE" state="solid">
-		<D value="0.626200" unit="g/cm3"/>
+		<D value="6.26200e-01" unit="g/cm3"/>
 		<fraction n="0.832357" ref="C"/>
 		<fraction n="0.167643" ref="H"/>
 	</material>
 	
 <!-- material G4_PHOTO_EMULSION -->
 	<material name="G4_PHOTO_EMULSION" state="solid">
-		<D value="3.815000" unit="g/cm3"/>
+		<D value="3.81500e+00" unit="g/cm3"/>
 		<fraction n="0.014100" ref="H"/>
 		<fraction n="0.072261" ref="C"/>
 		<fraction n="0.019320" ref="N"/>
@@ -3197,21 +3197,21 @@
 	
 <!-- material G4_PLASTIC_SC_VINYLTOLUENE -->
 	<material name="G4_PLASTIC_SC_VINYLTOLUENE" state="solid">
-		<D value="1.032000" unit="g/cm3"/>
+		<D value="1.03200e+00" unit="g/cm3"/>
 		<fraction n="0.914709" ref="C"/>
 		<fraction n="0.085291" ref="H"/>
 	</material>
 	
 <!-- material G4_PLUTONIUM_DIOXIDE -->
 	<material name="G4_PLUTONIUM_DIOXIDE" state="solid">
-		<D value="11.460000" unit="g/cm3"/>
+		<D value="1.14600e+01" unit="g/cm3"/>
 		<fraction n="0.884089" ref="Pu"/>
 		<fraction n="0.115911" ref="O"/>
 	</material>
 	
 <!-- material G4_POLYACRYLONITRILE -->
 	<material name="G4_POLYACRYLONITRILE" state="solid">
-		<D value="1.170000" unit="g/cm3"/>
+		<D value="1.17000e+00" unit="g/cm3"/>
 		<fraction n="0.679048" ref="C"/>
 		<fraction n="0.056986" ref="H"/>
 		<fraction n="0.263966" ref="N"/>
@@ -3219,7 +3219,7 @@
 	
 <!-- material G4_POLYCARBONATE -->
 	<material name="G4_POLYCARBONATE" state="solid">
-		<D value="1.200000" unit="g/cm3"/>
+		<D value="1.20000e+00" unit="g/cm3"/>
 		<fraction n="0.755745" ref="C"/>
 		<fraction n="0.055494" ref="H"/>
 		<fraction n="0.188760" ref="O"/>
@@ -3227,7 +3227,7 @@
 	
 <!-- material G4_POLYCHLOROSTYRENE -->
 	<material name="G4_POLYCHLOROSTYRENE" state="solid">
-		<D value="1.300000" unit="g/cm3"/>
+		<D value="1.30000e+00" unit="g/cm3"/>
 		<fraction n="0.693290" ref="C"/>
 		<fraction n="0.050908" ref="H"/>
 		<fraction n="0.255802" ref="Cl"/>
@@ -3235,14 +3235,14 @@
 	
 <!-- material G4_POLYETHYLENE -->
 	<material name="G4_POLYETHYLENE" state="solid">
-		<D value="0.940000" unit="g/cm3"/>
+		<D value="9.40000e-01" unit="g/cm3"/>
 		<fraction n="0.856282" ref="C"/>
 		<fraction n="0.143718" ref="H"/>
 	</material>
 	
 <!-- material G4_MYLAR -->
 	<material name="G4_MYLAR" state="solid">
-		<D value="1.400000" unit="g/cm3"/>
+		<D value="1.40000e+00" unit="g/cm3"/>
 		<fraction n="0.625011" ref="C"/>
 		<fraction n="0.041961" ref="H"/>
 		<fraction n="0.333028" ref="O"/>
@@ -3250,7 +3250,7 @@
 	
 <!-- material G4_PLEXIGLASS -->
 	<material name="G4_PLEXIGLASS" state="solid">
-		<D value="1.190000" unit="g/cm3"/>
+		<D value="1.19000e+00" unit="g/cm3"/>
 		<fraction n="0.599841" ref="C"/>
 		<fraction n="0.080542" ref="H"/>
 		<fraction n="0.319617" ref="O"/>
@@ -3258,7 +3258,7 @@
 	
 <!-- material G4_POLYOXYMETHYLENE -->
 	<material name="G4_POLYOXYMETHYLENE" state="solid">
-		<D value="1.425000" unit="g/cm3"/>
+		<D value="1.42500e+00" unit="g/cm3"/>
 		<fraction n="0.400011" ref="C"/>
 		<fraction n="0.067138" ref="H"/>
 		<fraction n="0.532851" ref="O"/>
@@ -3266,28 +3266,28 @@
 	
 <!-- material G4_POLYPROPYLENE -->
 	<material name="G4_POLYPROPYLENE" state="solid">
-		<D value="0.900000" unit="g/cm3"/>
+		<D value="9.00000e-01" unit="g/cm3"/>
 		<fraction n="0.856282" ref="C"/>
 		<fraction n="0.143718" ref="H"/>
 	</material>
 	
 <!-- material G4_POLYSTYRENE -->
 	<material name="G4_POLYSTYRENE" state="solid">
-		<D value="1.060000" unit="g/cm3"/>
+		<D value="1.06000e+00" unit="g/cm3"/>
 		<fraction n="0.922577" ref="C"/>
 		<fraction n="0.077423" ref="H"/>
 	</material>
 	
 <!-- material G4_TEFLON -->
 	<material name="G4_TEFLON" state="solid">
-		<D value="2.200000" unit="g/cm3"/>
+		<D value="2.20000e+00" unit="g/cm3"/>
 		<fraction n="0.240179" ref="C"/>
 		<fraction n="0.759821" ref="F"/>
 	</material>
 	
 <!-- material G4_POLYTRIFLUOROCHLOROETHYLENE -->
 	<material name="G4_POLYTRIFLUOROCHLOROETHYLENE" state="solid">
-		<D value="2.100000" unit="g/cm3"/>
+		<D value="2.10000e+00" unit="g/cm3"/>
 		<fraction n="0.206247" ref="C"/>
 		<fraction n="0.489358" ref="F"/>
 		<fraction n="0.304394" ref="Cl"/>
@@ -3295,7 +3295,7 @@
 	
 <!-- material G4_POLYVINYL_ACETATE -->
 	<material name="G4_POLYVINYL_ACETATE" state="solid">
-		<D value="1.190000" unit="g/cm3"/>
+		<D value="1.19000e+00" unit="g/cm3"/>
 		<fraction n="0.558059" ref="C"/>
 		<fraction n="0.070248" ref="H"/>
 		<fraction n="0.371693" ref="O"/>
@@ -3303,7 +3303,7 @@
 	
 <!-- material G4_POLYVINYL_ALCOHOL -->
 	<material name="G4_POLYVINYL_ALCOHOL" state="solid">
-		<D value="1.300000" unit="g/cm3"/>
+		<D value="1.30000e+00" unit="g/cm3"/>
 		<fraction n="0.545290" ref="C"/>
 		<fraction n="0.091522" ref="H"/>
 		<fraction n="0.363188" ref="O"/>
@@ -3311,7 +3311,7 @@
 	
 <!-- material G4_POLYVINYL_BUTYRAL -->
 	<material name="G4_POLYVINYL_BUTYRAL" state="solid">
-		<D value="1.120000" unit="g/cm3"/>
+		<D value="1.12000e+00" unit="g/cm3"/>
 		<fraction n="0.675729" ref="C"/>
 		<fraction n="0.099238" ref="H"/>
 		<fraction n="0.225033" ref="O"/>
@@ -3319,7 +3319,7 @@
 	
 <!-- material G4_POLYVINYL_CHLORIDE -->
 	<material name="G4_POLYVINYL_CHLORIDE" state="solid">
-		<D value="1.300000" unit="g/cm3"/>
+		<D value="1.30000e+00" unit="g/cm3"/>
 		<fraction n="0.384357" ref="C"/>
 		<fraction n="0.048383" ref="H"/>
 		<fraction n="0.567261" ref="Cl"/>
@@ -3327,7 +3327,7 @@
 	
 <!-- material G4_POLYVINYLIDENE_CHLORIDE -->
 	<material name="G4_POLYVINYLIDENE_CHLORIDE" state="solid">
-		<D value="1.700000" unit="g/cm3"/>
+		<D value="1.70000e+00" unit="g/cm3"/>
 		<fraction n="0.247791" ref="C"/>
 		<fraction n="0.020795" ref="H"/>
 		<fraction n="0.731414" ref="Cl"/>
@@ -3335,7 +3335,7 @@
 	
 <!-- material G4_POLYVINYLIDENE_FLUORIDE -->
 	<material name="G4_POLYVINYLIDENE_FLUORIDE" state="solid">
-		<D value="1.760000" unit="g/cm3"/>
+		<D value="1.76000e+00" unit="g/cm3"/>
 		<fraction n="0.375135" ref="C"/>
 		<fraction n="0.031481" ref="H"/>
 		<fraction n="0.593383" ref="F"/>
@@ -3343,7 +3343,7 @@
 	
 <!-- material G4_POLYVINYL_PYRROLIDONE -->
 	<material name="G4_POLYVINYL_PYRROLIDONE" state="solid">
-		<D value="1.250000" unit="g/cm3"/>
+		<D value="1.25000e+00" unit="g/cm3"/>
 		<fraction n="0.648399" ref="C"/>
 		<fraction n="0.081620" ref="H"/>
 		<fraction n="0.126026" ref="N"/>
@@ -3352,35 +3352,35 @@
 	
 <!-- material G4_POTASSIUM_IODIDE -->
 	<material name="G4_POTASSIUM_IODIDE" state="solid">
-		<D value="3.130000" unit="g/cm3"/>
+		<D value="3.13000e+00" unit="g/cm3"/>
 		<fraction n="0.235529" ref="K"/>
 		<fraction n="0.764471" ref="I"/>
 	</material>
 	
 <!-- material G4_POTASSIUM_OXIDE -->
 	<material name="G4_POTASSIUM_OXIDE" state="solid">
-		<D value="2.320000" unit="g/cm3"/>
+		<D value="2.32000e+00" unit="g/cm3"/>
 		<fraction n="0.830148" ref="K"/>
 		<fraction n="0.169852" ref="O"/>
 	</material>
 	
 <!-- material G4_PROPANE -->
 	<material name="G4_PROPANE" state="gas">
-		<D value="0.001879" unit="g/cm3"/>
+		<D value="1.87939e-03" unit="g/cm3"/>
 		<fraction n="0.817136" ref="C"/>
 		<fraction n="0.182864" ref="H"/>
 	</material>
 	
 <!-- material G4_lPROPANE -->
 	<material name="G4_lPROPANE" state="solid">
-		<D value="0.430000" unit="g/cm3"/>
+		<D value="4.30000e-01" unit="g/cm3"/>
 		<fraction n="0.817136" ref="C"/>
 		<fraction n="0.182864" ref="H"/>
 	</material>
 	
 <!-- material G4_N-PROPYL_ALCOHOL -->
 	<material name="G4_N-PROPYL_ALCOHOL" state="solid">
-		<D value="0.803500" unit="g/cm3"/>
+		<D value="8.03500e-01" unit="g/cm3"/>
 		<fraction n="0.599586" ref="C"/>
 		<fraction n="0.134179" ref="H"/>
 		<fraction n="0.266234" ref="O"/>
@@ -3388,7 +3388,7 @@
 	
 <!-- material G4_PYRIDINE -->
 	<material name="G4_PYRIDINE" state="solid">
-		<D value="0.981900" unit="g/cm3"/>
+		<D value="9.81900e-01" unit="g/cm3"/>
 		<fraction n="0.759211" ref="C"/>
 		<fraction n="0.063713" ref="H"/>
 		<fraction n="0.177076" ref="N"/>
@@ -3396,21 +3396,21 @@
 	
 <!-- material G4_RUBBER_BUTYL -->
 	<material name="G4_RUBBER_BUTYL" state="solid">
-		<D value="0.920000" unit="g/cm3"/>
+		<D value="9.20000e-01" unit="g/cm3"/>
 		<fraction n="0.143711" ref="H"/>
 		<fraction n="0.856289" ref="C"/>
 	</material>
 	
 <!-- material G4_RUBBER_NATURAL -->
 	<material name="G4_RUBBER_NATURAL" state="solid">
-		<D value="0.920000" unit="g/cm3"/>
+		<D value="9.20000e-01" unit="g/cm3"/>
 		<fraction n="0.118371" ref="H"/>
 		<fraction n="0.881629" ref="C"/>
 	</material>
 	
 <!-- material G4_RUBBER_NEOPRENE -->
 	<material name="G4_RUBBER_NEOPRENE" state="solid">
-		<D value="1.230000" unit="g/cm3"/>
+		<D value="1.23000e+00" unit="g/cm3"/>
 		<fraction n="0.056920" ref="H"/>
 		<fraction n="0.542646" ref="C"/>
 		<fraction n="0.400434" ref="Cl"/>
@@ -3418,28 +3418,28 @@
 	
 <!-- material G4_SILICON_DIOXIDE -->
 	<material name="G4_SILICON_DIOXIDE" state="solid">
-		<D value="2.320000" unit="g/cm3"/>
+		<D value="2.32000e+00" unit="g/cm3"/>
 		<fraction n="0.467434" ref="Si"/>
 		<fraction n="0.532566" ref="O"/>
 	</material>
 	
 <!-- material G4_SILVER_BROMIDE -->
 	<material name="G4_SILVER_BROMIDE" state="solid">
-		<D value="6.473000" unit="g/cm3"/>
+		<D value="6.47300e+00" unit="g/cm3"/>
 		<fraction n="0.574465" ref="Ag"/>
 		<fraction n="0.425535" ref="Br"/>
 	</material>
 	
 <!-- material G4_SILVER_CHLORIDE -->
 	<material name="G4_SILVER_CHLORIDE" state="solid">
-		<D value="5.560000" unit="g/cm3"/>
+		<D value="5.56000e+00" unit="g/cm3"/>
 		<fraction n="0.752635" ref="Ag"/>
 		<fraction n="0.247365" ref="Cl"/>
 	</material>
 	
 <!-- material G4_SILVER_HALIDES -->
 	<material name="G4_SILVER_HALIDES" state="solid">
-		<D value="6.470000" unit="g/cm3"/>
+		<D value="6.47000e+00" unit="g/cm3"/>
 		<fraction n="0.422895" ref="Br"/>
 		<fraction n="0.573748" ref="Ag"/>
 		<fraction n="0.003357" ref="I"/>
@@ -3447,14 +3447,14 @@
 	
 <!-- material G4_SILVER_IODIDE -->
 	<material name="G4_SILVER_IODIDE" state="solid">
-		<D value="6.010000" unit="g/cm3"/>
+		<D value="6.01000e+00" unit="g/cm3"/>
 		<fraction n="0.459459" ref="Ag"/>
 		<fraction n="0.540541" ref="I"/>
 	</material>
 	
 <!-- material G4_SKIN_ICRP -->
 	<material name="G4_SKIN_ICRP" state="solid">
-		<D value="1.090000" unit="g/cm3"/>
+		<D value="1.09000e+00" unit="g/cm3"/>
 		<fraction n="0.100000" ref="H"/>
 		<fraction n="0.204000" ref="C"/>
 		<fraction n="0.042000" ref="N"/>
@@ -3468,7 +3468,7 @@
 	
 <!-- material G4_SODIUM_CARBONATE -->
 	<material name="G4_SODIUM_CARBONATE" state="solid">
-		<D value="2.532000" unit="g/cm3"/>
+		<D value="2.53200e+00" unit="g/cm3"/>
 		<fraction n="0.433817" ref="Na"/>
 		<fraction n="0.113321" ref="C"/>
 		<fraction n="0.452862" ref="O"/>
@@ -3476,21 +3476,21 @@
 	
 <!-- material G4_SODIUM_IODIDE -->
 	<material name="G4_SODIUM_IODIDE" state="solid">
-		<D value="3.667000" unit="g/cm3"/>
+		<D value="3.66700e+00" unit="g/cm3"/>
 		<fraction n="0.153374" ref="Na"/>
 		<fraction n="0.846626" ref="I"/>
 	</material>
 	
 <!-- material G4_SODIUM_MONOXIDE -->
 	<material name="G4_SODIUM_MONOXIDE" state="solid">
-		<D value="2.270000" unit="g/cm3"/>
+		<D value="2.27000e+00" unit="g/cm3"/>
 		<fraction n="0.741858" ref="Na"/>
 		<fraction n="0.258142" ref="O"/>
 	</material>
 	
 <!-- material G4_SODIUM_NITRATE -->
 	<material name="G4_SODIUM_NITRATE" state="solid">
-		<D value="2.261000" unit="g/cm3"/>
+		<D value="2.26100e+00" unit="g/cm3"/>
 		<fraction n="0.270485" ref="Na"/>
 		<fraction n="0.164796" ref="N"/>
 		<fraction n="0.564719" ref="O"/>
@@ -3498,14 +3498,14 @@
 	
 <!-- material G4_STILBENE -->
 	<material name="G4_STILBENE" state="solid">
-		<D value="0.970700" unit="g/cm3"/>
+		<D value="9.70700e-01" unit="g/cm3"/>
 		<fraction n="0.932896" ref="C"/>
 		<fraction n="0.067104" ref="H"/>
 	</material>
 	
 <!-- material G4_SUCROSE -->
 	<material name="G4_SUCROSE" state="solid">
-		<D value="1.580500" unit="g/cm3"/>
+		<D value="1.58050e+00" unit="g/cm3"/>
 		<fraction n="0.421064" ref="C"/>
 		<fraction n="0.064782" ref="H"/>
 		<fraction n="0.514154" ref="O"/>
@@ -3513,14 +3513,14 @@
 	
 <!-- material G4_TERPHENYL -->
 	<material name="G4_TERPHENYL" state="solid">
-		<D value="1.240000" unit="g/cm3"/>
+		<D value="1.24000e+00" unit="g/cm3"/>
 		<fraction n="0.938728" ref="C"/>
 		<fraction n="0.061272" ref="H"/>
 	</material>
 	
 <!-- material G4_TESTIS_ICRP -->
 	<material name="G4_TESTIS_ICRP" state="solid">
-		<D value="1.040000" unit="g/cm3"/>
+		<D value="1.04000e+00" unit="g/cm3"/>
 		<fraction n="0.106000" ref="H"/>
 		<fraction n="0.099000" ref="C"/>
 		<fraction n="0.020000" ref="N"/>
@@ -3534,21 +3534,21 @@
 	
 <!-- material G4_TETRACHLOROETHYLENE -->
 	<material name="G4_TETRACHLOROETHYLENE" state="solid">
-		<D value="1.625000" unit="g/cm3"/>
+		<D value="1.62500e+00" unit="g/cm3"/>
 		<fraction n="0.144854" ref="C"/>
 		<fraction n="0.855146" ref="Cl"/>
 	</material>
 	
 <!-- material G4_THALLIUM_CHLORIDE -->
 	<material name="G4_THALLIUM_CHLORIDE" state="solid">
-		<D value="7.004000" unit="g/cm3"/>
+		<D value="7.00400e+00" unit="g/cm3"/>
 		<fraction n="0.852180" ref="Tl"/>
 		<fraction n="0.147820" ref="Cl"/>
 	</material>
 	
 <!-- material G4_TISSUE_SOFT_ICRP -->
 	<material name="G4_TISSUE_SOFT_ICRP" state="solid">
-		<D value="1.030000" unit="g/cm3"/>
+		<D value="1.03000e+00" unit="g/cm3"/>
 		<fraction n="0.105000" ref="H"/>
 		<fraction n="0.256000" ref="C"/>
 		<fraction n="0.027000" ref="N"/>
@@ -3562,7 +3562,7 @@
 	
 <!-- material G4_TISSUE_SOFT_ICRU-4 -->
 	<material name="G4_TISSUE_SOFT_ICRU-4" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.101000" ref="H"/>
 		<fraction n="0.111000" ref="C"/>
 		<fraction n="0.026000" ref="N"/>
@@ -3571,7 +3571,7 @@
 	
 <!-- material G4_TISSUE-METHANE -->
 	<material name="G4_TISSUE-METHANE" state="gas">
-		<D value="0.001064" unit="g/cm3"/>
+		<D value="1.06409e-03" unit="g/cm3"/>
 		<fraction n="0.101869" ref="H"/>
 		<fraction n="0.456179" ref="C"/>
 		<fraction n="0.035172" ref="N"/>
@@ -3580,7 +3580,7 @@
 	
 <!-- material G4_TISSUE-PROPANE -->
 	<material name="G4_TISSUE-PROPANE" state="gas">
-		<D value="0.001826" unit="g/cm3"/>
+		<D value="1.82628e-03" unit="g/cm3"/>
 		<fraction n="0.102672" ref="H"/>
 		<fraction n="0.568940" ref="C"/>
 		<fraction n="0.035022" ref="N"/>
@@ -3589,21 +3589,21 @@
 	
 <!-- material G4_TITANIUM_DIOXIDE -->
 	<material name="G4_TITANIUM_DIOXIDE" state="solid">
-		<D value="4.260000" unit="g/cm3"/>
+		<D value="4.26000e+00" unit="g/cm3"/>
 		<fraction n="0.599342" ref="Ti"/>
 		<fraction n="0.400658" ref="O"/>
 	</material>
 	
 <!-- material G4_TOLUENE -->
 	<material name="G4_TOLUENE" state="solid">
-		<D value="0.866900" unit="g/cm3"/>
+		<D value="8.66900e-01" unit="g/cm3"/>
 		<fraction n="0.912485" ref="C"/>
 		<fraction n="0.087515" ref="H"/>
 	</material>
 	
 <!-- material G4_TRICHLOROETHYLENE -->
 	<material name="G4_TRICHLOROETHYLENE" state="solid">
-		<D value="1.460000" unit="g/cm3"/>
+		<D value="1.46000e+00" unit="g/cm3"/>
 		<fraction n="0.182830" ref="C"/>
 		<fraction n="0.007672" ref="H"/>
 		<fraction n="0.809499" ref="Cl"/>
@@ -3611,7 +3611,7 @@
 	
 <!-- material G4_TRIETHYL_PHOSPHATE -->
 	<material name="G4_TRIETHYL_PHOSPHATE" state="solid">
-		<D value="1.070000" unit="g/cm3"/>
+		<D value="1.07000e+00" unit="g/cm3"/>
 		<fraction n="0.395622" ref="C"/>
 		<fraction n="0.083001" ref="H"/>
 		<fraction n="0.351336" ref="O"/>
@@ -3620,35 +3620,35 @@
 	
 <!-- material G4_TUNGSTEN_HEXAFLUORIDE -->
 	<material name="G4_TUNGSTEN_HEXAFLUORIDE" state="solid">
-		<D value="2.400000" unit="g/cm3"/>
+		<D value="2.40000e+00" unit="g/cm3"/>
 		<fraction n="0.617266" ref="W"/>
 		<fraction n="0.382734" ref="F"/>
 	</material>
 	
 <!-- material G4_URANIUM_DICARBIDE -->
 	<material name="G4_URANIUM_DICARBIDE" state="solid">
-		<D value="11.280000" unit="g/cm3"/>
+		<D value="1.12800e+01" unit="g/cm3"/>
 		<fraction n="0.908333" ref="U"/>
 		<fraction n="0.091667" ref="C"/>
 	</material>
 	
 <!-- material G4_URANIUM_MONOCARBIDE -->
 	<material name="G4_URANIUM_MONOCARBIDE" state="solid">
-		<D value="13.630000" unit="g/cm3"/>
+		<D value="1.36300e+01" unit="g/cm3"/>
 		<fraction n="0.951965" ref="U"/>
 		<fraction n="0.048035" ref="C"/>
 	</material>
 	
 <!-- material G4_URANIUM_OXIDE -->
 	<material name="G4_URANIUM_OXIDE" state="solid">
-		<D value="10.960000" unit="g/cm3"/>
+		<D value="1.09600e+01" unit="g/cm3"/>
 		<fraction n="0.881498" ref="U"/>
 		<fraction n="0.118502" ref="O"/>
 	</material>
 	
 <!-- material G4_UREA -->
 	<material name="G4_UREA" state="solid">
-		<D value="1.323000" unit="g/cm3"/>
+		<D value="1.32300e+00" unit="g/cm3"/>
 		<fraction n="0.199994" ref="C"/>
 		<fraction n="0.067134" ref="H"/>
 		<fraction n="0.466461" ref="N"/>
@@ -3657,7 +3657,7 @@
 	
 <!-- material G4_VALINE -->
 	<material name="G4_VALINE" state="solid">
-		<D value="1.230000" unit="g/cm3"/>
+		<D value="1.23000e+00" unit="g/cm3"/>
 		<fraction n="0.512637" ref="C"/>
 		<fraction n="0.094645" ref="H"/>
 		<fraction n="0.119566" ref="N"/>
@@ -3666,7 +3666,7 @@
 	
 <!-- material G4_VITON -->
 	<material name="G4_VITON" state="solid">
-		<D value="1.800000" unit="g/cm3"/>
+		<D value="1.80000e+00" unit="g/cm3"/>
 		<fraction n="0.009417" ref="H"/>
 		<fraction n="0.280555" ref="C"/>
 		<fraction n="0.710028" ref="F"/>
@@ -3674,69 +3674,69 @@
 	
 <!-- material G4_WATER_VAPOR -->
 	<material name="G4_WATER_VAPOR" state="gas">
-		<D value="0.000756" unit="g/cm3"/>
+		<D value="7.56182e-04" unit="g/cm3"/>
 		<fraction n="0.111898" ref="H"/>
 		<fraction n="0.888102" ref="O"/>
 	</material>
 	
 <!-- material G4_XYLENE -->
 	<material name="G4_XYLENE" state="solid">
-		<D value="0.870000" unit="g/cm3"/>
+		<D value="8.70000e-01" unit="g/cm3"/>
 		<fraction n="0.905059" ref="C"/>
 		<fraction n="0.094941" ref="H"/>
 	</material>
 	
 <!-- material G4_GRAPHITE -->
 	<material name="G4_GRAPHITE" state="solid">
-		<D value="2.210000" unit="g/cm3"/>
+		<D value="2.21000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="C"/>
 	</material>
 	
 <!-- material G4_lH2 -->
 	<material name="G4_lH2" state="liquid">
-		<D value="0.070800" unit="g/cm3"/>
+		<D value="7.08000e-02" unit="g/cm3"/>
 		<fraction n="1.000000" ref="H"/>
 	</material>
 	
 <!-- material G4_lN2 -->
 	<material name="G4_lN2" state="liquid">
-		<D value="0.807000" unit="g/cm3"/>
+		<D value="8.07000e-01" unit="g/cm3"/>
 		<fraction n="1.000000" ref="N"/>
 	</material>
 	
 <!-- material G4_lO2 -->
 	<material name="G4_lO2" state="liquid">
-		<D value="1.141000" unit="g/cm3"/>
+		<D value="1.14100e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="O"/>
 	</material>
 	
 <!-- material G4_lAr -->
 	<material name="G4_lAr" state="liquid">
-		<D value="1.396000" unit="g/cm3"/>
+		<D value="1.39600e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Ar"/>
 	</material>
 	
 <!-- material G4_lBr -->
 	<material name="G4_lBr" state="liquid">
-		<D value="3.102800" unit="g/cm3"/>
+		<D value="3.10280e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Br"/>
 	</material>
 	
 <!-- material G4_lKr -->
 	<material name="G4_lKr" state="liquid">
-		<D value="2.418000" unit="g/cm3"/>
+		<D value="2.41800e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Kr"/>
 	</material>
 	
 <!-- material G4_lXe -->
 	<material name="G4_lXe" state="liquid">
-		<D value="2.953000" unit="g/cm3"/>
+		<D value="2.95300e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="Xe"/>
 	</material>
 	
 <!-- material G4_PbWO4 -->
 	<material name="G4_PbWO4" state="solid">
-		<D value="8.280000" unit="g/cm3"/>
+		<D value="8.28000e+00" unit="g/cm3"/>
 		<fraction n="0.140637" ref="O"/>
 		<fraction n="0.455366" ref="Pb"/>
 		<fraction n="0.403998" ref="W"/>
@@ -3744,19 +3744,19 @@
 	
 <!-- material G4_Galactic -->
 	<material name="G4_Galactic" state="gas">
-		<D value="0.000000" unit="g/cm3"/>
+		<D value="1.00000e-25" unit="g/cm3"/>
 		<fraction n="1.000000" ref="H"/>
 	</material>
 	
 <!-- material G4_GRAPHITE_POROUS -->
 	<material name="G4_GRAPHITE_POROUS" state="solid">
-		<D value="1.700000" unit="g/cm3"/>
+		<D value="1.70000e+00" unit="g/cm3"/>
 		<fraction n="1.000000" ref="C"/>
 	</material>
 	
 <!-- material G4_LUCITE -->
 	<material name="G4_LUCITE" state="solid">
-		<D value="1.190000" unit="g/cm3"/>
+		<D value="1.19000e+00" unit="g/cm3"/>
 		<fraction n="0.080538" ref="H"/>
 		<fraction n="0.599848" ref="C"/>
 		<fraction n="0.319614" ref="O"/>
@@ -3764,7 +3764,7 @@
 	
 <!-- material G4_BRASS -->
 	<material name="G4_BRASS" state="solid">
-		<D value="8.520000" unit="g/cm3"/>
+		<D value="8.52000e+00" unit="g/cm3"/>
 		<fraction n="0.575130" ref="Cu"/>
 		<fraction n="0.334122" ref="Zn"/>
 		<fraction n="0.090748" ref="Pb"/>
@@ -3772,7 +3772,7 @@
 	
 <!-- material G4_BRONZE -->
 	<material name="G4_BRONZE" state="solid">
-		<D value="8.820000" unit="g/cm3"/>
+		<D value="8.82000e+00" unit="g/cm3"/>
 		<fraction n="0.849368" ref="Cu"/>
 		<fraction n="0.088391" ref="Zn"/>
 		<fraction n="0.062241" ref="Pb"/>
@@ -3780,7 +3780,7 @@
 	
 <!-- material G4_STAINLESS-STEEL -->
 	<material name="G4_STAINLESS-STEEL" state="solid">
-		<D value="8.000000" unit="g/cm3"/>
+		<D value="8.00000e+00" unit="g/cm3"/>
 		<fraction n="0.746213" ref="Fe"/>
 		<fraction n="0.169001" ref="Cr"/>
 		<fraction n="0.084786" ref="Ni"/>
@@ -3788,7 +3788,7 @@
 	
 <!-- material G4_CR39 -->
 	<material name="G4_CR39" state="solid">
-		<D value="1.320000" unit="g/cm3"/>
+		<D value="1.32000e+00" unit="g/cm3"/>
 		<fraction n="0.066151" ref="H"/>
 		<fraction n="0.525505" ref="C"/>
 		<fraction n="0.408345" ref="O"/>
@@ -3796,7 +3796,7 @@
 	
 <!-- material G4_OCTADECANOL -->
 	<material name="G4_OCTADECANOL" state="solid">
-		<D value="0.812000" unit="g/cm3"/>
+		<D value="8.12000e-01" unit="g/cm3"/>
 		<fraction n="0.141599" ref="H"/>
 		<fraction n="0.799252" ref="C"/>
 		<fraction n="0.059149" ref="O"/>
@@ -3804,7 +3804,7 @@
 	
 <!-- material G4_KEVLAR -->
 	<material name="G4_KEVLAR" state="solid">
-		<D value="1.440000" unit="g/cm3"/>
+		<D value="1.44000e+00" unit="g/cm3"/>
 		<fraction n="0.705796" ref="C"/>
 		<fraction n="0.042307" ref="H"/>
 		<fraction n="0.134312" ref="O"/>
@@ -3813,7 +3813,7 @@
 	
 <!-- material G4_DACRON -->
 	<material name="G4_DACRON" state="solid">
-		<D value="1.400000" unit="g/cm3"/>
+		<D value="1.40000e+00" unit="g/cm3"/>
 		<fraction n="0.625011" ref="C"/>
 		<fraction n="0.041961" ref="H"/>
 		<fraction n="0.333028" ref="O"/>
@@ -3821,7 +3821,7 @@
 	
 <!-- material G4_NEOPRENE -->
 	<material name="G4_NEOPRENE" state="solid">
-		<D value="1.230000" unit="g/cm3"/>
+		<D value="1.23000e+00" unit="g/cm3"/>
 		<fraction n="0.542642" ref="C"/>
 		<fraction n="0.056923" ref="H"/>
 		<fraction n="0.400435" ref="Cl"/>
@@ -3829,7 +3829,7 @@
 	
 <!-- material G4_CYTOSINE -->
 	<material name="G4_CYTOSINE" state="solid">
-		<D value="1.550000" unit="g/cm3"/>
+		<D value="1.55000e+00" unit="g/cm3"/>
 		<fraction n="0.045361" ref="H"/>
 		<fraction n="0.432421" ref="C"/>
 		<fraction n="0.378213" ref="N"/>
@@ -3838,7 +3838,7 @@
 	
 <!-- material G4_THYMINE -->
 	<material name="G4_THYMINE" state="solid">
-		<D value="1.230000" unit="g/cm3"/>
+		<D value="1.23000e+00" unit="g/cm3"/>
 		<fraction n="0.047954" ref="H"/>
 		<fraction n="0.476187" ref="C"/>
 		<fraction n="0.222129" ref="N"/>
@@ -3847,7 +3847,7 @@
 	
 <!-- material G4_URACIL -->
 	<material name="G4_URACIL" state="solid">
-		<D value="1.320000" unit="g/cm3"/>
+		<D value="1.32000e+00" unit="g/cm3"/>
 		<fraction n="0.035970" ref="H"/>
 		<fraction n="0.428622" ref="C"/>
 		<fraction n="0.249927" ref="N"/>
@@ -3856,7 +3856,7 @@
 	
 <!-- material G4_DEOXYRIBOSE -->
 	<material name="G4_DEOXYRIBOSE" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.085324" ref="H"/>
 		<fraction n="0.508364" ref="C"/>
 		<fraction n="0.406312" ref="O"/>
@@ -3864,7 +3864,7 @@
 	
 <!-- material G4_DNA_DEOXYRIBOSE -->
 	<material name="G4_DNA_DEOXYRIBOSE" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.084896" ref="H"/>
 		<fraction n="0.722592" ref="C"/>
 		<fraction n="0.192512" ref="O"/>
@@ -3872,14 +3872,14 @@
 	
 <!-- material G4_DNA_PHOSPHATE -->
 	<material name="G4_DNA_PHOSPHATE" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.326138" ref="P"/>
 		<fraction n="0.673862" ref="O"/>
 	</material>
 	
 <!-- material G4_DNA_ADENINE -->
 	<material name="G4_DNA_ADENINE" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.030061" ref="H"/>
 		<fraction n="0.447763" ref="C"/>
 		<fraction n="0.522176" ref="N"/>
@@ -3887,7 +3887,7 @@
 	
 <!-- material G4_DNA_GUANINE -->
 	<material name="G4_DNA_GUANINE" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.026857" ref="H"/>
 		<fraction n="0.400041" ref="C"/>
 		<fraction n="0.466523" ref="N"/>
@@ -3896,7 +3896,7 @@
 	
 <!-- material G4_DNA_CYTOSINE -->
 	<material name="G4_DNA_CYTOSINE" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.036621" ref="H"/>
 		<fraction n="0.436380" ref="C"/>
 		<fraction n="0.381675" ref="N"/>
@@ -3905,7 +3905,7 @@
 	
 <!-- material G4_DNA_THYMINE -->
 	<material name="G4_DNA_THYMINE" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.040284" ref="H"/>
 		<fraction n="0.480024" ref="C"/>
 		<fraction n="0.223919" ref="N"/>
@@ -3914,7 +3914,7 @@
 	
 <!-- material G4_DNA_URACIL -->
 	<material name="G4_DNA_URACIL" state="solid">
-		<D value="1.000000" unit="g/cm3"/>
+		<D value="1.00000e+00" unit="g/cm3"/>
 		<fraction n="0.027222" ref="H"/>
 		<fraction n="0.432511" ref="C"/>
 		<fraction n="0.252195" ref="N"/>
