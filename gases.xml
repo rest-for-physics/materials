@@ -3109,16 +3109,16 @@
       <D unit="mg/cm3" value="quencherDensity"/>
       <T unit="K" value="gasTemperature"/>
       <P unit="bar" value="gasPressure"/>
-      <composite n="3" ref="G4_C"/>
-      <composite n="9" ref="G4_H"/>
-      <composite n="1" ref="G4_N"/>
+      <composite n="3" ref="C"/>
+      <composite n="9" ref="H"/>
+      <composite n="1" ref="N"/>
    </material>
    <material name="Isobutane" state="gas">
       <D unit="mg/cm3" value="quencherDensity"/>
       <T unit="K" value="gasTemperature"/>
       <P unit="bar" value="gasPressure"/>
-      <composite n="4" ref="G4_C"/>
-      <composite n="10" ref="G4_H"/>
+      <composite n="4" ref="C"/>
+      <composite n="10" ref="H"/>
    </material>
    <material name="PureHelium" state="gas">
       <T unit="K" value="gasTemperature"/>
