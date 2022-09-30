@@ -1,4 +1,4 @@
-<!-- ##VERSION REST gases 1.0## -->
+<!-- ##VERSION REST gases 1.1## -->
 <materials>
    <isotope N="1" Z="1" name="H1">
       <atom type="A" value="1.007825"/>
@@ -3215,5 +3215,12 @@
       <fraction n="0.755268" ref="N"/>
       <fraction n="0.231781" ref="O"/>
       <fraction n="0.012827" ref="Ar"/>
+   </material>
+   <material name="Vacuum" state="gas">
+	   <T unit="K" value="293.13"/>
+	   <MEE unit="eV" value="85.7030667332999"/>
+	   <D unit="g/cm3" value="1.e-20"/>
+	   <fraction n="0.7" ref="Nitrogen"/>
+	   <fraction n="0.3" ref="Oxygen"/>
    </material>
 </materials>
