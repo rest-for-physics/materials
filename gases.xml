@@ -3134,6 +3134,13 @@
       <D unit="mg/cm3" value="targetGasDensity"/>
       <fraction n="1" ref="G4_Xe"/>
    </material>
+   <material name="XenonNeon" state="gas">
+      <T unit="K" value="gasTemperature"/>
+      <P unit="bar" value="gasPressure"/>
+      <D unit="mg/cm3" value="targetGasDensity+quencherDensity"/>
+      <fraction n="1-quencherFraction" ref="G4_Xe"/>
+      <fraction n="quencherFraction" ref="G4_Ne"/>
+   </material>
    <material name="Xenon_TMA" state="gas">
       <D unit="mg/cm3" value="targetGasDensity+quencherDensity"/>
       <P unit="bar" value="gasPressure"/>
