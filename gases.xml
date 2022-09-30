@@ -3220,7 +3220,7 @@
 	   <T unit="K" value="293.13"/>
 	   <MEE unit="eV" value="85.7030667332999"/>
 	   <D unit="g/cm3" value="1.e-20"/>
-	   <fraction n="0.7" ref="Nitrogen"/>
-	   <fraction n="0.3" ref="Oxygen"/>
+	   <fraction n="0.7" ref="N"/>
+	   <fraction n="0.3" ref="O"/>
    </material>
 </materials>
