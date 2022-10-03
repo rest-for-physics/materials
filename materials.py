@@ -9,8 +9,10 @@ import xml.etree.ElementTree as ET
 import json
 
 files_to_generate = {
-    "materials.xml": ["NIST.xml", "userDefined/other.xml"],
-    "gases.xml": ["NIST.xml", "userDefined/gases.xml"]
+    "output/NIST.xml": ["definitions/NIST.xml"],
+    "output/materials.xml": ["definitions/NIST.xml", "definitions/other.xml"],
+    "output/gases.xml": ["definitions/NIST.xml", "definitions/gases.xml"],
+    "output/rest.xml": ["definitions/NIST.xml", "definitions/gases.xml", "definitions/other.xml"]
 }
 
 

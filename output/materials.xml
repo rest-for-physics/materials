@@ -1,0 +1,3168 @@
+
+<materials>
+   <isotope N="1" Z="1" name="H1">
+      <atom type="A" value="1.007825"/>
+   </isotope>
+   <isotope N="2" Z="1" name="H2">
+      <atom type="A" value="2.014102"/>
+   </isotope>
+   <element name="H">
+      <fraction n="0.999885" ref="H1"/>
+      <fraction n="0.000115" ref="H2"/>
+   </element>
+   <isotope N="3" Z="2" name="He3">
+      <atom type="A" value="3.016930"/>
+   </isotope>
+   <isotope N="4" Z="2" name="He4">
+      <atom type="A" value="4.002644"/>
+   </isotope>
+   <element name="He">
+      <fraction n="0.000001" ref="He3"/>
+      <fraction n="0.999999" ref="He4"/>
+   </element>
+   <isotope N="6" Z="3" name="Li6">
+      <atom type="A" value="6.015120"/>
+   </isotope>
+   <isotope N="7" Z="3" name="Li7">
+      <atom type="A" value="7.016000"/>
+   </isotope>
+   <element name="Li">
+      <fraction n="0.075900" ref="Li6"/>
+      <fraction n="0.924100" ref="Li7"/>
+   </element>
+   <isotope N="9" Z="4" name="Be9">
+      <atom type="A" value="9.012180"/>
+   </isotope>
+   <element name="Be">
+      <fraction n="1.000000" ref="Be9"/>
+   </element>
+   <isotope N="10" Z="5" name="B10">
+      <atom type="A" value="10.012900"/>
+   </isotope>
+   <isotope N="11" Z="5" name="B11">
+      <atom type="A" value="11.009300"/>
+   </isotope>
+   <element name="B">
+      <fraction n="0.199000" ref="B10"/>
+      <fraction n="0.801000" ref="B11"/>
+   </element>
+   <isotope N="12" Z="6" name="C12">
+      <atom type="A" value="12.000000"/>
+   </isotope>
+   <isotope N="13" Z="6" name="C13">
+      <atom type="A" value="13.003400"/>
+   </isotope>
+   <element name="C">
+      <fraction n="0.989300" ref="C12"/>
+      <fraction n="0.010700" ref="C13"/>
+   </element>
+   <isotope N="14" Z="7" name="N14">
+      <atom type="A" value="14.003100"/>
+   </isotope>
+   <isotope N="15" Z="7" name="N15">
+      <atom type="A" value="15.000100"/>
+   </isotope>
+   <element name="N">
+      <fraction n="0.996320" ref="N14"/>
+      <fraction n="0.003680" ref="N15"/>
+   </element>
+   <isotope N="16" Z="8" name="O16">
+      <atom type="A" value="15.994900"/>
+   </isotope>
+   <isotope N="17" Z="8" name="O17">
+      <atom type="A" value="16.999100"/>
+   </isotope>
+   <isotope N="18" Z="8" name="O18">
+      <atom type="A" value="17.999200"/>
+   </isotope>
+   <element name="O">
+      <fraction n="0.997570" ref="O16"/>
+      <fraction n="0.000380" ref="O17"/>
+      <fraction n="0.002050" ref="O18"/>
+   </element>
+   <isotope N="19" Z="9" name="F19">
+      <atom type="A" value="18.998400"/>
+   </isotope>
+   <element name="F">
+      <fraction n="1.000000" ref="F19"/>
+   </element>
+   <isotope N="20" Z="10" name="Ne20">
+      <atom type="A" value="19.992400"/>
+   </isotope>
+   <isotope N="21" Z="10" name="Ne21">
+      <atom type="A" value="20.993800"/>
+   </isotope>
+   <isotope N="22" Z="10" name="Ne22">
+      <atom type="A" value="21.991400"/>
+   </isotope>
+   <element name="Ne">
+      <fraction n="0.904800" ref="Ne20"/>
+      <fraction n="0.002700" ref="Ne21"/>
+      <fraction n="0.092500" ref="Ne22"/>
+   </element>
+   <isotope N="23" Z="11" name="Na23">
+      <atom type="A" value="22.989800"/>
+   </isotope>
+   <element name="Na">
+      <fraction n="1.000000" ref="Na23"/>
+   </element>
+   <isotope N="24" Z="12" name="Mg24">
+      <atom type="A" value="23.985000"/>
+   </isotope>
+   <isotope N="25" Z="12" name="Mg25">
+      <atom type="A" value="24.985800"/>
+   </isotope>
+   <isotope N="26" Z="12" name="Mg26">
+      <atom type="A" value="25.982600"/>
+   </isotope>
+   <element name="Mg">
+      <fraction n="0.789900" ref="Mg24"/>
+      <fraction n="0.100000" ref="Mg25"/>
+      <fraction n="0.110100" ref="Mg26"/>
+   </element>
+   <isotope N="27" Z="13" name="Al27">
+      <atom type="A" value="26.981500"/>
+   </isotope>
+   <element name="Al">
+      <fraction n="1.000000" ref="Al27"/>
+   </element>
+   <isotope N="28" Z="14" name="Si28">
+      <atom type="A" value="27.976900"/>
+   </isotope>
+   <isotope N="29" Z="14" name="Si29">
+      <atom type="A" value="28.976500"/>
+   </isotope>
+   <isotope N="30" Z="14" name="Si30">
+      <atom type="A" value="29.973800"/>
+   </isotope>
+   <element name="Si">
+      <fraction n="0.922296" ref="Si28"/>
+      <fraction n="0.046832" ref="Si29"/>
+      <fraction n="0.030872" ref="Si30"/>
+   </element>
+   <isotope N="31" Z="15" name="P31">
+      <atom type="A" value="30.973800"/>
+   </isotope>
+   <element name="P">
+      <fraction n="1.000000" ref="P31"/>
+   </element>
+   <isotope N="32" Z="16" name="S32">
+      <atom type="A" value="31.972100"/>
+   </isotope>
+   <isotope N="33" Z="16" name="S33">
+      <atom type="A" value="32.971500"/>
+   </isotope>
+   <isotope N="34" Z="16" name="S34">
+      <atom type="A" value="33.967900"/>
+   </isotope>
+   <isotope N="36" Z="16" name="S36">
+      <atom type="A" value="35.967100"/>
+   </isotope>
+   <element name="S">
+      <fraction n="0.949300" ref="S32"/>
+      <fraction n="0.007600" ref="S33"/>
+      <fraction n="0.042900" ref="S34"/>
+      <fraction n="0.000200" ref="S36"/>
+   </element>
+   <isotope N="35" Z="17" name="Cl35">
+      <atom type="A" value="34.968900"/>
+   </isotope>
+   <isotope N="37" Z="17" name="Cl37">
+      <atom type="A" value="36.965900"/>
+   </isotope>
+   <element name="Cl">
+      <fraction n="0.757800" ref="Cl35"/>
+      <fraction n="0.242200" ref="Cl37"/>
+   </element>
+   <isotope N="36" Z="18" name="Ar36">
+      <atom type="A" value="35.967500"/>
+   </isotope>
+   <isotope N="38" Z="18" name="Ar38">
+      <atom type="A" value="37.962700"/>
+   </isotope>
+   <isotope N="40" Z="18" name="Ar40">
+      <atom type="A" value="39.962400"/>
+   </isotope>
+   <element name="Ar">
+      <fraction n="0.003365" ref="Ar36"/>
+      <fraction n="0.000632" ref="Ar38"/>
+      <fraction n="0.996003" ref="Ar40"/>
+   </element>
+   <isotope N="39" Z="19" name="K39">
+      <atom type="A" value="38.963700"/>
+   </isotope>
+   <isotope N="40" Z="19" name="K40">
+      <atom type="A" value="39.964000"/>
+   </isotope>
+   <isotope N="41" Z="19" name="K41">
+      <atom type="A" value="40.961800"/>
+   </isotope>
+   <element name="K">
+      <fraction n="0.932581" ref="K39"/>
+      <fraction n="0.000117" ref="K40"/>
+      <fraction n="0.067302" ref="K41"/>
+   </element>
+   <isotope N="40" Z="20" name="Ca40">
+      <atom type="A" value="39.962600"/>
+   </isotope>
+   <isotope N="42" Z="20" name="Ca42">
+      <atom type="A" value="41.958600"/>
+   </isotope>
+   <isotope N="43" Z="20" name="Ca43">
+      <atom type="A" value="42.958800"/>
+   </isotope>
+   <isotope N="44" Z="20" name="Ca44">
+      <atom type="A" value="43.955500"/>
+   </isotope>
+   <isotope N="46" Z="20" name="Ca46">
+      <atom type="A" value="45.953700"/>
+   </isotope>
+   <isotope N="48" Z="20" name="Ca48">
+      <atom type="A" value="47.952500"/>
+   </isotope>
+   <element name="Ca">
+      <fraction n="0.969410" ref="Ca40"/>
+      <fraction n="0.006470" ref="Ca42"/>
+      <fraction n="0.001350" ref="Ca43"/>
+      <fraction n="0.020860" ref="Ca44"/>
+      <fraction n="0.000040" ref="Ca46"/>
+      <fraction n="0.001870" ref="Ca48"/>
+   </element>
+   <isotope N="45" Z="21" name="Sc45">
+      <atom type="A" value="44.955900"/>
+   </isotope>
+   <element name="Sc">
+      <fraction n="1.000000" ref="Sc45"/>
+   </element>
+   <isotope N="46" Z="22" name="Ti46">
+      <atom type="A" value="45.952600"/>
+   </isotope>
+   <isotope N="47" Z="22" name="Ti47">
+      <atom type="A" value="46.951800"/>
+   </isotope>
+   <isotope N="48" Z="22" name="Ti48">
+      <atom type="A" value="47.947900"/>
+   </isotope>
+   <isotope N="49" Z="22" name="Ti49">
+      <atom type="A" value="48.947900"/>
+   </isotope>
+   <isotope N="50" Z="22" name="Ti50">
+      <atom type="A" value="49.944800"/>
+   </isotope>
+   <element name="Ti">
+      <fraction n="0.082500" ref="Ti46"/>
+      <fraction n="0.074400" ref="Ti47"/>
+      <fraction n="0.737200" ref="Ti48"/>
+      <fraction n="0.054100" ref="Ti49"/>
+      <fraction n="0.051800" ref="Ti50"/>
+   </element>
+   <isotope N="50" Z="23" name="V50">
+      <atom type="A" value="49.947200"/>
+   </isotope>
+   <isotope N="51" Z="23" name="V51">
+      <atom type="A" value="50.944000"/>
+   </isotope>
+   <element name="V">
+      <fraction n="0.002500" ref="V50"/>
+      <fraction n="0.997500" ref="V51"/>
+   </element>
+   <isotope N="50" Z="24" name="Cr50">
+      <atom type="A" value="49.946000"/>
+   </isotope>
+   <isotope N="52" Z="24" name="Cr52">
+      <atom type="A" value="51.940500"/>
+   </isotope>
+   <isotope N="53" Z="24" name="Cr53">
+      <atom type="A" value="52.940700"/>
+   </isotope>
+   <isotope N="54" Z="24" name="Cr54">
+      <atom type="A" value="53.938900"/>
+   </isotope>
+   <element name="Cr">
+      <fraction n="0.043450" ref="Cr50"/>
+      <fraction n="0.837890" ref="Cr52"/>
+      <fraction n="0.095010" ref="Cr53"/>
+      <fraction n="0.023650" ref="Cr54"/>
+   </element>
+   <isotope N="55" Z="25" name="Mn55">
+      <atom type="A" value="54.938000"/>
+   </isotope>
+   <element name="Mn">
+      <fraction n="1.000000" ref="Mn55"/>
+   </element>
+   <isotope N="54" Z="26" name="Fe54">
+      <atom type="A" value="53.939600"/>
+   </isotope>
+   <isotope N="56" Z="26" name="Fe56">
+      <atom type="A" value="55.934900"/>
+   </isotope>
+   <isotope N="57" Z="26" name="Fe57">
+      <atom type="A" value="56.935400"/>
+   </isotope>
+   <isotope N="58" Z="26" name="Fe58">
+      <atom type="A" value="57.933300"/>
+   </isotope>
+   <element name="Fe">
+      <fraction n="0.058450" ref="Fe54"/>
+      <fraction n="0.917540" ref="Fe56"/>
+      <fraction n="0.021190" ref="Fe57"/>
+      <fraction n="0.002820" ref="Fe58"/>
+   </element>
+   <isotope N="59" Z="27" name="Co59">
+      <atom type="A" value="58.933200"/>
+   </isotope>
+   <element name="Co">
+      <fraction n="1.000000" ref="Co59"/>
+   </element>
+   <isotope N="58" Z="28" name="Ni58">
+      <atom type="A" value="57.935300"/>
+   </isotope>
+   <isotope N="60" Z="28" name="Ni60">
+      <atom type="A" value="59.930800"/>
+   </isotope>
+   <isotope N="61" Z="28" name="Ni61">
+      <atom type="A" value="60.931100"/>
+   </isotope>
+   <isotope N="62" Z="28" name="Ni62">
+      <atom type="A" value="61.928300"/>
+   </isotope>
+   <isotope N="64" Z="28" name="Ni64">
+      <atom type="A" value="63.928000"/>
+   </isotope>
+   <element name="Ni">
+      <fraction n="0.680769" ref="Ni58"/>
+      <fraction n="0.262231" ref="Ni60"/>
+      <fraction n="0.011399" ref="Ni61"/>
+      <fraction n="0.036345" ref="Ni62"/>
+      <fraction n="0.009256" ref="Ni64"/>
+   </element>
+   <isotope N="63" Z="29" name="Cu63">
+      <atom type="A" value="62.929600"/>
+   </isotope>
+   <isotope N="65" Z="29" name="Cu65">
+      <atom type="A" value="64.927800"/>
+   </isotope>
+   <element name="Cu">
+      <fraction n="0.691700" ref="Cu63"/>
+      <fraction n="0.308300" ref="Cu65"/>
+   </element>
+   <isotope N="64" Z="30" name="Zn64">
+      <atom type="A" value="63.929100"/>
+   </isotope>
+   <isotope N="66" Z="30" name="Zn66">
+      <atom type="A" value="65.926000"/>
+   </isotope>
+   <isotope N="67" Z="30" name="Zn67">
+      <atom type="A" value="66.927100"/>
+   </isotope>
+   <isotope N="68" Z="30" name="Zn68">
+      <atom type="A" value="67.924800"/>
+   </isotope>
+   <isotope N="70" Z="30" name="Zn70">
+      <atom type="A" value="69.925300"/>
+   </isotope>
+   <element name="Zn">
+      <fraction n="0.486300" ref="Zn64"/>
+      <fraction n="0.279000" ref="Zn66"/>
+      <fraction n="0.041000" ref="Zn67"/>
+      <fraction n="0.187500" ref="Zn68"/>
+      <fraction n="0.006200" ref="Zn70"/>
+   </element>
+   <isotope N="69" Z="31" name="Ga69">
+      <atom type="A" value="68.925600"/>
+   </isotope>
+   <isotope N="71" Z="31" name="Ga71">
+      <atom type="A" value="70.924700"/>
+   </isotope>
+   <element name="Ga">
+      <fraction n="0.601080" ref="Ga69"/>
+      <fraction n="0.398920" ref="Ga71"/>
+   </element>
+   <isotope N="70" Z="32" name="Ge70">
+      <atom type="A" value="69.924300"/>
+   </isotope>
+   <isotope N="72" Z="32" name="Ge72">
+      <atom type="A" value="71.922100"/>
+   </isotope>
+   <isotope N="73" Z="32" name="Ge73">
+      <atom type="A" value="72.923500"/>
+   </isotope>
+   <isotope N="74" Z="32" name="Ge74">
+      <atom type="A" value="73.921200"/>
+   </isotope>
+   <isotope N="76" Z="32" name="Ge76">
+      <atom type="A" value="75.921400"/>
+   </isotope>
+   <element name="Ge">
+      <fraction n="0.208400" ref="Ge70"/>
+      <fraction n="0.275400" ref="Ge72"/>
+      <fraction n="0.077300" ref="Ge73"/>
+      <fraction n="0.362800" ref="Ge74"/>
+      <fraction n="0.076100" ref="Ge76"/>
+   </element>
+   <isotope N="75" Z="33" name="As75">
+      <atom type="A" value="74.921600"/>
+   </isotope>
+   <element name="As">
+      <fraction n="1.000000" ref="As75"/>
+   </element>
+   <isotope N="74" Z="34" name="Se74">
+      <atom type="A" value="73.922500"/>
+   </isotope>
+   <isotope N="76" Z="34" name="Se76">
+      <atom type="A" value="75.919200"/>
+   </isotope>
+   <isotope N="77" Z="34" name="Se77">
+      <atom type="A" value="76.919900"/>
+   </isotope>
+   <isotope N="78" Z="34" name="Se78">
+      <atom type="A" value="77.917300"/>
+   </isotope>
+   <isotope N="80" Z="34" name="Se80">
+      <atom type="A" value="79.916500"/>
+   </isotope>
+   <isotope N="82" Z="34" name="Se82">
+      <atom type="A" value="81.916700"/>
+   </isotope>
+   <element name="Se">
+      <fraction n="0.008900" ref="Se74"/>
+      <fraction n="0.093700" ref="Se76"/>
+      <fraction n="0.076300" ref="Se77"/>
+      <fraction n="0.237700" ref="Se78"/>
+      <fraction n="0.496100" ref="Se80"/>
+      <fraction n="0.087300" ref="Se82"/>
+   </element>
+   <isotope N="79" Z="35" name="Br79">
+      <atom type="A" value="78.918300"/>
+   </isotope>
+   <isotope N="81" Z="35" name="Br81">
+      <atom type="A" value="80.916300"/>
+   </isotope>
+   <element name="Br">
+      <fraction n="0.506900" ref="Br79"/>
+      <fraction n="0.493100" ref="Br81"/>
+   </element>
+   <isotope N="78" Z="36" name="Kr78">
+      <atom type="A" value="77.920400"/>
+   </isotope>
+   <isotope N="80" Z="36" name="Kr80">
+      <atom type="A" value="79.916400"/>
+   </isotope>
+   <isotope N="82" Z="36" name="Kr82">
+      <atom type="A" value="81.913500"/>
+   </isotope>
+   <isotope N="83" Z="36" name="Kr83">
+      <atom type="A" value="82.914100"/>
+   </isotope>
+   <isotope N="84" Z="36" name="Kr84">
+      <atom type="A" value="83.911500"/>
+   </isotope>
+   <isotope N="86" Z="36" name="Kr86">
+      <atom type="A" value="85.910600"/>
+   </isotope>
+   <element name="Kr">
+      <fraction n="0.003500" ref="Kr78"/>
+      <fraction n="0.022800" ref="Kr80"/>
+      <fraction n="0.115800" ref="Kr82"/>
+      <fraction n="0.114900" ref="Kr83"/>
+      <fraction n="0.570000" ref="Kr84"/>
+      <fraction n="0.173000" ref="Kr86"/>
+   </element>
+   <isotope N="85" Z="37" name="Rb85">
+      <atom type="A" value="84.911800"/>
+   </isotope>
+   <isotope N="87" Z="37" name="Rb87">
+      <atom type="A" value="86.909200"/>
+   </isotope>
+   <element name="Rb">
+      <fraction n="0.721700" ref="Rb85"/>
+      <fraction n="0.278300" ref="Rb87"/>
+   </element>
+   <isotope N="84" Z="38" name="Sr84">
+      <atom type="A" value="83.913400"/>
+   </isotope>
+   <isotope N="86" Z="38" name="Sr86">
+      <atom type="A" value="85.909300"/>
+   </isotope>
+   <isotope N="87" Z="38" name="Sr87">
+      <atom type="A" value="86.908900"/>
+   </isotope>
+   <isotope N="88" Z="38" name="Sr88">
+      <atom type="A" value="87.905600"/>
+   </isotope>
+   <element name="Sr">
+      <fraction n="0.005600" ref="Sr84"/>
+      <fraction n="0.098600" ref="Sr86"/>
+      <fraction n="0.070000" ref="Sr87"/>
+      <fraction n="0.825800" ref="Sr88"/>
+   </element>
+   <isotope N="89" Z="39" name="Y89">
+      <atom type="A" value="88.905800"/>
+   </isotope>
+   <element name="Y">
+      <fraction n="1.000000" ref="Y89"/>
+   </element>
+   <isotope N="90" Z="40" name="Zr90">
+      <atom type="A" value="89.904700"/>
+   </isotope>
+   <isotope N="91" Z="40" name="Zr91">
+      <atom type="A" value="90.905600"/>
+   </isotope>
+   <isotope N="92" Z="40" name="Zr92">
+      <atom type="A" value="91.905000"/>
+   </isotope>
+   <isotope N="94" Z="40" name="Zr94">
+      <atom type="A" value="93.906300"/>
+   </isotope>
+   <isotope N="96" Z="40" name="Zr96">
+      <atom type="A" value="95.908300"/>
+   </isotope>
+   <element name="Zr">
+      <fraction n="0.514500" ref="Zr90"/>
+      <fraction n="0.112200" ref="Zr91"/>
+      <fraction n="0.171500" ref="Zr92"/>
+      <fraction n="0.173800" ref="Zr94"/>
+      <fraction n="0.028000" ref="Zr96"/>
+   </element>
+   <isotope N="93" Z="41" name="Nb93">
+      <atom type="A" value="92.906400"/>
+   </isotope>
+   <element name="Nb">
+      <fraction n="1.000000" ref="Nb93"/>
+   </element>
+   <isotope N="92" Z="42" name="Mo92">
+      <atom type="A" value="91.906800"/>
+   </isotope>
+   <isotope N="94" Z="42" name="Mo94">
+      <atom type="A" value="93.905100"/>
+   </isotope>
+   <isotope N="95" Z="42" name="Mo95">
+      <atom type="A" value="94.905800"/>
+   </isotope>
+   <isotope N="96" Z="42" name="Mo96">
+      <atom type="A" value="95.904700"/>
+   </isotope>
+   <isotope N="97" Z="42" name="Mo97">
+      <atom type="A" value="96.906000"/>
+   </isotope>
+   <isotope N="98" Z="42" name="Mo98">
+      <atom type="A" value="97.905400"/>
+   </isotope>
+   <isotope N="100" Z="42" name="Mo100">
+      <atom type="A" value="99.907500"/>
+   </isotope>
+   <element name="Mo">
+      <fraction n="0.148400" ref="Mo92"/>
+      <fraction n="0.092500" ref="Mo94"/>
+      <fraction n="0.159200" ref="Mo95"/>
+      <fraction n="0.166800" ref="Mo96"/>
+      <fraction n="0.095500" ref="Mo97"/>
+      <fraction n="0.241300" ref="Mo98"/>
+      <fraction n="0.096300" ref="Mo100"/>
+   </element>
+   <isotope N="98" Z="43" name="Tc98">
+      <atom type="A" value="97.907200"/>
+   </isotope>
+   <element name="Tc">
+      <fraction n="1.000000" ref="Tc98"/>
+   </element>
+   <isotope N="96" Z="44" name="Ru96">
+      <atom type="A" value="95.907600"/>
+   </isotope>
+   <isotope N="98" Z="44" name="Ru98">
+      <atom type="A" value="97.905300"/>
+   </isotope>
+   <isotope N="99" Z="44" name="Ru99">
+      <atom type="A" value="98.905900"/>
+   </isotope>
+   <isotope N="100" Z="44" name="Ru100">
+      <atom type="A" value="99.904200"/>
+   </isotope>
+   <isotope N="101" Z="44" name="Ru101">
+      <atom type="A" value="100.906000"/>
+   </isotope>
+   <isotope N="102" Z="44" name="Ru102">
+      <atom type="A" value="101.904000"/>
+   </isotope>
+   <isotope N="104" Z="44" name="Ru104">
+      <atom type="A" value="103.905000"/>
+   </isotope>
+   <element name="Ru">
+      <fraction n="0.055400" ref="Ru96"/>
+      <fraction n="0.018700" ref="Ru98"/>
+      <fraction n="0.127600" ref="Ru99"/>
+      <fraction n="0.126000" ref="Ru100"/>
+      <fraction n="0.170600" ref="Ru101"/>
+      <fraction n="0.315500" ref="Ru102"/>
+      <fraction n="0.186200" ref="Ru104"/>
+   </element>
+   <isotope N="103" Z="45" name="Rh103">
+      <atom type="A" value="102.906000"/>
+   </isotope>
+   <element name="Rh">
+      <fraction n="1.000000" ref="Rh103"/>
+   </element>
+   <isotope N="102" Z="46" name="Pd102">
+      <atom type="A" value="101.906000"/>
+   </isotope>
+   <isotope N="104" Z="46" name="Pd104">
+      <atom type="A" value="103.904000"/>
+   </isotope>
+   <isotope N="105" Z="46" name="Pd105">
+      <atom type="A" value="104.905000"/>
+   </isotope>
+   <isotope N="106" Z="46" name="Pd106">
+      <atom type="A" value="105.903000"/>
+   </isotope>
+   <isotope N="108" Z="46" name="Pd108">
+      <atom type="A" value="107.904000"/>
+   </isotope>
+   <isotope N="110" Z="46" name="Pd110">
+      <atom type="A" value="109.905000"/>
+   </isotope>
+   <element name="Pd">
+      <fraction n="0.010200" ref="Pd102"/>
+      <fraction n="0.111400" ref="Pd104"/>
+      <fraction n="0.223300" ref="Pd105"/>
+      <fraction n="0.273300" ref="Pd106"/>
+      <fraction n="0.264600" ref="Pd108"/>
+      <fraction n="0.117200" ref="Pd110"/>
+   </element>
+   <isotope N="107" Z="47" name="Ag107">
+      <atom type="A" value="106.905000"/>
+   </isotope>
+   <isotope N="109" Z="47" name="Ag109">
+      <atom type="A" value="108.905000"/>
+   </isotope>
+   <element name="Ag">
+      <fraction n="0.518390" ref="Ag107"/>
+      <fraction n="0.481610" ref="Ag109"/>
+   </element>
+   <isotope N="106" Z="48" name="Cd106">
+      <atom type="A" value="105.906000"/>
+   </isotope>
+   <isotope N="108" Z="48" name="Cd108">
+      <atom type="A" value="107.904000"/>
+   </isotope>
+   <isotope N="110" Z="48" name="Cd110">
+      <atom type="A" value="109.903000"/>
+   </isotope>
+   <isotope N="111" Z="48" name="Cd111">
+      <atom type="A" value="110.904000"/>
+   </isotope>
+   <isotope N="112" Z="48" name="Cd112">
+      <atom type="A" value="111.903000"/>
+   </isotope>
+   <isotope N="113" Z="48" name="Cd113">
+      <atom type="A" value="112.904000"/>
+   </isotope>
+   <isotope N="114" Z="48" name="Cd114">
+      <atom type="A" value="113.903000"/>
+   </isotope>
+   <isotope N="116" Z="48" name="Cd116">
+      <atom type="A" value="115.905000"/>
+   </isotope>
+   <element name="Cd">
+      <fraction n="0.012500" ref="Cd106"/>
+      <fraction n="0.008900" ref="Cd108"/>
+      <fraction n="0.124900" ref="Cd110"/>
+      <fraction n="0.128000" ref="Cd111"/>
+      <fraction n="0.241300" ref="Cd112"/>
+      <fraction n="0.122200" ref="Cd113"/>
+      <fraction n="0.287300" ref="Cd114"/>
+      <fraction n="0.074900" ref="Cd116"/>
+   </element>
+   <isotope N="113" Z="49" name="In113">
+      <atom type="A" value="112.904000"/>
+   </isotope>
+   <isotope N="115" Z="49" name="In115">
+      <atom type="A" value="114.904000"/>
+   </isotope>
+   <element name="In">
+      <fraction n="0.042900" ref="In113"/>
+      <fraction n="0.957100" ref="In115"/>
+   </element>
+   <isotope N="112" Z="50" name="Sn112">
+      <atom type="A" value="111.905000"/>
+   </isotope>
+   <isotope N="114" Z="50" name="Sn114">
+      <atom type="A" value="113.903000"/>
+   </isotope>
+   <isotope N="115" Z="50" name="Sn115">
+      <atom type="A" value="114.903000"/>
+   </isotope>
+   <isotope N="116" Z="50" name="Sn116">
+      <atom type="A" value="115.902000"/>
+   </isotope>
+   <isotope N="117" Z="50" name="Sn117">
+      <atom type="A" value="116.903000"/>
+   </isotope>
+   <isotope N="118" Z="50" name="Sn118">
+      <atom type="A" value="117.902000"/>
+   </isotope>
+   <isotope N="119" Z="50" name="Sn119">
+      <atom type="A" value="118.903000"/>
+   </isotope>
+   <isotope N="120" Z="50" name="Sn120">
+      <atom type="A" value="119.902000"/>
+   </isotope>
+   <isotope N="122" Z="50" name="Sn122">
+      <atom type="A" value="121.903000"/>
+   </isotope>
+   <isotope N="124" Z="50" name="Sn124">
+      <atom type="A" value="123.905000"/>
+   </isotope>
+   <element name="Sn">
+      <fraction n="0.009700" ref="Sn112"/>
+      <fraction n="0.006600" ref="Sn114"/>
+      <fraction n="0.003400" ref="Sn115"/>
+      <fraction n="0.145400" ref="Sn116"/>
+      <fraction n="0.076800" ref="Sn117"/>
+      <fraction n="0.242200" ref="Sn118"/>
+      <fraction n="0.085900" ref="Sn119"/>
+      <fraction n="0.325800" ref="Sn120"/>
+      <fraction n="0.046300" ref="Sn122"/>
+      <fraction n="0.057900" ref="Sn124"/>
+   </element>
+   <isotope N="121" Z="51" name="Sb121">
+      <atom type="A" value="120.904000"/>
+   </isotope>
+   <isotope N="123" Z="51" name="Sb123">
+      <atom type="A" value="122.904000"/>
+   </isotope>
+   <element name="Sb">
+      <fraction n="0.572100" ref="Sb121"/>
+      <fraction n="0.427900" ref="Sb123"/>
+   </element>
+   <isotope N="120" Z="52" name="Te120">
+      <atom type="A" value="119.904000"/>
+   </isotope>
+   <isotope N="122" Z="52" name="Te122">
+      <atom type="A" value="121.903000"/>
+   </isotope>
+   <isotope N="123" Z="52" name="Te123">
+      <atom type="A" value="122.904000"/>
+   </isotope>
+   <isotope N="124" Z="52" name="Te124">
+      <atom type="A" value="123.903000"/>
+   </isotope>
+   <isotope N="125" Z="52" name="Te125">
+      <atom type="A" value="124.904000"/>
+   </isotope>
+   <isotope N="126" Z="52" name="Te126">
+      <atom type="A" value="125.903000"/>
+   </isotope>
+   <isotope N="128" Z="52" name="Te128">
+      <atom type="A" value="127.904000"/>
+   </isotope>
+   <isotope N="130" Z="52" name="Te130">
+      <atom type="A" value="129.906000"/>
+   </isotope>
+   <element name="Te">
+      <fraction n="0.000900" ref="Te120"/>
+      <fraction n="0.025500" ref="Te122"/>
+      <fraction n="0.008900" ref="Te123"/>
+      <fraction n="0.047400" ref="Te124"/>
+      <fraction n="0.070700" ref="Te125"/>
+      <fraction n="0.188400" ref="Te126"/>
+      <fraction n="0.317400" ref="Te128"/>
+      <fraction n="0.340800" ref="Te130"/>
+   </element>
+   <isotope N="127" Z="53" name="I127">
+      <atom type="A" value="126.904000"/>
+   </isotope>
+   <element name="I">
+      <fraction n="1.000000" ref="I127"/>
+   </element>
+   <isotope N="124" Z="54" name="Xe124">
+      <atom type="A" value="123.906000"/>
+   </isotope>
+   <isotope N="126" Z="54" name="Xe126">
+      <atom type="A" value="125.904000"/>
+   </isotope>
+   <isotope N="128" Z="54" name="Xe128">
+      <atom type="A" value="127.904000"/>
+   </isotope>
+   <isotope N="129" Z="54" name="Xe129">
+      <atom type="A" value="128.905000"/>
+   </isotope>
+   <isotope N="130" Z="54" name="Xe130">
+      <atom type="A" value="129.904000"/>
+   </isotope>
+   <isotope N="131" Z="54" name="Xe131">
+      <atom type="A" value="130.905000"/>
+   </isotope>
+   <isotope N="132" Z="54" name="Xe132">
+      <atom type="A" value="131.904000"/>
+   </isotope>
+   <isotope N="134" Z="54" name="Xe134">
+      <atom type="A" value="133.905000"/>
+   </isotope>
+   <isotope N="136" Z="54" name="Xe136">
+      <atom type="A" value="135.907000"/>
+   </isotope>
+   <element name="Xe">
+      <fraction n="0.000900" ref="Xe124"/>
+      <fraction n="0.000900" ref="Xe126"/>
+      <fraction n="0.019200" ref="Xe128"/>
+      <fraction n="0.264400" ref="Xe129"/>
+      <fraction n="0.040800" ref="Xe130"/>
+      <fraction n="0.211800" ref="Xe131"/>
+      <fraction n="0.268900" ref="Xe132"/>
+      <fraction n="0.104400" ref="Xe134"/>
+      <fraction n="0.088700" ref="Xe136"/>
+   </element>
+   <isotope N="133" Z="55" name="Cs133">
+      <atom type="A" value="132.905000"/>
+   </isotope>
+   <element name="Cs">
+      <fraction n="1.000000" ref="Cs133"/>
+   </element>
+   <isotope N="130" Z="56" name="Ba130">
+      <atom type="A" value="129.906000"/>
+   </isotope>
+   <isotope N="132" Z="56" name="Ba132">
+      <atom type="A" value="131.905000"/>
+   </isotope>
+   <isotope N="134" Z="56" name="Ba134">
+      <atom type="A" value="133.905000"/>
+   </isotope>
+   <isotope N="135" Z="56" name="Ba135">
+      <atom type="A" value="134.906000"/>
+   </isotope>
+   <isotope N="136" Z="56" name="Ba136">
+      <atom type="A" value="135.905000"/>
+   </isotope>
+   <isotope N="137" Z="56" name="Ba137">
+      <atom type="A" value="136.906000"/>
+   </isotope>
+   <isotope N="138" Z="56" name="Ba138">
+      <atom type="A" value="137.905000"/>
+   </isotope>
+   <element name="Ba">
+      <fraction n="0.001060" ref="Ba130"/>
+      <fraction n="0.001010" ref="Ba132"/>
+      <fraction n="0.024170" ref="Ba134"/>
+      <fraction n="0.065920" ref="Ba135"/>
+      <fraction n="0.078540" ref="Ba136"/>
+      <fraction n="0.112320" ref="Ba137"/>
+      <fraction n="0.716980" ref="Ba138"/>
+   </element>
+   <isotope N="138" Z="57" name="La138">
+      <atom type="A" value="137.907000"/>
+   </isotope>
+   <isotope N="139" Z="57" name="La139">
+      <atom type="A" value="138.906000"/>
+   </isotope>
+   <element name="La">
+      <fraction n="0.000900" ref="La138"/>
+      <fraction n="0.999100" ref="La139"/>
+   </element>
+   <isotope N="136" Z="58" name="Ce136">
+      <atom type="A" value="135.907000"/>
+   </isotope>
+   <isotope N="138" Z="58" name="Ce138">
+      <atom type="A" value="137.906000"/>
+   </isotope>
+   <isotope N="140" Z="58" name="Ce140">
+      <atom type="A" value="139.905000"/>
+   </isotope>
+   <isotope N="142" Z="58" name="Ce142">
+      <atom type="A" value="141.909000"/>
+   </isotope>
+   <element name="Ce">
+      <fraction n="0.001850" ref="Ce136"/>
+      <fraction n="0.002510" ref="Ce138"/>
+      <fraction n="0.884500" ref="Ce140"/>
+      <fraction n="0.111140" ref="Ce142"/>
+   </element>
+   <isotope N="141" Z="59" name="Pr141">
+      <atom type="A" value="140.908000"/>
+   </isotope>
+   <element name="Pr">
+      <fraction n="1.000000" ref="Pr141"/>
+   </element>
+   <isotope N="142" Z="60" name="Nd142">
+      <atom type="A" value="141.908000"/>
+   </isotope>
+   <isotope N="143" Z="60" name="Nd143">
+      <atom type="A" value="142.910000"/>
+   </isotope>
+   <isotope N="144" Z="60" name="Nd144">
+      <atom type="A" value="143.910000"/>
+   </isotope>
+   <isotope N="145" Z="60" name="Nd145">
+      <atom type="A" value="144.913000"/>
+   </isotope>
+   <isotope N="146" Z="60" name="Nd146">
+      <atom type="A" value="145.913000"/>
+   </isotope>
+   <isotope N="148" Z="60" name="Nd148">
+      <atom type="A" value="147.917000"/>
+   </isotope>
+   <isotope N="150" Z="60" name="Nd150">
+      <atom type="A" value="149.921000"/>
+   </isotope>
+   <element name="Nd">
+      <fraction n="0.272000" ref="Nd142"/>
+      <fraction n="0.122000" ref="Nd143"/>
+      <fraction n="0.238000" ref="Nd144"/>
+      <fraction n="0.083000" ref="Nd145"/>
+      <fraction n="0.172000" ref="Nd146"/>
+      <fraction n="0.057000" ref="Nd148"/>
+      <fraction n="0.056000" ref="Nd150"/>
+   </element>
+   <isotope N="145" Z="61" name="Pm145">
+      <atom type="A" value="144.913000"/>
+   </isotope>
+   <element name="Pm">
+      <fraction n="1.000000" ref="Pm145"/>
+   </element>
+   <isotope N="144" Z="62" name="Sm144">
+      <atom type="A" value="143.912000"/>
+   </isotope>
+   <isotope N="147" Z="62" name="Sm147">
+      <atom type="A" value="146.915000"/>
+   </isotope>
+   <isotope N="148" Z="62" name="Sm148">
+      <atom type="A" value="147.915000"/>
+   </isotope>
+   <isotope N="149" Z="62" name="Sm149">
+      <atom type="A" value="148.917000"/>
+   </isotope>
+   <isotope N="150" Z="62" name="Sm150">
+      <atom type="A" value="149.917000"/>
+   </isotope>
+   <isotope N="152" Z="62" name="Sm152">
+      <atom type="A" value="151.920000"/>
+   </isotope>
+   <isotope N="154" Z="62" name="Sm154">
+      <atom type="A" value="153.922000"/>
+   </isotope>
+   <element name="Sm">
+      <fraction n="0.030700" ref="Sm144"/>
+      <fraction n="0.149900" ref="Sm147"/>
+      <fraction n="0.112400" ref="Sm148"/>
+      <fraction n="0.138200" ref="Sm149"/>
+      <fraction n="0.073800" ref="Sm150"/>
+      <fraction n="0.267500" ref="Sm152"/>
+      <fraction n="0.227500" ref="Sm154"/>
+   </element>
+   <isotope N="151" Z="63" name="Eu151">
+      <atom type="A" value="150.920000"/>
+   </isotope>
+   <isotope N="153" Z="63" name="Eu153">
+      <atom type="A" value="152.921000"/>
+   </isotope>
+   <element name="Eu">
+      <fraction n="0.478100" ref="Eu151"/>
+      <fraction n="0.521900" ref="Eu153"/>
+   </element>
+   <isotope N="152" Z="64" name="Gd152">
+      <atom type="A" value="151.920000"/>
+   </isotope>
+   <isotope N="154" Z="64" name="Gd154">
+      <atom type="A" value="153.921000"/>
+   </isotope>
+   <isotope N="155" Z="64" name="Gd155">
+      <atom type="A" value="154.923000"/>
+   </isotope>
+   <isotope N="156" Z="64" name="Gd156">
+      <atom type="A" value="155.922000"/>
+   </isotope>
+   <isotope N="157" Z="64" name="Gd157">
+      <atom type="A" value="156.924000"/>
+   </isotope>
+   <isotope N="158" Z="64" name="Gd158">
+      <atom type="A" value="157.924000"/>
+   </isotope>
+   <isotope N="160" Z="64" name="Gd160">
+      <atom type="A" value="159.927000"/>
+   </isotope>
+   <element name="Gd">
+      <fraction n="0.002000" ref="Gd152"/>
+      <fraction n="0.021800" ref="Gd154"/>
+      <fraction n="0.148000" ref="Gd155"/>
+      <fraction n="0.204700" ref="Gd156"/>
+      <fraction n="0.156500" ref="Gd157"/>
+      <fraction n="0.248400" ref="Gd158"/>
+      <fraction n="0.218600" ref="Gd160"/>
+   </element>
+   <isotope N="159" Z="65" name="Tb159">
+      <atom type="A" value="158.925000"/>
+   </isotope>
+   <element name="Tb">
+      <fraction n="1.000000" ref="Tb159"/>
+   </element>
+   <isotope N="156" Z="66" name="Dy156">
+      <atom type="A" value="155.924000"/>
+   </isotope>
+   <isotope N="158" Z="66" name="Dy158">
+      <atom type="A" value="157.924000"/>
+   </isotope>
+   <isotope N="160" Z="66" name="Dy160">
+      <atom type="A" value="159.925000"/>
+   </isotope>
+   <isotope N="161" Z="66" name="Dy161">
+      <atom type="A" value="160.927000"/>
+   </isotope>
+   <isotope N="162" Z="66" name="Dy162">
+      <atom type="A" value="161.927000"/>
+   </isotope>
+   <isotope N="163" Z="66" name="Dy163">
+      <atom type="A" value="162.929000"/>
+   </isotope>
+   <isotope N="164" Z="66" name="Dy164">
+      <atom type="A" value="163.929000"/>
+   </isotope>
+   <element name="Dy">
+      <fraction n="0.000600" ref="Dy156"/>
+      <fraction n="0.001000" ref="Dy158"/>
+      <fraction n="0.023400" ref="Dy160"/>
+      <fraction n="0.189100" ref="Dy161"/>
+      <fraction n="0.255100" ref="Dy162"/>
+      <fraction n="0.249000" ref="Dy163"/>
+      <fraction n="0.281800" ref="Dy164"/>
+   </element>
+   <isotope N="165" Z="67" name="Ho165">
+      <atom type="A" value="164.930000"/>
+   </isotope>
+   <element name="Ho">
+      <fraction n="1.000000" ref="Ho165"/>
+   </element>
+   <isotope N="162" Z="68" name="Er162">
+      <atom type="A" value="161.929000"/>
+   </isotope>
+   <isotope N="164" Z="68" name="Er164">
+      <atom type="A" value="163.929000"/>
+   </isotope>
+   <isotope N="166" Z="68" name="Er166">
+      <atom type="A" value="165.930000"/>
+   </isotope>
+   <isotope N="167" Z="68" name="Er167">
+      <atom type="A" value="166.932000"/>
+   </isotope>
+   <isotope N="168" Z="68" name="Er168">
+      <atom type="A" value="167.932000"/>
+   </isotope>
+   <isotope N="170" Z="68" name="Er170">
+      <atom type="A" value="169.935000"/>
+   </isotope>
+   <element name="Er">
+      <fraction n="0.001400" ref="Er162"/>
+      <fraction n="0.016100" ref="Er164"/>
+      <fraction n="0.336100" ref="Er166"/>
+      <fraction n="0.229300" ref="Er167"/>
+      <fraction n="0.267800" ref="Er168"/>
+      <fraction n="0.149300" ref="Er170"/>
+   </element>
+   <isotope N="169" Z="69" name="Tm169">
+      <atom type="A" value="168.934000"/>
+   </isotope>
+   <element name="Tm">
+      <fraction n="1.000000" ref="Tm169"/>
+   </element>
+   <isotope N="168" Z="70" name="Yb168">
+      <atom type="A" value="167.934000"/>
+   </isotope>
+   <isotope N="170" Z="70" name="Yb170">
+      <atom type="A" value="169.935000"/>
+   </isotope>
+   <isotope N="171" Z="70" name="Yb171">
+      <atom type="A" value="170.936000"/>
+   </isotope>
+   <isotope N="172" Z="70" name="Yb172">
+      <atom type="A" value="171.936000"/>
+   </isotope>
+   <isotope N="173" Z="70" name="Yb173">
+      <atom type="A" value="172.938000"/>
+   </isotope>
+   <isotope N="174" Z="70" name="Yb174">
+      <atom type="A" value="173.939000"/>
+   </isotope>
+   <isotope N="176" Z="70" name="Yb176">
+      <atom type="A" value="175.943000"/>
+   </isotope>
+   <element name="Yb">
+      <fraction n="0.001300" ref="Yb168"/>
+      <fraction n="0.030400" ref="Yb170"/>
+      <fraction n="0.142800" ref="Yb171"/>
+      <fraction n="0.218300" ref="Yb172"/>
+      <fraction n="0.161300" ref="Yb173"/>
+      <fraction n="0.318300" ref="Yb174"/>
+      <fraction n="0.127600" ref="Yb176"/>
+   </element>
+   <isotope N="175" Z="71" name="Lu175">
+      <atom type="A" value="174.941000"/>
+   </isotope>
+   <isotope N="176" Z="71" name="Lu176">
+      <atom type="A" value="175.943000"/>
+   </isotope>
+   <element name="Lu">
+      <fraction n="0.974100" ref="Lu175"/>
+      <fraction n="0.025900" ref="Lu176"/>
+   </element>
+   <isotope N="174" Z="72" name="Hf174">
+      <atom type="A" value="173.940000"/>
+   </isotope>
+   <isotope N="176" Z="72" name="Hf176">
+      <atom type="A" value="175.941000"/>
+   </isotope>
+   <isotope N="177" Z="72" name="Hf177">
+      <atom type="A" value="176.943000"/>
+   </isotope>
+   <isotope N="178" Z="72" name="Hf178">
+      <atom type="A" value="177.944000"/>
+   </isotope>
+   <isotope N="179" Z="72" name="Hf179">
+      <atom type="A" value="178.946000"/>
+   </isotope>
+   <isotope N="180" Z="72" name="Hf180">
+      <atom type="A" value="179.947000"/>
+   </isotope>
+   <element name="Hf">
+      <fraction n="0.001600" ref="Hf174"/>
+      <fraction n="0.052600" ref="Hf176"/>
+      <fraction n="0.186000" ref="Hf177"/>
+      <fraction n="0.272800" ref="Hf178"/>
+      <fraction n="0.136200" ref="Hf179"/>
+      <fraction n="0.350800" ref="Hf180"/>
+   </element>
+   <isotope N="180" Z="73" name="Ta180">
+      <atom type="A" value="179.947000"/>
+   </isotope>
+   <isotope N="181" Z="73" name="Ta181">
+      <atom type="A" value="180.948000"/>
+   </isotope>
+   <element name="Ta">
+      <fraction n="0.000120" ref="Ta180"/>
+      <fraction n="0.999880" ref="Ta181"/>
+   </element>
+   <isotope N="180" Z="74" name="W180">
+      <atom type="A" value="179.947000"/>
+   </isotope>
+   <isotope N="182" Z="74" name="W182">
+      <atom type="A" value="181.948000"/>
+   </isotope>
+   <isotope N="183" Z="74" name="W183">
+      <atom type="A" value="182.950000"/>
+   </isotope>
+   <isotope N="184" Z="74" name="W184">
+      <atom type="A" value="183.951000"/>
+   </isotope>
+   <isotope N="186" Z="74" name="W186">
+      <atom type="A" value="185.954000"/>
+   </isotope>
+   <element name="W">
+      <fraction n="0.001200" ref="W180"/>
+      <fraction n="0.265000" ref="W182"/>
+      <fraction n="0.143100" ref="W183"/>
+      <fraction n="0.306400" ref="W184"/>
+      <fraction n="0.284300" ref="W186"/>
+   </element>
+   <isotope N="185" Z="75" name="Re185">
+      <atom type="A" value="184.953000"/>
+   </isotope>
+   <isotope N="187" Z="75" name="Re187">
+      <atom type="A" value="186.956000"/>
+   </isotope>
+   <element name="Re">
+      <fraction n="0.374000" ref="Re185"/>
+      <fraction n="0.626000" ref="Re187"/>
+   </element>
+   <isotope N="184" Z="76" name="Os184">
+      <atom type="A" value="183.952000"/>
+   </isotope>
+   <isotope N="186" Z="76" name="Os186">
+      <atom type="A" value="185.954000"/>
+   </isotope>
+   <isotope N="187" Z="76" name="Os187">
+      <atom type="A" value="186.956000"/>
+   </isotope>
+   <isotope N="188" Z="76" name="Os188">
+      <atom type="A" value="187.956000"/>
+   </isotope>
+   <isotope N="189" Z="76" name="Os189">
+      <atom type="A" value="188.958000"/>
+   </isotope>
+   <isotope N="190" Z="76" name="Os190">
+      <atom type="A" value="189.958000"/>
+   </isotope>
+   <isotope N="192" Z="76" name="Os192">
+      <atom type="A" value="191.961000"/>
+   </isotope>
+   <element name="Os">
+      <fraction n="0.000200" ref="Os184"/>
+      <fraction n="0.015900" ref="Os186"/>
+      <fraction n="0.019600" ref="Os187"/>
+      <fraction n="0.132400" ref="Os188"/>
+      <fraction n="0.161500" ref="Os189"/>
+      <fraction n="0.262600" ref="Os190"/>
+      <fraction n="0.407800" ref="Os192"/>
+   </element>
+   <isotope N="191" Z="77" name="Ir191">
+      <atom type="A" value="190.961000"/>
+   </isotope>
+   <isotope N="193" Z="77" name="Ir193">
+      <atom type="A" value="192.963000"/>
+   </isotope>
+   <element name="Ir">
+      <fraction n="0.373000" ref="Ir191"/>
+      <fraction n="0.627000" ref="Ir193"/>
+   </element>
+   <isotope N="190" Z="78" name="Pt190">
+      <atom type="A" value="189.960000"/>
+   </isotope>
+   <isotope N="192" Z="78" name="Pt192">
+      <atom type="A" value="191.961000"/>
+   </isotope>
+   <isotope N="194" Z="78" name="Pt194">
+      <atom type="A" value="193.963000"/>
+   </isotope>
+   <isotope N="195" Z="78" name="Pt195">
+      <atom type="A" value="194.965000"/>
+   </isotope>
+   <isotope N="196" Z="78" name="Pt196">
+      <atom type="A" value="195.965000"/>
+   </isotope>
+   <isotope N="198" Z="78" name="Pt198">
+      <atom type="A" value="197.968000"/>
+   </isotope>
+   <element name="Pt">
+      <fraction n="0.000140" ref="Pt190"/>
+      <fraction n="0.007820" ref="Pt192"/>
+      <fraction n="0.329670" ref="Pt194"/>
+      <fraction n="0.338320" ref="Pt195"/>
+      <fraction n="0.252420" ref="Pt196"/>
+      <fraction n="0.071630" ref="Pt198"/>
+   </element>
+   <isotope N="197" Z="79" name="Au197">
+      <atom type="A" value="196.967000"/>
+   </isotope>
+   <element name="Au">
+      <fraction n="1.000000" ref="Au197"/>
+   </element>
+   <isotope N="196" Z="80" name="Hg196">
+      <atom type="A" value="195.966000"/>
+   </isotope>
+   <isotope N="198" Z="80" name="Hg198">
+      <atom type="A" value="197.967000"/>
+   </isotope>
+   <isotope N="199" Z="80" name="Hg199">
+      <atom type="A" value="198.968000"/>
+   </isotope>
+   <isotope N="200" Z="80" name="Hg200">
+      <atom type="A" value="199.968000"/>
+   </isotope>
+   <isotope N="201" Z="80" name="Hg201">
+      <atom type="A" value="200.970000"/>
+   </isotope>
+   <isotope N="202" Z="80" name="Hg202">
+      <atom type="A" value="201.971000"/>
+   </isotope>
+   <isotope N="204" Z="80" name="Hg204">
+      <atom type="A" value="203.973000"/>
+   </isotope>
+   <element name="Hg">
+      <fraction n="0.001500" ref="Hg196"/>
+      <fraction n="0.099700" ref="Hg198"/>
+      <fraction n="0.168700" ref="Hg199"/>
+      <fraction n="0.231000" ref="Hg200"/>
+      <fraction n="0.131800" ref="Hg201"/>
+      <fraction n="0.298600" ref="Hg202"/>
+      <fraction n="0.068700" ref="Hg204"/>
+   </element>
+   <isotope N="203" Z="81" name="Tl203">
+      <atom type="A" value="202.972000"/>
+   </isotope>
+   <isotope N="205" Z="81" name="Tl205">
+      <atom type="A" value="204.974000"/>
+   </isotope>
+   <element name="Tl">
+      <fraction n="0.295240" ref="Tl203"/>
+      <fraction n="0.704760" ref="Tl205"/>
+   </element>
+   <isotope N="204" Z="82" name="Pb204">
+      <atom type="A" value="203.973000"/>
+   </isotope>
+   <isotope N="206" Z="82" name="Pb206">
+      <atom type="A" value="205.974000"/>
+   </isotope>
+   <isotope N="207" Z="82" name="Pb207">
+      <atom type="A" value="206.976000"/>
+   </isotope>
+   <isotope N="208" Z="82" name="Pb208">
+      <atom type="A" value="207.977000"/>
+   </isotope>
+   <element name="Pb">
+      <fraction n="0.014000" ref="Pb204"/>
+      <fraction n="0.241000" ref="Pb206"/>
+      <fraction n="0.221000" ref="Pb207"/>
+      <fraction n="0.524000" ref="Pb208"/>
+   </element>
+   <isotope N="209" Z="83" name="Bi209">
+      <atom type="A" value="208.980000"/>
+   </isotope>
+   <element name="Bi">
+      <fraction n="1.000000" ref="Bi209"/>
+   </element>
+   <isotope N="209" Z="84" name="Po209">
+      <atom type="A" value="208.982000"/>
+   </isotope>
+   <element name="Po">
+      <fraction n="1.000000" ref="Po209"/>
+   </element>
+   <isotope N="210" Z="85" name="At210">
+      <atom type="A" value="209.987000"/>
+   </isotope>
+   <element name="At">
+      <fraction n="1.000000" ref="At210"/>
+   </element>
+   <isotope N="222" Z="86" name="Rn222">
+      <atom type="A" value="222.018000"/>
+   </isotope>
+   <element name="Rn">
+      <fraction n="1.000000" ref="Rn222"/>
+   </element>
+   <isotope N="223" Z="87" name="Fr223">
+      <atom type="A" value="223.020000"/>
+   </isotope>
+   <element name="Fr">
+      <fraction n="1.000000" ref="Fr223"/>
+   </element>
+   <isotope N="226" Z="88" name="Ra226">
+      <atom type="A" value="226.025000"/>
+   </isotope>
+   <element name="Ra">
+      <fraction n="1.000000" ref="Ra226"/>
+   </element>
+   <isotope N="227" Z="89" name="Ac227">
+      <atom type="A" value="227.028000"/>
+   </isotope>
+   <element name="Ac">
+      <fraction n="1.000000" ref="Ac227"/>
+   </element>
+   <isotope N="232" Z="90" name="Th232">
+      <atom type="A" value="232.038000"/>
+   </isotope>
+   <element name="Th">
+      <fraction n="1.000000" ref="Th232"/>
+   </element>
+   <isotope N="231" Z="91" name="Pa231">
+      <atom type="A" value="231.036000"/>
+   </isotope>
+   <element name="Pa">
+      <fraction n="1.000000" ref="Pa231"/>
+   </element>
+   <isotope N="234" Z="92" name="U234">
+      <atom type="A" value="234.041000"/>
+   </isotope>
+   <isotope N="235" Z="92" name="U235">
+      <atom type="A" value="235.044000"/>
+   </isotope>
+   <isotope N="238" Z="92" name="U238">
+      <atom type="A" value="238.051000"/>
+   </isotope>
+   <element name="U">
+      <fraction n="0.000055" ref="U234"/>
+      <fraction n="0.007200" ref="U235"/>
+      <fraction n="0.992745" ref="U238"/>
+   </element>
+   <isotope N="237" Z="93" name="Np237">
+      <atom type="A" value="237.048000"/>
+   </isotope>
+   <element name="Np">
+      <fraction n="1.000000" ref="Np237"/>
+   </element>
+   <isotope N="244" Z="94" name="Pu244">
+      <atom type="A" value="244.064000"/>
+   </isotope>
+   <element name="Pu">
+      <fraction n="1.000000" ref="Pu244"/>
+   </element>
+   <isotope N="243" Z="95" name="Am243">
+      <atom type="A" value="243.061000"/>
+   </isotope>
+   <element name="Am">
+      <fraction n="1.000000" ref="Am243"/>
+   </element>
+   <isotope N="247" Z="96" name="Cm247">
+      <atom type="A" value="247.070000"/>
+   </isotope>
+   <element name="Cm">
+      <fraction n="1.000000" ref="Cm247"/>
+   </element>
+   <isotope N="247" Z="97" name="Bk247">
+      <atom type="A" value="247.070000"/>
+   </isotope>
+   <element name="Bk">
+      <fraction n="1.000000" ref="Bk247"/>
+   </element>
+   <isotope N="251" Z="98" name="Cf251">
+      <atom type="A" value="251.080000"/>
+   </isotope>
+   <element name="Cf">
+      <fraction n="1.000000" ref="Cf251"/>
+   </element>
+   <material name="G4_WATER" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.111898" ref="H"/>
+      <fraction n="0.888102" ref="O"/>
+   </material>
+   <material name="G4_H" state="gas">
+      <D value="8.37480e-05" unit="g/cm3"/>
+      <fraction n="1.000000" ref="H"/>
+   </material>
+   <material name="G4_He" state="gas">
+      <D value="1.66322e-04" unit="g/cm3"/>
+      <fraction n="1.000000" ref="He"/>
+   </material>
+   <material name="G4_Li" state="solid">
+      <D value="5.34000e-01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Li"/>
+   </material>
+   <material name="G4_Be" state="solid">
+      <D value="1.84800e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Be"/>
+   </material>
+   <material name="G4_B" state="solid">
+      <D value="2.37000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="B"/>
+   </material>
+   <material name="G4_C" state="solid">
+      <D value="2.00000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="C"/>
+   </material>
+   <material name="G4_N" state="gas">
+      <D value="1.16520e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="N"/>
+   </material>
+   <material name="G4_O" state="gas">
+      <D value="1.33151e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="O"/>
+   </material>
+   <material name="G4_F" state="gas">
+      <D value="1.58029e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="F"/>
+   </material>
+   <material name="G4_Ne" state="gas">
+      <D value="8.38505e-04" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ne"/>
+   </material>
+   <material name="G4_Na" state="solid">
+      <D value="9.71000e-01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Na"/>
+   </material>
+   <material name="G4_Mg" state="solid">
+      <D value="1.74000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Mg"/>
+   </material>
+   <material name="G4_Al" state="solid">
+      <D value="2.69900e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Al"/>
+   </material>
+   <material name="G4_Si" state="solid">
+      <D value="2.33000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Si"/>
+   </material>
+   <material name="G4_P" state="solid">
+      <D value="2.20000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="P"/>
+   </material>
+   <material name="G4_S" state="solid">
+      <D value="2.00000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="S"/>
+   </material>
+   <material name="G4_Cl" state="gas">
+      <D value="2.99473e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cl"/>
+   </material>
+   <material name="G4_Ar" state="gas">
+      <D value="1.66201e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ar"/>
+   </material>
+   <material name="G4_K" state="solid">
+      <D value="8.62000e-01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="K"/>
+   </material>
+   <material name="G4_Ca" state="solid">
+      <D value="1.55000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ca"/>
+   </material>
+   <material name="G4_Sc" state="solid">
+      <D value="2.98900e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Sc"/>
+   </material>
+   <material name="G4_Ti" state="solid">
+      <D value="4.54000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ti"/>
+   </material>
+   <material name="G4_V" state="solid">
+      <D value="6.11000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="V"/>
+   </material>
+   <material name="G4_Cr" state="solid">
+      <D value="7.18000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cr"/>
+   </material>
+   <material name="G4_Mn" state="solid">
+      <D value="7.44000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Mn"/>
+   </material>
+   <material name="G4_Fe" state="solid">
+      <D value="7.87400e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Fe"/>
+   </material>
+   <material name="G4_Co" state="solid">
+      <D value="8.90000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Co"/>
+   </material>
+   <material name="G4_Ni" state="solid">
+      <D value="8.90200e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ni"/>
+   </material>
+   <material name="G4_Cu" state="solid">
+      <D value="8.96000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cu"/>
+   </material>
+   <material name="G4_Zn" state="solid">
+      <D value="7.13300e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Zn"/>
+   </material>
+   <material name="G4_Ga" state="solid">
+      <D value="5.90400e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ga"/>
+   </material>
+   <material name="G4_Ge" state="solid">
+      <D value="5.32300e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ge"/>
+   </material>
+   <material name="G4_As" state="solid">
+      <D value="5.73000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="As"/>
+   </material>
+   <material name="G4_Se" state="solid">
+      <D value="4.50000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Se"/>
+   </material>
+   <material name="G4_Br" state="gas">
+      <D value="7.07210e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Br"/>
+   </material>
+   <material name="G4_Kr" state="gas">
+      <D value="3.47832e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Kr"/>
+   </material>
+   <material name="G4_Rb" state="solid">
+      <D value="1.53200e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Rb"/>
+   </material>
+   <material name="G4_Sr" state="solid">
+      <D value="2.54000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Sr"/>
+   </material>
+   <material name="G4_Y" state="solid">
+      <D value="4.46900e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Y"/>
+   </material>
+   <material name="G4_Zr" state="solid">
+      <D value="6.50600e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Zr"/>
+   </material>
+   <material name="G4_Nb" state="solid">
+      <D value="8.57000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Nb"/>
+   </material>
+   <material name="G4_Mo" state="solid">
+      <D value="1.02200e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Mo"/>
+   </material>
+   <material name="G4_Tc" state="solid">
+      <D value="1.15000e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Tc"/>
+   </material>
+   <material name="G4_Ru" state="solid">
+      <D value="1.24100e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ru"/>
+   </material>
+   <material name="G4_Rh" state="solid">
+      <D value="1.24100e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Rh"/>
+   </material>
+   <material name="G4_Pd" state="solid">
+      <D value="1.20200e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Pd"/>
+   </material>
+   <material name="G4_Ag" state="solid">
+      <D value="1.05000e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ag"/>
+   </material>
+   <material name="G4_Cd" state="solid">
+      <D value="8.65000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cd"/>
+   </material>
+   <material name="G4_In" state="solid">
+      <D value="7.31000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="In"/>
+   </material>
+   <material name="G4_Sn" state="solid">
+      <D value="7.31000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Sn"/>
+   </material>
+   <material name="G4_Sb" state="solid">
+      <D value="6.69100e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Sb"/>
+   </material>
+   <material name="G4_Te" state="solid">
+      <D value="6.24000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Te"/>
+   </material>
+   <material name="G4_I" state="solid">
+      <D value="4.93000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="I"/>
+   </material>
+   <material name="G4_Xe" state="gas">
+      <D value="5.48536e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Xe"/>
+   </material>
+   <material name="G4_Cs" state="solid">
+      <D value="1.87300e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cs"/>
+   </material>
+   <material name="G4_Ba" state="solid">
+      <D value="3.50000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ba"/>
+   </material>
+   <material name="G4_La" state="solid">
+      <D value="6.15400e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="La"/>
+   </material>
+   <material name="G4_Ce" state="solid">
+      <D value="6.65700e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ce"/>
+   </material>
+   <material name="G4_Pr" state="solid">
+      <D value="6.71000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Pr"/>
+   </material>
+   <material name="G4_Nd" state="solid">
+      <D value="6.90000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Nd"/>
+   </material>
+   <material name="G4_Pm" state="solid">
+      <D value="7.22000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Pm"/>
+   </material>
+   <material name="G4_Sm" state="solid">
+      <D value="7.46000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Sm"/>
+   </material>
+   <material name="G4_Eu" state="solid">
+      <D value="5.24300e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Eu"/>
+   </material>
+   <material name="G4_Gd" state="solid">
+      <D value="7.90040e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Gd"/>
+   </material>
+   <material name="G4_Tb" state="solid">
+      <D value="8.22900e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Tb"/>
+   </material>
+   <material name="G4_Dy" state="solid">
+      <D value="8.55000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Dy"/>
+   </material>
+   <material name="G4_Ho" state="solid">
+      <D value="8.79500e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ho"/>
+   </material>
+   <material name="G4_Er" state="solid">
+      <D value="9.06600e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Er"/>
+   </material>
+   <material name="G4_Tm" state="solid">
+      <D value="9.32100e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Tm"/>
+   </material>
+   <material name="G4_Yb" state="solid">
+      <D value="6.73000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Yb"/>
+   </material>
+   <material name="G4_Lu" state="solid">
+      <D value="9.84000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Lu"/>
+   </material>
+   <material name="G4_Hf" state="solid">
+      <D value="1.33100e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Hf"/>
+   </material>
+   <material name="G4_Ta" state="solid">
+      <D value="1.66540e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ta"/>
+   </material>
+   <material name="G4_W" state="solid">
+      <D value="1.93000e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="W"/>
+   </material>
+   <material name="G4_Re" state="solid">
+      <D value="2.10200e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Re"/>
+   </material>
+   <material name="G4_Os" state="solid">
+      <D value="2.25700e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Os"/>
+   </material>
+   <material name="G4_Ir" state="solid">
+      <D value="2.24200e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ir"/>
+   </material>
+   <material name="G4_Pt" state="solid">
+      <D value="2.14500e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Pt"/>
+   </material>
+   <material name="G4_Au" state="solid">
+      <D value="1.93200e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Au"/>
+   </material>
+   <material name="G4_Hg" state="solid">
+      <D value="1.35460e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Hg"/>
+   </material>
+   <material name="G4_Tl" state="solid">
+      <D value="1.17200e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Tl"/>
+   </material>
+   <material name="G4_Pb" state="solid">
+      <D value="1.13500e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Pb"/>
+   </material>
+   <material name="G4_Bi" state="solid">
+      <D value="9.74700e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Bi"/>
+   </material>
+   <material name="G4_Po" state="solid">
+      <D value="9.32000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Po"/>
+   </material>
+   <material name="G4_At" state="solid">
+      <D value="9.32000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="At"/>
+   </material>
+   <material name="G4_Rn" state="gas">
+      <D value="9.00662e-03" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Rn"/>
+   </material>
+   <material name="G4_Fr" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Fr"/>
+   </material>
+   <material name="G4_Ra" state="solid">
+      <D value="5.00000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ra"/>
+   </material>
+   <material name="G4_Ac" state="solid">
+      <D value="1.00700e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ac"/>
+   </material>
+   <material name="G4_Th" state="solid">
+      <D value="1.17200e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Th"/>
+   </material>
+   <material name="G4_Pa" state="solid">
+      <D value="1.53700e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Pa"/>
+   </material>
+   <material name="G4_U" state="solid">
+      <D value="1.89500e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="U"/>
+   </material>
+   <material name="G4_Np" state="solid">
+      <D value="2.02500e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Np"/>
+   </material>
+   <material name="G4_Pu" state="solid">
+      <D value="1.98400e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Pu"/>
+   </material>
+   <material name="G4_Am" state="solid">
+      <D value="1.36700e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Am"/>
+   </material>
+   <material name="G4_Cm" state="solid">
+      <D value="1.35100e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cm"/>
+   </material>
+   <material name="G4_Bk" state="solid">
+      <D value="1.40000e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Bk"/>
+   </material>
+   <material name="G4_Cf" state="solid">
+      <D value="1.00000e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cf"/>
+   </material>
+   <material name="G4_A-150_TISSUE" state="solid">
+      <D value="1.12700e+00" unit="g/cm3"/>
+      <fraction n="0.101327" ref="H"/>
+      <fraction n="0.775500" ref="C"/>
+      <fraction n="0.035057" ref="N"/>
+      <fraction n="0.052316" ref="O"/>
+      <fraction n="0.017422" ref="F"/>
+      <fraction n="0.018378" ref="Ca"/>
+   </material>
+   <material name="G4_ACETONE" state="solid">
+      <D value="7.89900e-01" unit="g/cm3"/>
+      <fraction n="0.620397" ref="C"/>
+      <fraction n="0.104127" ref="H"/>
+      <fraction n="0.275475" ref="O"/>
+   </material>
+   <material name="G4_ACETYLENE" state="gas">
+      <D value="1.09670e-03" unit="g/cm3"/>
+      <fraction n="0.922577" ref="C"/>
+      <fraction n="0.077423" ref="H"/>
+   </material>
+   <material name="G4_ADENINE" state="solid">
+      <D value="1.60000e+00" unit="g/cm3"/>
+      <fraction n="0.444423" ref="C"/>
+      <fraction n="0.037296" ref="H"/>
+      <fraction n="0.518281" ref="N"/>
+   </material>
+   <material name="G4_ADIPOSE_TISSUE_ICRP" state="solid">
+      <D value="9.50000e-01" unit="g/cm3"/>
+      <fraction n="0.114000" ref="H"/>
+      <fraction n="0.598000" ref="C"/>
+      <fraction n="0.007000" ref="N"/>
+      <fraction n="0.278000" ref="O"/>
+      <fraction n="0.001000" ref="Na"/>
+      <fraction n="0.001000" ref="S"/>
+      <fraction n="0.001000" ref="Cl"/>
+   </material>
+   <material name="G4_AIR" state="gas">
+      <D value="1.20479e-03" unit="g/cm3"/>
+      <fraction n="0.000124" ref="C"/>
+      <fraction n="0.755268" ref="N"/>
+      <fraction n="0.231781" ref="O"/>
+      <fraction n="0.012827" ref="Ar"/>
+   </material>
+   <material name="G4_ALANINE" state="solid">
+      <D value="1.42000e+00" unit="g/cm3"/>
+      <fraction n="0.404432" ref="C"/>
+      <fraction n="0.079193" ref="H"/>
+      <fraction n="0.157215" ref="N"/>
+      <fraction n="0.359160" ref="O"/>
+   </material>
+   <material name="G4_ALUMINUM_OXIDE" state="solid">
+      <D value="3.97000e+00" unit="g/cm3"/>
+      <fraction n="0.529250" ref="Al"/>
+      <fraction n="0.470750" ref="O"/>
+   </material>
+   <material name="G4_AMBER" state="solid">
+      <D value="1.10000e+00" unit="g/cm3"/>
+      <fraction n="0.105930" ref="H"/>
+      <fraction n="0.788974" ref="C"/>
+      <fraction n="0.105096" ref="O"/>
+   </material>
+   <material name="G4_AMMONIA" state="gas">
+      <D value="8.26019e-04" unit="g/cm3"/>
+      <fraction n="0.822448" ref="N"/>
+      <fraction n="0.177552" ref="H"/>
+   </material>
+   <material name="G4_ANILINE" state="solid">
+      <D value="1.02350e+00" unit="g/cm3"/>
+      <fraction n="0.773831" ref="C"/>
+      <fraction n="0.075763" ref="H"/>
+      <fraction n="0.150405" ref="N"/>
+   </material>
+   <material name="G4_ANTHRACENE" state="solid">
+      <D value="1.28300e+00" unit="g/cm3"/>
+      <fraction n="0.943447" ref="C"/>
+      <fraction n="0.056553" ref="H"/>
+   </material>
+   <material name="G4_B-100_BONE" state="solid">
+      <D value="1.45000e+00" unit="g/cm3"/>
+      <fraction n="0.065471" ref="H"/>
+      <fraction n="0.536944" ref="C"/>
+      <fraction n="0.021500" ref="N"/>
+      <fraction n="0.032085" ref="O"/>
+      <fraction n="0.167411" ref="F"/>
+      <fraction n="0.176589" ref="Ca"/>
+   </material>
+   <material name="G4_BAKELITE" state="solid">
+      <D value="1.25000e+00" unit="g/cm3"/>
+      <fraction n="0.057441" ref="H"/>
+      <fraction n="0.774591" ref="C"/>
+      <fraction n="0.167968" ref="O"/>
+   </material>
+   <material name="G4_BARIUM_FLUORIDE" state="solid">
+      <D value="4.89000e+00" unit="g/cm3"/>
+      <fraction n="0.783276" ref="Ba"/>
+      <fraction n="0.216724" ref="F"/>
+   </material>
+   <material name="G4_BARIUM_SULFATE" state="solid">
+      <D value="4.50000e+00" unit="g/cm3"/>
+      <fraction n="0.588399" ref="Ba"/>
+      <fraction n="0.137393" ref="S"/>
+      <fraction n="0.274208" ref="O"/>
+   </material>
+   <material name="G4_BENZENE" state="solid">
+      <D value="8.78650e-01" unit="g/cm3"/>
+      <fraction n="0.922577" ref="C"/>
+      <fraction n="0.077423" ref="H"/>
+   </material>
+   <material name="G4_BERYLLIUM_OXIDE" state="solid">
+      <D value="3.01000e+00" unit="g/cm3"/>
+      <fraction n="0.360320" ref="Be"/>
+      <fraction n="0.639680" ref="O"/>
+   </material>
+   <material name="G4_BGO" state="solid">
+      <D value="7.13000e+00" unit="g/cm3"/>
+      <fraction n="0.671017" ref="Bi"/>
+      <fraction n="0.174865" ref="Ge"/>
+      <fraction n="0.154118" ref="O"/>
+   </material>
+   <material name="G4_BLOOD_ICRP" state="solid">
+      <D value="1.06000e+00" unit="g/cm3"/>
+      <fraction n="0.102000" ref="H"/>
+      <fraction n="0.110000" ref="C"/>
+      <fraction n="0.033000" ref="N"/>
+      <fraction n="0.745000" ref="O"/>
+      <fraction n="0.001000" ref="Na"/>
+      <fraction n="0.001000" ref="P"/>
+      <fraction n="0.002000" ref="S"/>
+      <fraction n="0.003000" ref="Cl"/>
+      <fraction n="0.002000" ref="K"/>
+      <fraction n="0.001000" ref="Fe"/>
+   </material>
+   <material name="G4_BONE_COMPACT_ICRU" state="solid">
+      <D value="1.85000e+00" unit="g/cm3"/>
+      <fraction n="0.064000" ref="H"/>
+      <fraction n="0.278000" ref="C"/>
+      <fraction n="0.027000" ref="N"/>
+      <fraction n="0.410000" ref="O"/>
+      <fraction n="0.002000" ref="Mg"/>
+      <fraction n="0.070000" ref="P"/>
+      <fraction n="0.002000" ref="S"/>
+      <fraction n="0.147000" ref="Ca"/>
+   </material>
+   <material name="G4_BONE_CORTICAL_ICRP" state="solid">
+      <D value="1.92000e+00" unit="g/cm3"/>
+      <fraction n="0.034000" ref="H"/>
+      <fraction n="0.155000" ref="C"/>
+      <fraction n="0.042000" ref="N"/>
+      <fraction n="0.435000" ref="O"/>
+      <fraction n="0.001000" ref="Na"/>
+      <fraction n="0.002000" ref="Mg"/>
+      <fraction n="0.103000" ref="P"/>
+      <fraction n="0.003000" ref="S"/>
+      <fraction n="0.225000" ref="Ca"/>
+   </material>
+   <material name="G4_BORON_CARBIDE" state="solid">
+      <D value="2.52000e+00" unit="g/cm3"/>
+      <fraction n="0.782630" ref="B"/>
+      <fraction n="0.217370" ref="C"/>
+   </material>
+   <material name="G4_BORON_OXIDE" state="solid">
+      <D value="1.81200e+00" unit="g/cm3"/>
+      <fraction n="0.310571" ref="B"/>
+      <fraction n="0.689429" ref="O"/>
+   </material>
+   <material name="G4_BRAIN_ICRP" state="solid">
+      <D value="1.04000e+00" unit="g/cm3"/>
+      <fraction n="0.107000" ref="H"/>
+      <fraction n="0.145000" ref="C"/>
+      <fraction n="0.022000" ref="N"/>
+      <fraction n="0.712000" ref="O"/>
+      <fraction n="0.002000" ref="Na"/>
+      <fraction n="0.004000" ref="P"/>
+      <fraction n="0.002000" ref="S"/>
+      <fraction n="0.003000" ref="Cl"/>
+      <fraction n="0.003000" ref="K"/>
+   </material>
+   <material name="G4_BUTANE" state="gas">
+      <D value="2.49343e-03" unit="g/cm3"/>
+      <fraction n="0.826583" ref="C"/>
+      <fraction n="0.173417" ref="H"/>
+   </material>
+   <material name="G4_N-BUTYL_ALCOHOL" state="solid">
+      <D value="8.09800e-01" unit="g/cm3"/>
+      <fraction n="0.648163" ref="C"/>
+      <fraction n="0.135984" ref="H"/>
+      <fraction n="0.215853" ref="O"/>
+   </material>
+   <material name="G4_C-552" state="solid">
+      <D value="1.76000e+00" unit="g/cm3"/>
+      <fraction n="0.024680" ref="H"/>
+      <fraction n="0.501611" ref="C"/>
+      <fraction n="0.004527" ref="O"/>
+      <fraction n="0.465209" ref="F"/>
+      <fraction n="0.003973" ref="Si"/>
+   </material>
+   <material name="G4_CADMIUM_TELLURIDE" state="solid">
+      <D value="6.20000e+00" unit="g/cm3"/>
+      <fraction n="0.468353" ref="Cd"/>
+      <fraction n="0.531647" ref="Te"/>
+   </material>
+   <material name="G4_CADMIUM_TUNGSTATE" state="solid">
+      <D value="7.90000e+00" unit="g/cm3"/>
+      <fraction n="0.312037" ref="Cd"/>
+      <fraction n="0.510316" ref="W"/>
+      <fraction n="0.177647" ref="O"/>
+   </material>
+   <material name="G4_CALCIUM_CARBONATE" state="solid">
+      <D value="2.80000e+00" unit="g/cm3"/>
+      <fraction n="0.400432" ref="Ca"/>
+      <fraction n="0.120003" ref="C"/>
+      <fraction n="0.479565" ref="O"/>
+   </material>
+   <material name="G4_CALCIUM_FLUORIDE" state="solid">
+      <D value="3.18000e+00" unit="g/cm3"/>
+      <fraction n="0.513328" ref="Ca"/>
+      <fraction n="0.486672" ref="F"/>
+   </material>
+   <material name="G4_CALCIUM_OXIDE" state="solid">
+      <D value="3.30000e+00" unit="g/cm3"/>
+      <fraction n="0.714691" ref="Ca"/>
+      <fraction n="0.285309" ref="O"/>
+   </material>
+   <material name="G4_CALCIUM_SULFATE" state="solid">
+      <D value="2.96000e+00" unit="g/cm3"/>
+      <fraction n="0.294385" ref="Ca"/>
+      <fraction n="0.235535" ref="S"/>
+      <fraction n="0.470080" ref="O"/>
+   </material>
+   <material name="G4_CALCIUM_TUNGSTATE" state="solid">
+      <D value="6.06200e+00" unit="g/cm3"/>
+      <fraction n="0.139200" ref="Ca"/>
+      <fraction n="0.638522" ref="W"/>
+      <fraction n="0.222278" ref="O"/>
+   </material>
+   <material name="G4_CARBON_DIOXIDE" state="gas">
+      <D value="1.84212e-03" unit="g/cm3"/>
+      <fraction n="0.272912" ref="C"/>
+      <fraction n="0.727088" ref="O"/>
+   </material>
+   <material name="G4_CARBON_TETRACHLORIDE" state="solid">
+      <D value="1.59400e+00" unit="g/cm3"/>
+      <fraction n="0.078083" ref="C"/>
+      <fraction n="0.921917" ref="Cl"/>
+   </material>
+   <material name="G4_CELLULOSE_CELLOPHANE" state="solid">
+      <D value="1.42000e+00" unit="g/cm3"/>
+      <fraction n="0.444456" ref="C"/>
+      <fraction n="0.062165" ref="H"/>
+      <fraction n="0.493380" ref="O"/>
+   </material>
+   <material name="G4_CELLULOSE_BUTYRATE" state="solid">
+      <D value="1.20000e+00" unit="g/cm3"/>
+      <fraction n="0.067125" ref="H"/>
+      <fraction n="0.545403" ref="C"/>
+      <fraction n="0.387472" ref="O"/>
+   </material>
+   <material name="G4_CELLULOSE_NITRATE" state="solid">
+      <D value="1.49000e+00" unit="g/cm3"/>
+      <fraction n="0.029216" ref="H"/>
+      <fraction n="0.271296" ref="C"/>
+      <fraction n="0.121276" ref="N"/>
+      <fraction n="0.578212" ref="O"/>
+   </material>
+   <material name="G4_CERIC_SULFATE" state="solid">
+      <D value="1.03000e+00" unit="g/cm3"/>
+      <fraction n="0.107596" ref="H"/>
+      <fraction n="0.000800" ref="N"/>
+      <fraction n="0.874976" ref="O"/>
+      <fraction n="0.014627" ref="S"/>
+      <fraction n="0.002001" ref="Ce"/>
+   </material>
+   <material name="G4_CESIUM_FLUORIDE" state="solid">
+      <D value="4.11500e+00" unit="g/cm3"/>
+      <fraction n="0.874931" ref="Cs"/>
+      <fraction n="0.125069" ref="F"/>
+   </material>
+   <material name="G4_CESIUM_IODIDE" state="solid">
+      <D value="4.51000e+00" unit="g/cm3"/>
+      <fraction n="0.511549" ref="Cs"/>
+      <fraction n="0.488451" ref="I"/>
+   </material>
+   <material name="G4_CHLOROBENZENE" state="solid">
+      <D value="1.10580e+00" unit="g/cm3"/>
+      <fraction n="0.640250" ref="C"/>
+      <fraction n="0.044775" ref="H"/>
+      <fraction n="0.314975" ref="Cl"/>
+   </material>
+   <material name="G4_CHLOROFORM" state="solid">
+      <D value="1.48320e+00" unit="g/cm3"/>
+      <fraction n="0.100612" ref="C"/>
+      <fraction n="0.008443" ref="H"/>
+      <fraction n="0.890944" ref="Cl"/>
+   </material>
+   <material name="G4_CONCRETE" state="solid">
+      <D value="2.30000e+00" unit="g/cm3"/>
+      <fraction n="0.010000" ref="H"/>
+      <fraction n="0.001000" ref="C"/>
+      <fraction n="0.529107" ref="O"/>
+      <fraction n="0.016000" ref="Na"/>
+      <fraction n="0.002000" ref="Mg"/>
+      <fraction n="0.033872" ref="Al"/>
+      <fraction n="0.337021" ref="Si"/>
+      <fraction n="0.013000" ref="K"/>
+      <fraction n="0.044000" ref="Ca"/>
+      <fraction n="0.014000" ref="Fe"/>
+   </material>
+   <material name="G4_CYCLOHEXANE" state="solid">
+      <D value="7.79000e-01" unit="g/cm3"/>
+      <fraction n="0.856282" ref="C"/>
+      <fraction n="0.143718" ref="H"/>
+   </material>
+   <material name="G4_1,2-DICHLOROBENZENE" state="solid">
+      <D value="1.30480e+00" unit="g/cm3"/>
+      <fraction n="0.490230" ref="C"/>
+      <fraction n="0.027427" ref="H"/>
+      <fraction n="0.482344" ref="Cl"/>
+   </material>
+   <material name="G4_DICHLORODIETHYL_ETHER" state="solid">
+      <D value="1.21990e+00" unit="g/cm3"/>
+      <fraction n="0.335939" ref="C"/>
+      <fraction n="0.056384" ref="H"/>
+      <fraction n="0.111875" ref="O"/>
+      <fraction n="0.495802" ref="Cl"/>
+   </material>
+   <material name="G4_1,2-DICHLOROETHANE" state="solid">
+      <D value="1.23510e+00" unit="g/cm3"/>
+      <fraction n="0.242743" ref="C"/>
+      <fraction n="0.040742" ref="H"/>
+      <fraction n="0.716515" ref="Cl"/>
+   </material>
+   <material name="G4_DIETHYL_ETHER" state="solid">
+      <D value="7.13780e-01" unit="g/cm3"/>
+      <fraction n="0.648163" ref="C"/>
+      <fraction n="0.135984" ref="H"/>
+      <fraction n="0.215853" ref="O"/>
+   </material>
+   <material name="G4_N,N-DIMETHYL_FORMAMIDE" state="solid">
+      <D value="9.48700e-01" unit="g/cm3"/>
+      <fraction n="0.492957" ref="C"/>
+      <fraction n="0.096528" ref="H"/>
+      <fraction n="0.191627" ref="N"/>
+      <fraction n="0.218888" ref="O"/>
+   </material>
+   <material name="G4_DIMETHYL_SULFOXIDE" state="solid">
+      <D value="1.10140e+00" unit="g/cm3"/>
+      <fraction n="0.307437" ref="C"/>
+      <fraction n="0.077400" ref="H"/>
+      <fraction n="0.204767" ref="O"/>
+      <fraction n="0.410396" ref="S"/>
+   </material>
+   <material name="G4_ETHANE" state="gas">
+      <D value="1.25324e-03" unit="g/cm3"/>
+      <fraction n="0.798875" ref="C"/>
+      <fraction n="0.201125" ref="H"/>
+   </material>
+   <material name="G4_ETHYL_ALCOHOL" state="solid">
+      <D value="7.89300e-01" unit="g/cm3"/>
+      <fraction n="0.521429" ref="C"/>
+      <fraction n="0.131275" ref="H"/>
+      <fraction n="0.347296" ref="O"/>
+   </material>
+   <material name="G4_ETHYL_CELLULOSE" state="solid">
+      <D value="1.13000e+00" unit="g/cm3"/>
+      <fraction n="0.090027" ref="H"/>
+      <fraction n="0.585182" ref="C"/>
+      <fraction n="0.324791" ref="O"/>
+   </material>
+   <material name="G4_ETHYLENE" state="gas">
+      <D value="1.17497e-03" unit="g/cm3"/>
+      <fraction n="0.856282" ref="C"/>
+      <fraction n="0.143718" ref="H"/>
+   </material>
+   <material name="G4_EYE_LENS_ICRP" state="solid">
+      <D value="1.07000e+00" unit="g/cm3"/>
+      <fraction n="0.096000" ref="H"/>
+      <fraction n="0.195000" ref="C"/>
+      <fraction n="0.057000" ref="N"/>
+      <fraction n="0.646000" ref="O"/>
+      <fraction n="0.001000" ref="Na"/>
+      <fraction n="0.001000" ref="P"/>
+      <fraction n="0.003000" ref="S"/>
+      <fraction n="0.001000" ref="Cl"/>
+   </material>
+   <material name="G4_FERRIC_OXIDE" state="solid">
+      <D value="5.20000e+00" unit="g/cm3"/>
+      <fraction n="0.699426" ref="Fe"/>
+      <fraction n="0.300574" ref="O"/>
+   </material>
+   <material name="G4_FERROBORIDE" state="solid">
+      <D value="7.15000e+00" unit="g/cm3"/>
+      <fraction n="0.837809" ref="Fe"/>
+      <fraction n="0.162191" ref="B"/>
+   </material>
+   <material name="G4_FERROUS_OXIDE" state="solid">
+      <D value="5.70000e+00" unit="g/cm3"/>
+      <fraction n="0.777305" ref="Fe"/>
+      <fraction n="0.222695" ref="O"/>
+   </material>
+   <material name="G4_FERROUS_SULFATE" state="solid">
+      <D value="1.02400e+00" unit="g/cm3"/>
+      <fraction n="0.108259" ref="H"/>
+      <fraction n="0.000027" ref="N"/>
+      <fraction n="0.878636" ref="O"/>
+      <fraction n="0.000022" ref="Na"/>
+      <fraction n="0.012968" ref="S"/>
+      <fraction n="0.000034" ref="Cl"/>
+      <fraction n="0.000054" ref="Fe"/>
+   </material>
+   <material name="G4_FREON-12" state="solid">
+      <D value="1.12000e+00" unit="g/cm3"/>
+      <fraction n="0.099335" ref="C"/>
+      <fraction n="0.314247" ref="F"/>
+      <fraction n="0.586418" ref="Cl"/>
+   </material>
+   <material name="G4_FREON-12B2" state="solid">
+      <D value="1.80000e+00" unit="g/cm3"/>
+      <fraction n="0.057245" ref="C"/>
+      <fraction n="0.181096" ref="F"/>
+      <fraction n="0.761659" ref="Br"/>
+   </material>
+   <material name="G4_FREON-13" state="solid">
+      <D value="9.50000e-01" unit="g/cm3"/>
+      <fraction n="0.114983" ref="C"/>
+      <fraction n="0.545621" ref="F"/>
+      <fraction n="0.339396" ref="Cl"/>
+   </material>
+   <material name="G4_FREON-13B1" state="solid">
+      <D value="1.50000e+00" unit="g/cm3"/>
+      <fraction n="0.080658" ref="C"/>
+      <fraction n="0.382751" ref="F"/>
+      <fraction n="0.536591" ref="Br"/>
+   </material>
+   <material name="G4_FREON-13I1" state="solid">
+      <D value="1.80000e+00" unit="g/cm3"/>
+      <fraction n="0.061309" ref="C"/>
+      <fraction n="0.290924" ref="F"/>
+      <fraction n="0.647767" ref="I"/>
+   </material>
+   <material name="G4_GADOLINIUM_OXYSULFIDE" state="solid">
+      <D value="7.44000e+00" unit="g/cm3"/>
+      <fraction n="0.830771" ref="Gd"/>
+      <fraction n="0.084526" ref="O"/>
+      <fraction n="0.084703" ref="S"/>
+   </material>
+   <material name="G4_GALLIUM_ARSENIDE" state="solid">
+      <D value="5.31000e+00" unit="g/cm3"/>
+      <fraction n="0.482030" ref="Ga"/>
+      <fraction n="0.517970" ref="As"/>
+   </material>
+   <material name="G4_GEL_PHOTO_EMULSION" state="solid">
+      <D value="1.29140e+00" unit="g/cm3"/>
+      <fraction n="0.081180" ref="H"/>
+      <fraction n="0.416060" ref="C"/>
+      <fraction n="0.111240" ref="N"/>
+      <fraction n="0.380640" ref="O"/>
+      <fraction n="0.010880" ref="S"/>
+   </material>
+   <material name="G4_Pyrex_Glass" state="solid">
+      <D value="2.23000e+00" unit="g/cm3"/>
+      <fraction n="0.040064" ref="B"/>
+      <fraction n="0.539561" ref="O"/>
+      <fraction n="0.028191" ref="Na"/>
+      <fraction n="0.011644" ref="Al"/>
+      <fraction n="0.377219" ref="Si"/>
+      <fraction n="0.003321" ref="K"/>
+   </material>
+   <material name="G4_GLASS_LEAD" state="solid">
+      <D value="6.22000e+00" unit="g/cm3"/>
+      <fraction n="0.156453" ref="O"/>
+      <fraction n="0.080866" ref="Si"/>
+      <fraction n="0.008092" ref="Ti"/>
+      <fraction n="0.002651" ref="As"/>
+      <fraction n="0.751938" ref="Pb"/>
+   </material>
+   <material name="G4_GLASS_PLATE" state="solid">
+      <D value="2.40000e+00" unit="g/cm3"/>
+      <fraction n="0.459800" ref="O"/>
+      <fraction n="0.096441" ref="Na"/>
+      <fraction n="0.336553" ref="Si"/>
+      <fraction n="0.107205" ref="Ca"/>
+   </material>
+   <material name="G4_GLUTAMINE" state="solid">
+      <D value="1.46000e+00" unit="g/cm3"/>
+      <fraction n="0.410919" ref="C"/>
+      <fraction n="0.068969" ref="H"/>
+      <fraction n="0.191683" ref="N"/>
+      <fraction n="0.328429" ref="O"/>
+   </material>
+   <material name="G4_GLYCEROL" state="solid">
+      <D value="1.26130e+00" unit="g/cm3"/>
+      <fraction n="0.391255" ref="C"/>
+      <fraction n="0.087558" ref="H"/>
+      <fraction n="0.521187" ref="O"/>
+   </material>
+   <material name="G4_GUANINE" state="solid">
+      <D value="2.20000e+00" unit="g/cm3"/>
+      <fraction n="0.397373" ref="C"/>
+      <fraction n="0.033348" ref="H"/>
+      <fraction n="0.463412" ref="N"/>
+      <fraction n="0.105867" ref="O"/>
+   </material>
+   <material name="G4_GYPSUM" state="solid">
+      <D value="2.32000e+00" unit="g/cm3"/>
+      <fraction n="0.232779" ref="Ca"/>
+      <fraction n="0.186244" ref="S"/>
+      <fraction n="0.557560" ref="O"/>
+      <fraction n="0.023417" ref="H"/>
+   </material>
+   <material name="G4_N-HEPTANE" state="solid">
+      <D value="6.83760e-01" unit="g/cm3"/>
+      <fraction n="0.839055" ref="C"/>
+      <fraction n="0.160945" ref="H"/>
+   </material>
+   <material name="G4_N-HEXANE" state="solid">
+      <D value="6.60300e-01" unit="g/cm3"/>
+      <fraction n="0.836251" ref="C"/>
+      <fraction n="0.163749" ref="H"/>
+   </material>
+   <material name="G4_KAPTON" state="solid">
+      <D value="1.42000e+00" unit="g/cm3"/>
+      <fraction n="0.691128" ref="C"/>
+      <fraction n="0.026363" ref="H"/>
+      <fraction n="0.073271" ref="N"/>
+      <fraction n="0.209237" ref="O"/>
+   </material>
+   <material name="G4_LANTHANUM_OXYBROMIDE" state="solid">
+      <D value="6.28000e+00" unit="g/cm3"/>
+      <fraction n="0.591569" ref="La"/>
+      <fraction n="0.340293" ref="Br"/>
+      <fraction n="0.068138" ref="O"/>
+   </material>
+   <material name="G4_LANTHANUM_OXYSULFIDE" state="solid">
+      <D value="5.86000e+00" unit="g/cm3"/>
+      <fraction n="0.812607" ref="La"/>
+      <fraction n="0.093598" ref="O"/>
+      <fraction n="0.093795" ref="S"/>
+   </material>
+   <material name="G4_LEAD_OXIDE" state="solid">
+      <D value="9.53000e+00" unit="g/cm3"/>
+      <fraction n="0.071682" ref="O"/>
+      <fraction n="0.928318" ref="Pb"/>
+   </material>
+   <material name="G4_LITHIUM_AMIDE" state="solid">
+      <D value="1.17800e+00" unit="g/cm3"/>
+      <fraction n="0.302231" ref="Li"/>
+      <fraction n="0.609980" ref="N"/>
+      <fraction n="0.087789" ref="H"/>
+   </material>
+   <material name="G4_LITHIUM_CARBONATE" state="solid">
+      <D value="2.11000e+00" unit="g/cm3"/>
+      <fraction n="0.187850" ref="Li"/>
+      <fraction n="0.162551" ref="C"/>
+      <fraction n="0.649599" ref="O"/>
+   </material>
+   <material name="G4_LITHIUM_FLUORIDE" state="solid">
+      <D value="2.63500e+00" unit="g/cm3"/>
+      <fraction n="0.267558" ref="Li"/>
+      <fraction n="0.732442" ref="F"/>
+   </material>
+   <material name="G4_LITHIUM_HYDRIDE" state="solid">
+      <D value="8.20000e-01" unit="g/cm3"/>
+      <fraction n="0.873183" ref="Li"/>
+      <fraction n="0.126817" ref="H"/>
+   </material>
+   <material name="G4_LITHIUM_IODIDE" state="solid">
+      <D value="3.49400e+00" unit="g/cm3"/>
+      <fraction n="0.051852" ref="Li"/>
+      <fraction n="0.948148" ref="I"/>
+   </material>
+   <material name="G4_LITHIUM_OXIDE" state="solid">
+      <D value="2.01300e+00" unit="g/cm3"/>
+      <fraction n="0.464535" ref="Li"/>
+      <fraction n="0.535465" ref="O"/>
+   </material>
+   <material name="G4_LITHIUM_TETRABORATE" state="solid">
+      <D value="2.44000e+00" unit="g/cm3"/>
+      <fraction n="0.082072" ref="Li"/>
+      <fraction n="0.255701" ref="B"/>
+      <fraction n="0.662227" ref="O"/>
+   </material>
+   <material name="G4_LUNG_ICRP" state="solid">
+      <D value="1.04000e+00" unit="g/cm3"/>
+      <fraction n="0.105000" ref="H"/>
+      <fraction n="0.083000" ref="C"/>
+      <fraction n="0.023000" ref="N"/>
+      <fraction n="0.779000" ref="O"/>
+      <fraction n="0.002000" ref="Na"/>
+      <fraction n="0.001000" ref="P"/>
+      <fraction n="0.002000" ref="S"/>
+      <fraction n="0.003000" ref="Cl"/>
+      <fraction n="0.002000" ref="K"/>
+   </material>
+   <material name="G4_M3_WAX" state="solid">
+      <D value="1.05000e+00" unit="g/cm3"/>
+      <fraction n="0.114318" ref="H"/>
+      <fraction n="0.655824" ref="C"/>
+      <fraction n="0.092183" ref="O"/>
+      <fraction n="0.134792" ref="Mg"/>
+      <fraction n="0.002883" ref="Ca"/>
+   </material>
+   <material name="G4_MAGNESIUM_CARBONATE" state="solid">
+      <D value="2.95800e+00" unit="g/cm3"/>
+      <fraction n="0.288268" ref="Mg"/>
+      <fraction n="0.142453" ref="C"/>
+      <fraction n="0.569279" ref="O"/>
+   </material>
+   <material name="G4_MAGNESIUM_FLUORIDE" state="solid">
+      <D value="3.00000e+00" unit="g/cm3"/>
+      <fraction n="0.390117" ref="Mg"/>
+      <fraction n="0.609883" ref="F"/>
+   </material>
+   <material name="G4_MAGNESIUM_OXIDE" state="solid">
+      <D value="3.58000e+00" unit="g/cm3"/>
+      <fraction n="0.603036" ref="Mg"/>
+      <fraction n="0.396964" ref="O"/>
+   </material>
+   <material name="G4_MAGNESIUM_TETRABORATE" state="solid">
+      <D value="2.53000e+00" unit="g/cm3"/>
+      <fraction n="0.135370" ref="Mg"/>
+      <fraction n="0.240854" ref="B"/>
+      <fraction n="0.623776" ref="O"/>
+   </material>
+   <material name="G4_MERCURIC_IODIDE" state="solid">
+      <D value="6.36000e+00" unit="g/cm3"/>
+      <fraction n="0.441452" ref="Hg"/>
+      <fraction n="0.558548" ref="I"/>
+   </material>
+   <material name="G4_METHANE" state="gas">
+      <D value="6.67151e-04" unit="g/cm3"/>
+      <fraction n="0.748682" ref="C"/>
+      <fraction n="0.251318" ref="H"/>
+   </material>
+   <material name="G4_METHANOL" state="solid">
+      <D value="7.91400e-01" unit="g/cm3"/>
+      <fraction n="0.374845" ref="C"/>
+      <fraction n="0.125828" ref="H"/>
+      <fraction n="0.499327" ref="O"/>
+   </material>
+   <material name="G4_MIX_D_WAX" state="solid">
+      <D value="9.90000e-01" unit="g/cm3"/>
+      <fraction n="0.134040" ref="H"/>
+      <fraction n="0.777960" ref="C"/>
+      <fraction n="0.035020" ref="O"/>
+      <fraction n="0.038594" ref="Mg"/>
+      <fraction n="0.014386" ref="Ti"/>
+   </material>
+   <material name="G4_MS20_TISSUE" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.081192" ref="H"/>
+      <fraction n="0.583442" ref="C"/>
+      <fraction n="0.017798" ref="N"/>
+      <fraction n="0.186381" ref="O"/>
+      <fraction n="0.130287" ref="Mg"/>
+      <fraction n="0.000900" ref="Cl"/>
+   </material>
+   <material name="G4_MUSCLE_SKELETAL_ICRP" state="solid">
+      <D value="1.05000e+00" unit="g/cm3"/>
+      <fraction n="0.102000" ref="H"/>
+      <fraction n="0.143000" ref="C"/>
+      <fraction n="0.034000" ref="N"/>
+      <fraction n="0.710000" ref="O"/>
+      <fraction n="0.001000" ref="Na"/>
+      <fraction n="0.002000" ref="P"/>
+      <fraction n="0.003000" ref="S"/>
+      <fraction n="0.001000" ref="Cl"/>
+      <fraction n="0.004000" ref="K"/>
+   </material>
+   <material name="G4_MUSCLE_STRIATED_ICRU" state="solid">
+      <D value="1.04000e+00" unit="g/cm3"/>
+      <fraction n="0.102102" ref="H"/>
+      <fraction n="0.123123" ref="C"/>
+      <fraction n="0.035035" ref="N"/>
+      <fraction n="0.729730" ref="O"/>
+      <fraction n="0.001001" ref="Na"/>
+      <fraction n="0.002002" ref="P"/>
+      <fraction n="0.004004" ref="S"/>
+      <fraction n="0.003003" ref="K"/>
+   </material>
+   <material name="G4_MUSCLE_WITH_SUCROSE" state="solid">
+      <D value="1.11000e+00" unit="g/cm3"/>
+      <fraction n="0.098234" ref="H"/>
+      <fraction n="0.156214" ref="C"/>
+      <fraction n="0.035451" ref="N"/>
+      <fraction n="0.710101" ref="O"/>
+   </material>
+   <material name="G4_MUSCLE_WITHOUT_SUCROSE" state="solid">
+      <D value="1.07000e+00" unit="g/cm3"/>
+      <fraction n="0.101969" ref="H"/>
+      <fraction n="0.120058" ref="C"/>
+      <fraction n="0.035451" ref="N"/>
+      <fraction n="0.742522" ref="O"/>
+   </material>
+   <material name="G4_NAPHTHALENE" state="solid">
+      <D value="1.14500e+00" unit="g/cm3"/>
+      <fraction n="0.937088" ref="C"/>
+      <fraction n="0.062912" ref="H"/>
+   </material>
+   <material name="G4_NITROBENZENE" state="solid">
+      <D value="1.19867e+00" unit="g/cm3"/>
+      <fraction n="0.585368" ref="C"/>
+      <fraction n="0.040937" ref="H"/>
+      <fraction n="0.113775" ref="N"/>
+      <fraction n="0.259921" ref="O"/>
+   </material>
+   <material name="G4_NITROUS_OXIDE" state="gas">
+      <D value="1.83094e-03" unit="g/cm3"/>
+      <fraction n="0.636484" ref="N"/>
+      <fraction n="0.363516" ref="O"/>
+   </material>
+   <material name="G4_NYLON-8062" state="solid">
+      <D value="1.08000e+00" unit="g/cm3"/>
+      <fraction n="0.103509" ref="H"/>
+      <fraction n="0.648416" ref="C"/>
+      <fraction n="0.099536" ref="N"/>
+      <fraction n="0.148539" ref="O"/>
+   </material>
+   <material name="G4_NYLON-6-6" state="solid">
+      <D value="1.14000e+00" unit="g/cm3"/>
+      <fraction n="0.636848" ref="C"/>
+      <fraction n="0.097981" ref="H"/>
+      <fraction n="0.123781" ref="N"/>
+      <fraction n="0.141390" ref="O"/>
+   </material>
+   <material name="G4_NYLON-6-10" state="solid">
+      <D value="1.14000e+00" unit="g/cm3"/>
+      <fraction n="0.107062" ref="H"/>
+      <fraction n="0.680449" ref="C"/>
+      <fraction n="0.099189" ref="N"/>
+      <fraction n="0.113300" ref="O"/>
+   </material>
+   <material name="G4_NYLON-11_RILSAN" state="solid">
+      <D value="1.42500e+00" unit="g/cm3"/>
+      <fraction n="0.115476" ref="H"/>
+      <fraction n="0.720818" ref="C"/>
+      <fraction n="0.076417" ref="N"/>
+      <fraction n="0.087289" ref="O"/>
+   </material>
+   <material name="G4_OCTANE" state="solid">
+      <D value="7.02600e-01" unit="g/cm3"/>
+      <fraction n="0.841170" ref="C"/>
+      <fraction n="0.158830" ref="H"/>
+   </material>
+   <material name="G4_PARAFFIN" state="solid">
+      <D value="9.30000e-01" unit="g/cm3"/>
+      <fraction n="0.851387" ref="C"/>
+      <fraction n="0.148613" ref="H"/>
+   </material>
+   <material name="G4_N-PENTANE" state="solid">
+      <D value="6.26200e-01" unit="g/cm3"/>
+      <fraction n="0.832357" ref="C"/>
+      <fraction n="0.167643" ref="H"/>
+   </material>
+   <material name="G4_PHOTO_EMULSION" state="solid">
+      <D value="3.81500e+00" unit="g/cm3"/>
+      <fraction n="0.014100" ref="H"/>
+      <fraction n="0.072261" ref="C"/>
+      <fraction n="0.019320" ref="N"/>
+      <fraction n="0.066101" ref="O"/>
+      <fraction n="0.001890" ref="S"/>
+      <fraction n="0.349103" ref="Br"/>
+      <fraction n="0.474105" ref="Ag"/>
+      <fraction n="0.003120" ref="I"/>
+   </material>
+   <material name="G4_PLASTIC_SC_VINYLTOLUENE" state="solid">
+      <D value="1.03200e+00" unit="g/cm3"/>
+      <fraction n="0.914709" ref="C"/>
+      <fraction n="0.085291" ref="H"/>
+   </material>
+   <material name="G4_PLUTONIUM_DIOXIDE" state="solid">
+      <D value="1.14600e+01" unit="g/cm3"/>
+      <fraction n="0.884089" ref="Pu"/>
+      <fraction n="0.115911" ref="O"/>
+   </material>
+   <material name="G4_POLYACRYLONITRILE" state="solid">
+      <D value="1.17000e+00" unit="g/cm3"/>
+      <fraction n="0.679048" ref="C"/>
+      <fraction n="0.056986" ref="H"/>
+      <fraction n="0.263966" ref="N"/>
+   </material>
+   <material name="G4_POLYCARBONATE" state="solid">
+      <D value="1.20000e+00" unit="g/cm3"/>
+      <fraction n="0.755745" ref="C"/>
+      <fraction n="0.055494" ref="H"/>
+      <fraction n="0.188760" ref="O"/>
+   </material>
+   <material name="G4_POLYCHLOROSTYRENE" state="solid">
+      <D value="1.30000e+00" unit="g/cm3"/>
+      <fraction n="0.693290" ref="C"/>
+      <fraction n="0.050908" ref="H"/>
+      <fraction n="0.255802" ref="Cl"/>
+   </material>
+   <material name="G4_POLYETHYLENE" state="solid">
+      <D value="9.40000e-01" unit="g/cm3"/>
+      <fraction n="0.856282" ref="C"/>
+      <fraction n="0.143718" ref="H"/>
+   </material>
+   <material name="G4_MYLAR" state="solid">
+      <D value="1.40000e+00" unit="g/cm3"/>
+      <fraction n="0.625011" ref="C"/>
+      <fraction n="0.041961" ref="H"/>
+      <fraction n="0.333028" ref="O"/>
+   </material>
+   <material name="G4_PLEXIGLASS" state="solid">
+      <D value="1.19000e+00" unit="g/cm3"/>
+      <fraction n="0.599841" ref="C"/>
+      <fraction n="0.080542" ref="H"/>
+      <fraction n="0.319617" ref="O"/>
+   </material>
+   <material name="G4_POLYOXYMETHYLENE" state="solid">
+      <D value="1.42500e+00" unit="g/cm3"/>
+      <fraction n="0.400011" ref="C"/>
+      <fraction n="0.067138" ref="H"/>
+      <fraction n="0.532851" ref="O"/>
+   </material>
+   <material name="G4_POLYPROPYLENE" state="solid">
+      <D value="9.00000e-01" unit="g/cm3"/>
+      <fraction n="0.856282" ref="C"/>
+      <fraction n="0.143718" ref="H"/>
+   </material>
+   <material name="G4_POLYSTYRENE" state="solid">
+      <D value="1.06000e+00" unit="g/cm3"/>
+      <fraction n="0.922577" ref="C"/>
+      <fraction n="0.077423" ref="H"/>
+   </material>
+   <material name="G4_TEFLON" state="solid">
+      <D value="2.20000e+00" unit="g/cm3"/>
+      <fraction n="0.240179" ref="C"/>
+      <fraction n="0.759821" ref="F"/>
+   </material>
+   <material name="G4_POLYTRIFLUOROCHLOROETHYLENE" state="solid">
+      <D value="2.10000e+00" unit="g/cm3"/>
+      <fraction n="0.206247" ref="C"/>
+      <fraction n="0.489358" ref="F"/>
+      <fraction n="0.304394" ref="Cl"/>
+   </material>
+   <material name="G4_POLYVINYL_ACETATE" state="solid">
+      <D value="1.19000e+00" unit="g/cm3"/>
+      <fraction n="0.558059" ref="C"/>
+      <fraction n="0.070248" ref="H"/>
+      <fraction n="0.371693" ref="O"/>
+   </material>
+   <material name="G4_POLYVINYL_ALCOHOL" state="solid">
+      <D value="1.30000e+00" unit="g/cm3"/>
+      <fraction n="0.545290" ref="C"/>
+      <fraction n="0.091522" ref="H"/>
+      <fraction n="0.363188" ref="O"/>
+   </material>
+   <material name="G4_POLYVINYL_BUTYRAL" state="solid">
+      <D value="1.12000e+00" unit="g/cm3"/>
+      <fraction n="0.675729" ref="C"/>
+      <fraction n="0.099238" ref="H"/>
+      <fraction n="0.225033" ref="O"/>
+   </material>
+   <material name="G4_POLYVINYL_CHLORIDE" state="solid">
+      <D value="1.30000e+00" unit="g/cm3"/>
+      <fraction n="0.384357" ref="C"/>
+      <fraction n="0.048383" ref="H"/>
+      <fraction n="0.567261" ref="Cl"/>
+   </material>
+   <material name="G4_POLYVINYLIDENE_CHLORIDE" state="solid">
+      <D value="1.70000e+00" unit="g/cm3"/>
+      <fraction n="0.247791" ref="C"/>
+      <fraction n="0.020795" ref="H"/>
+      <fraction n="0.731414" ref="Cl"/>
+   </material>
+   <material name="G4_POLYVINYLIDENE_FLUORIDE" state="solid">
+      <D value="1.76000e+00" unit="g/cm3"/>
+      <fraction n="0.375135" ref="C"/>
+      <fraction n="0.031481" ref="H"/>
+      <fraction n="0.593383" ref="F"/>
+   </material>
+   <material name="G4_POLYVINYL_PYRROLIDONE" state="solid">
+      <D value="1.25000e+00" unit="g/cm3"/>
+      <fraction n="0.648399" ref="C"/>
+      <fraction n="0.081620" ref="H"/>
+      <fraction n="0.126026" ref="N"/>
+      <fraction n="0.143954" ref="O"/>
+   </material>
+   <material name="G4_POTASSIUM_IODIDE" state="solid">
+      <D value="3.13000e+00" unit="g/cm3"/>
+      <fraction n="0.235529" ref="K"/>
+      <fraction n="0.764471" ref="I"/>
+   </material>
+   <material name="G4_POTASSIUM_OXIDE" state="solid">
+      <D value="2.32000e+00" unit="g/cm3"/>
+      <fraction n="0.830148" ref="K"/>
+      <fraction n="0.169852" ref="O"/>
+   </material>
+   <material name="G4_PROPANE" state="gas">
+      <D value="1.87939e-03" unit="g/cm3"/>
+      <fraction n="0.817136" ref="C"/>
+      <fraction n="0.182864" ref="H"/>
+   </material>
+   <material name="G4_lPROPANE" state="solid">
+      <D value="4.30000e-01" unit="g/cm3"/>
+      <fraction n="0.817136" ref="C"/>
+      <fraction n="0.182864" ref="H"/>
+   </material>
+   <material name="G4_N-PROPYL_ALCOHOL" state="solid">
+      <D value="8.03500e-01" unit="g/cm3"/>
+      <fraction n="0.599586" ref="C"/>
+      <fraction n="0.134179" ref="H"/>
+      <fraction n="0.266234" ref="O"/>
+   </material>
+   <material name="G4_PYRIDINE" state="solid">
+      <D value="9.81900e-01" unit="g/cm3"/>
+      <fraction n="0.759211" ref="C"/>
+      <fraction n="0.063713" ref="H"/>
+      <fraction n="0.177076" ref="N"/>
+   </material>
+   <material name="G4_RUBBER_BUTYL" state="solid">
+      <D value="9.20000e-01" unit="g/cm3"/>
+      <fraction n="0.143711" ref="H"/>
+      <fraction n="0.856289" ref="C"/>
+   </material>
+   <material name="G4_RUBBER_NATURAL" state="solid">
+      <D value="9.20000e-01" unit="g/cm3"/>
+      <fraction n="0.118371" ref="H"/>
+      <fraction n="0.881629" ref="C"/>
+   </material>
+   <material name="G4_RUBBER_NEOPRENE" state="solid">
+      <D value="1.23000e+00" unit="g/cm3"/>
+      <fraction n="0.056920" ref="H"/>
+      <fraction n="0.542646" ref="C"/>
+      <fraction n="0.400434" ref="Cl"/>
+   </material>
+   <material name="G4_SILICON_DIOXIDE" state="solid">
+      <D value="2.32000e+00" unit="g/cm3"/>
+      <fraction n="0.467434" ref="Si"/>
+      <fraction n="0.532566" ref="O"/>
+   </material>
+   <material name="G4_SILVER_BROMIDE" state="solid">
+      <D value="6.47300e+00" unit="g/cm3"/>
+      <fraction n="0.574465" ref="Ag"/>
+      <fraction n="0.425535" ref="Br"/>
+   </material>
+   <material name="G4_SILVER_CHLORIDE" state="solid">
+      <D value="5.56000e+00" unit="g/cm3"/>
+      <fraction n="0.752635" ref="Ag"/>
+      <fraction n="0.247365" ref="Cl"/>
+   </material>
+   <material name="G4_SILVER_HALIDES" state="solid">
+      <D value="6.47000e+00" unit="g/cm3"/>
+      <fraction n="0.422895" ref="Br"/>
+      <fraction n="0.573748" ref="Ag"/>
+      <fraction n="0.003357" ref="I"/>
+   </material>
+   <material name="G4_SILVER_IODIDE" state="solid">
+      <D value="6.01000e+00" unit="g/cm3"/>
+      <fraction n="0.459459" ref="Ag"/>
+      <fraction n="0.540541" ref="I"/>
+   </material>
+   <material name="G4_SKIN_ICRP" state="solid">
+      <D value="1.09000e+00" unit="g/cm3"/>
+      <fraction n="0.100000" ref="H"/>
+      <fraction n="0.204000" ref="C"/>
+      <fraction n="0.042000" ref="N"/>
+      <fraction n="0.645000" ref="O"/>
+      <fraction n="0.002000" ref="Na"/>
+      <fraction n="0.001000" ref="P"/>
+      <fraction n="0.002000" ref="S"/>
+      <fraction n="0.003000" ref="Cl"/>
+      <fraction n="0.001000" ref="K"/>
+   </material>
+   <material name="G4_SODIUM_CARBONATE" state="solid">
+      <D value="2.53200e+00" unit="g/cm3"/>
+      <fraction n="0.433817" ref="Na"/>
+      <fraction n="0.113321" ref="C"/>
+      <fraction n="0.452862" ref="O"/>
+   </material>
+   <material name="G4_SODIUM_IODIDE" state="solid">
+      <D value="3.66700e+00" unit="g/cm3"/>
+      <fraction n="0.153374" ref="Na"/>
+      <fraction n="0.846626" ref="I"/>
+   </material>
+   <material name="G4_SODIUM_MONOXIDE" state="solid">
+      <D value="2.27000e+00" unit="g/cm3"/>
+      <fraction n="0.741858" ref="Na"/>
+      <fraction n="0.258142" ref="O"/>
+   </material>
+   <material name="G4_SODIUM_NITRATE" state="solid">
+      <D value="2.26100e+00" unit="g/cm3"/>
+      <fraction n="0.270485" ref="Na"/>
+      <fraction n="0.164796" ref="N"/>
+      <fraction n="0.564719" ref="O"/>
+   </material>
+   <material name="G4_STILBENE" state="solid">
+      <D value="9.70700e-01" unit="g/cm3"/>
+      <fraction n="0.932896" ref="C"/>
+      <fraction n="0.067104" ref="H"/>
+   </material>
+   <material name="G4_SUCROSE" state="solid">
+      <D value="1.58050e+00" unit="g/cm3"/>
+      <fraction n="0.421064" ref="C"/>
+      <fraction n="0.064782" ref="H"/>
+      <fraction n="0.514154" ref="O"/>
+   </material>
+   <material name="G4_TERPHENYL" state="solid">
+      <D value="1.24000e+00" unit="g/cm3"/>
+      <fraction n="0.938728" ref="C"/>
+      <fraction n="0.061272" ref="H"/>
+   </material>
+   <material name="G4_TESTIS_ICRP" state="solid">
+      <D value="1.04000e+00" unit="g/cm3"/>
+      <fraction n="0.106000" ref="H"/>
+      <fraction n="0.099000" ref="C"/>
+      <fraction n="0.020000" ref="N"/>
+      <fraction n="0.766000" ref="O"/>
+      <fraction n="0.002000" ref="Na"/>
+      <fraction n="0.001000" ref="P"/>
+      <fraction n="0.002000" ref="S"/>
+      <fraction n="0.002000" ref="Cl"/>
+      <fraction n="0.002000" ref="K"/>
+   </material>
+   <material name="G4_TETRACHLOROETHYLENE" state="solid">
+      <D value="1.62500e+00" unit="g/cm3"/>
+      <fraction n="0.144854" ref="C"/>
+      <fraction n="0.855146" ref="Cl"/>
+   </material>
+   <material name="G4_THALLIUM_CHLORIDE" state="solid">
+      <D value="7.00400e+00" unit="g/cm3"/>
+      <fraction n="0.852180" ref="Tl"/>
+      <fraction n="0.147820" ref="Cl"/>
+   </material>
+   <material name="G4_TISSUE_SOFT_ICRP" state="solid">
+      <D value="1.03000e+00" unit="g/cm3"/>
+      <fraction n="0.105000" ref="H"/>
+      <fraction n="0.256000" ref="C"/>
+      <fraction n="0.027000" ref="N"/>
+      <fraction n="0.602000" ref="O"/>
+      <fraction n="0.001000" ref="Na"/>
+      <fraction n="0.002000" ref="P"/>
+      <fraction n="0.003000" ref="S"/>
+      <fraction n="0.002000" ref="Cl"/>
+      <fraction n="0.002000" ref="K"/>
+   </material>
+   <material name="G4_TISSUE_SOFT_ICRU-4" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.101000" ref="H"/>
+      <fraction n="0.111000" ref="C"/>
+      <fraction n="0.026000" ref="N"/>
+      <fraction n="0.762000" ref="O"/>
+   </material>
+   <material name="G4_TISSUE-METHANE" state="gas">
+      <D value="1.06409e-03" unit="g/cm3"/>
+      <fraction n="0.101869" ref="H"/>
+      <fraction n="0.456179" ref="C"/>
+      <fraction n="0.035172" ref="N"/>
+      <fraction n="0.406780" ref="O"/>
+   </material>
+   <material name="G4_TISSUE-PROPANE" state="gas">
+      <D value="1.82628e-03" unit="g/cm3"/>
+      <fraction n="0.102672" ref="H"/>
+      <fraction n="0.568940" ref="C"/>
+      <fraction n="0.035022" ref="N"/>
+      <fraction n="0.293366" ref="O"/>
+   </material>
+   <material name="G4_TITANIUM_DIOXIDE" state="solid">
+      <D value="4.26000e+00" unit="g/cm3"/>
+      <fraction n="0.599342" ref="Ti"/>
+      <fraction n="0.400658" ref="O"/>
+   </material>
+   <material name="G4_TOLUENE" state="solid">
+      <D value="8.66900e-01" unit="g/cm3"/>
+      <fraction n="0.912485" ref="C"/>
+      <fraction n="0.087515" ref="H"/>
+   </material>
+   <material name="G4_TRICHLOROETHYLENE" state="solid">
+      <D value="1.46000e+00" unit="g/cm3"/>
+      <fraction n="0.182830" ref="C"/>
+      <fraction n="0.007672" ref="H"/>
+      <fraction n="0.809499" ref="Cl"/>
+   </material>
+   <material name="G4_TRIETHYL_PHOSPHATE" state="solid">
+      <D value="1.07000e+00" unit="g/cm3"/>
+      <fraction n="0.395622" ref="C"/>
+      <fraction n="0.083001" ref="H"/>
+      <fraction n="0.351336" ref="O"/>
+      <fraction n="0.170041" ref="P"/>
+   </material>
+   <material name="G4_TUNGSTEN_HEXAFLUORIDE" state="solid">
+      <D value="2.40000e+00" unit="g/cm3"/>
+      <fraction n="0.617266" ref="W"/>
+      <fraction n="0.382734" ref="F"/>
+   </material>
+   <material name="G4_URANIUM_DICARBIDE" state="solid">
+      <D value="1.12800e+01" unit="g/cm3"/>
+      <fraction n="0.908333" ref="U"/>
+      <fraction n="0.091667" ref="C"/>
+   </material>
+   <material name="G4_URANIUM_MONOCARBIDE" state="solid">
+      <D value="1.36300e+01" unit="g/cm3"/>
+      <fraction n="0.951965" ref="U"/>
+      <fraction n="0.048035" ref="C"/>
+   </material>
+   <material name="G4_URANIUM_OXIDE" state="solid">
+      <D value="1.09600e+01" unit="g/cm3"/>
+      <fraction n="0.881498" ref="U"/>
+      <fraction n="0.118502" ref="O"/>
+   </material>
+   <material name="G4_UREA" state="solid">
+      <D value="1.32300e+00" unit="g/cm3"/>
+      <fraction n="0.199994" ref="C"/>
+      <fraction n="0.067134" ref="H"/>
+      <fraction n="0.466461" ref="N"/>
+      <fraction n="0.266410" ref="O"/>
+   </material>
+   <material name="G4_VALINE" state="solid">
+      <D value="1.23000e+00" unit="g/cm3"/>
+      <fraction n="0.512637" ref="C"/>
+      <fraction n="0.094645" ref="H"/>
+      <fraction n="0.119566" ref="N"/>
+      <fraction n="0.273152" ref="O"/>
+   </material>
+   <material name="G4_VITON" state="solid">
+      <D value="1.80000e+00" unit="g/cm3"/>
+      <fraction n="0.009417" ref="H"/>
+      <fraction n="0.280555" ref="C"/>
+      <fraction n="0.710028" ref="F"/>
+   </material>
+   <material name="G4_WATER_VAPOR" state="gas">
+      <D value="7.56182e-04" unit="g/cm3"/>
+      <fraction n="0.111898" ref="H"/>
+      <fraction n="0.888102" ref="O"/>
+   </material>
+   <material name="G4_XYLENE" state="solid">
+      <D value="8.70000e-01" unit="g/cm3"/>
+      <fraction n="0.905059" ref="C"/>
+      <fraction n="0.094941" ref="H"/>
+   </material>
+   <material name="G4_GRAPHITE" state="solid">
+      <D value="2.21000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="C"/>
+   </material>
+   <material name="G4_lH2" state="liquid">
+      <D value="7.08000e-02" unit="g/cm3"/>
+      <fraction n="1.000000" ref="H"/>
+   </material>
+   <material name="G4_lN2" state="liquid">
+      <D value="8.07000e-01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="N"/>
+   </material>
+   <material name="G4_lO2" state="liquid">
+      <D value="1.14100e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="O"/>
+   </material>
+   <material name="G4_lAr" state="liquid">
+      <D value="1.39600e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Ar"/>
+   </material>
+   <material name="G4_lBr" state="liquid">
+      <D value="3.10280e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Br"/>
+   </material>
+   <material name="G4_lKr" state="liquid">
+      <D value="2.41800e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Kr"/>
+   </material>
+   <material name="G4_lXe" state="liquid">
+      <D value="2.95300e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Xe"/>
+   </material>
+   <material name="G4_PbWO4" state="solid">
+      <D value="8.28000e+00" unit="g/cm3"/>
+      <fraction n="0.140637" ref="O"/>
+      <fraction n="0.455366" ref="Pb"/>
+      <fraction n="0.403998" ref="W"/>
+   </material>
+   <material name="G4_Galactic" state="gas">
+      <D value="1.00000e-25" unit="g/cm3"/>
+      <fraction n="1.000000" ref="H"/>
+   </material>
+   <material name="G4_GRAPHITE_POROUS" state="solid">
+      <D value="1.70000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="C"/>
+   </material>
+   <material name="G4_LUCITE" state="solid">
+      <D value="1.19000e+00" unit="g/cm3"/>
+      <fraction n="0.080538" ref="H"/>
+      <fraction n="0.599848" ref="C"/>
+      <fraction n="0.319614" ref="O"/>
+   </material>
+   <material name="G4_BRASS" state="solid">
+      <D value="8.52000e+00" unit="g/cm3"/>
+      <fraction n="0.575130" ref="Cu"/>
+      <fraction n="0.334122" ref="Zn"/>
+      <fraction n="0.090748" ref="Pb"/>
+   </material>
+   <material name="G4_BRONZE" state="solid">
+      <D value="8.82000e+00" unit="g/cm3"/>
+      <fraction n="0.849368" ref="Cu"/>
+      <fraction n="0.088391" ref="Zn"/>
+      <fraction n="0.062241" ref="Pb"/>
+   </material>
+   <material name="G4_STAINLESS-STEEL" state="solid">
+      <D value="8.00000e+00" unit="g/cm3"/>
+      <fraction n="0.746213" ref="Fe"/>
+      <fraction n="0.169001" ref="Cr"/>
+      <fraction n="0.084786" ref="Ni"/>
+   </material>
+   <material name="G4_CR39" state="solid">
+      <D value="1.32000e+00" unit="g/cm3"/>
+      <fraction n="0.066151" ref="H"/>
+      <fraction n="0.525505" ref="C"/>
+      <fraction n="0.408345" ref="O"/>
+   </material>
+   <material name="G4_OCTADECANOL" state="solid">
+      <D value="8.12000e-01" unit="g/cm3"/>
+      <fraction n="0.141599" ref="H"/>
+      <fraction n="0.799252" ref="C"/>
+      <fraction n="0.059149" ref="O"/>
+   </material>
+   <material name="G4_KEVLAR" state="solid">
+      <D value="1.44000e+00" unit="g/cm3"/>
+      <fraction n="0.705796" ref="C"/>
+      <fraction n="0.042307" ref="H"/>
+      <fraction n="0.134312" ref="O"/>
+      <fraction n="0.117584" ref="N"/>
+   </material>
+   <material name="G4_DACRON" state="solid">
+      <D value="1.40000e+00" unit="g/cm3"/>
+      <fraction n="0.625011" ref="C"/>
+      <fraction n="0.041961" ref="H"/>
+      <fraction n="0.333028" ref="O"/>
+   </material>
+   <material name="G4_NEOPRENE" state="solid">
+      <D value="1.23000e+00" unit="g/cm3"/>
+      <fraction n="0.542642" ref="C"/>
+      <fraction n="0.056923" ref="H"/>
+      <fraction n="0.400435" ref="Cl"/>
+   </material>
+   <material name="G4_CYTOSINE" state="solid">
+      <D value="1.55000e+00" unit="g/cm3"/>
+      <fraction n="0.045361" ref="H"/>
+      <fraction n="0.432421" ref="C"/>
+      <fraction n="0.378213" ref="N"/>
+      <fraction n="0.144006" ref="O"/>
+   </material>
+   <material name="G4_THYMINE" state="solid">
+      <D value="1.23000e+00" unit="g/cm3"/>
+      <fraction n="0.047954" ref="H"/>
+      <fraction n="0.476187" ref="C"/>
+      <fraction n="0.222129" ref="N"/>
+      <fraction n="0.253730" ref="O"/>
+   </material>
+   <material name="G4_URACIL" state="solid">
+      <D value="1.32000e+00" unit="g/cm3"/>
+      <fraction n="0.035970" ref="H"/>
+      <fraction n="0.428622" ref="C"/>
+      <fraction n="0.249927" ref="N"/>
+      <fraction n="0.285482" ref="O"/>
+   </material>
+   <material name="G4_DEOXYRIBOSE" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.085324" ref="H"/>
+      <fraction n="0.508364" ref="C"/>
+      <fraction n="0.406312" ref="O"/>
+   </material>
+   <material name="G4_DNA_DEOXYRIBOSE" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.084896" ref="H"/>
+      <fraction n="0.722592" ref="C"/>
+      <fraction n="0.192512" ref="O"/>
+   </material>
+   <material name="G4_DNA_PHOSPHATE" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.326138" ref="P"/>
+      <fraction n="0.673862" ref="O"/>
+   </material>
+   <material name="G4_DNA_ADENINE" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.030061" ref="H"/>
+      <fraction n="0.447763" ref="C"/>
+      <fraction n="0.522176" ref="N"/>
+   </material>
+   <material name="G4_DNA_GUANINE" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.026857" ref="H"/>
+      <fraction n="0.400041" ref="C"/>
+      <fraction n="0.466523" ref="N"/>
+      <fraction n="0.106578" ref="O"/>
+   </material>
+   <material name="G4_DNA_CYTOSINE" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.036621" ref="H"/>
+      <fraction n="0.436380" ref="C"/>
+      <fraction n="0.381675" ref="N"/>
+      <fraction n="0.145324" ref="O"/>
+   </material>
+   <material name="G4_DNA_THYMINE" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.040284" ref="H"/>
+      <fraction n="0.480024" ref="C"/>
+      <fraction n="0.223919" ref="N"/>
+      <fraction n="0.255774" ref="O"/>
+   </material>
+   <material name="G4_DNA_URACIL" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.027222" ref="H"/>
+      <fraction n="0.432511" ref="C"/>
+      <fraction n="0.252195" ref="N"/>
+      <fraction n="0.288072" ref="O"/>
+   </material>
+   <material name="Vacuum" state="gas">
+      <T unit="K" value="293.13"/>
+      <MEE unit="eV" value="85.7030667332999"/>
+      <D unit="g/cm3" value="1.e-20"/>
+      <fraction n="0.7" ref="G4_N"/>
+      <fraction n="0.3" ref="G4_O"/>
+   </material>
+   <material name="BC408" state="solid">
+      <D unit="g/cm3" value="1.03"/>
+      <fraction n="0.085000" ref="G4_H"/>
+      <fraction n="0.915000" ref="G4_C"/>
+   </material>
+   <element name="6Li">
+      <fraction n="1.0000" ref="Li6"/>
+   </element>
+   <material name="6LiI" state="solid">
+      <D unit="g/cm3" value="3.494"/>
+      <fraction n="0.045113" ref="6Li"/>
+      <fraction n="0.954887" ref="I"/>
+   </material>
+   <material name="Copper" state="solid">
+      <D value="8.96000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cu"/>
+   </material>
+   <material name="Lead" state="solid">
+      <D value="1.13500e+01" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Pb"/>
+   </material>
+   <material name="Aluminium" state="solid">
+      <D value="2.69900e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Al"/>
+   </material>
+   <material name="Cadmium" state="solid">
+      <D value="8.65000e+00" unit="g/cm3"/>
+      <fraction n="1.000000" ref="Cd"/>
+   </material>
+   <material name="Steel" state="solid">
+      <D value="8.00000e+00" unit="g/cm3"/>
+      <fraction n="0.746213" ref="Fe"/>
+      <fraction n="0.169001" ref="Cr"/>
+      <fraction n="0.084786" ref="Ni"/>
+   </material>
+   <material name="StainlessSteel" state="solid">
+      <D value="8.00000e+00" unit="g/cm3"/>
+      <fraction n="0.746213" ref="Fe"/>
+      <fraction n="0.169001" ref="Cr"/>
+      <fraction n="0.084786" ref="Ni"/>
+   </material>
+   <material name="Water" state="solid">
+      <D value="1.00000e+00" unit="g/cm3"/>
+      <fraction n="0.111898" ref="H"/>
+      <fraction n="0.888102" ref="O"/>
+   </material>
+   <material name="Air" state="gas">
+      <D value="1.20479e-03" unit="g/cm3"/>
+      <fraction n="0.000124" ref="C"/>
+      <fraction n="0.755268" ref="N"/>
+      <fraction n="0.231781" ref="O"/>
+      <fraction n="0.012827" ref="Ar"/>
+   </material>
+</materials>
