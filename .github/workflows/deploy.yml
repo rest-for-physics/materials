@@ -24,7 +24,7 @@ jobs:
         run: |
           # Since '!'' is a special characters it's a bit messy
           export VERSION=$(cat version | grep -v -e ^# -e ^$)
-          echo -e "<\!-- ##VERSION REST gases "$VERSION"## -->\n\n" >> /tmp/test
+          echo -e "<\!-- ##VERSION REST materials "$VERSION"## -->\n\n" >> /tmp/test
           sed -i 's/<\\!--/<!--/' /tmp/test
           cat output/rest.xml >> /tmp/test
           mv /tmp/test output/rest.xml
