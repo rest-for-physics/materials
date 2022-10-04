@@ -5,16 +5,16 @@
       <D unit="mg/cm3" value="quencherDensity" />
       <T unit="K" value="gasTemperature" />
       <P unit="bar" value="gasPressure" />
-      <composite n="3" ref="G4_C" />
-      <composite n="9" ref="G4_H" />
-      <composite n="1" ref="G4_N" />
+      <composite n="3" ref="C" />
+      <composite n="9" ref="H" />
+      <composite n="1" ref="N" />
    </material>
    <material name="Isobutane" state="gas">
       <D unit="mg/cm3" value="quencherDensity" />
       <T unit="K" value="gasTemperature" />
       <P unit="bar" value="gasPressure" />
-      <composite n="4" ref="G4_C" />
-      <composite n="10" ref="G4_H" />
+      <composite n="4" ref="C" />
+      <composite n="10" ref="H" />
    </material>
    <!-- Gas mixtures -->
    <material name="PureHelium" state="gas">
@@ -45,6 +45,13 @@
       <fraction n="quencherFraction" ref="Isobutane" />
       <fraction n="1-quencherFraction" ref="G4_Xe" />
    </material>
+    <material name="XenonNeon" state="gas">
+       <T unit="K" value="gasTemperature"/>
+       <P unit="bar" value="gasPressure"/>
+       <D unit="mg/cm3" value="targetGasDensity+quencherDensity"/>
+       <fraction n="1-quencherFraction" ref="G4_Xe"/>
+       <fraction n="quencherFraction" ref="G4_Ne"/>
+    </material>
    <material name="PureArgon" state="gas">
       <T unit="K" value="gasTemperature" />
       <P unit="bar" value="gasPressure" />
