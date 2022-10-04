@@ -16,9 +16,13 @@ jobs:
         run: |
           rm -rf output/*
 
-      - name: Run python script
+      - name: Generate materials xml files
         run: |
           python3 materials.py
+
+      - name: Add legacy files
+        run: |
+          mv legacy/ output/
 
       - name: Add version header
         run: |
