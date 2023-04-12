@@ -10,7 +10,7 @@ import json
 
 files_to_generate = {
     "output/NIST.xml": ["definitions/NIST.xml"],
-    "output/materials.xml": ["definitions/NIST.xml", "definitions/other.xml"],
+    "output/materials.xml": ["definitions/NIST.xml", "definitions/other.xml", "definitions/liquidO.xml"],
     "output/gases.xml": ["definitions/NIST.xml", "definitions/gases.xml"],
     "output/rest.xml": ["definitions/NIST.xml", "definitions/gases.xml", "definitions/other.xml"]
 }
