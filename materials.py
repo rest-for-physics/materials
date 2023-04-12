@@ -45,7 +45,7 @@ def validate_and_merge(filename, xml_files):
     with open('aliases.json') as json_file:
         aliases = json.load(json_file)
         for material, alias_list in aliases.items():
-            #assert (material in references), f"'{material}' is not a valid reference, probably not defined before"
+            # assert (material in references), f"'{material}' is not a valid reference, probably not defined before"
             if material not in references:
                 continue
             for alias in alias_list:
