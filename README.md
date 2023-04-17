@@ -2,7 +2,9 @@
 
 This is a small project to host material definitions to be used in a GDML Geometry simulation inside Geant4.
 
-The contents of this repository will be synchronized with the [following website](https://sultan.unizar.es/materials/). Also they can be referenced from their GitHub address (such as https://raw.githubusercontent.com/rest-for-physics/materials/materials.xml).
+The materials produced by this repository are automatically deployed to GitHub Pages where the different xml files can be accessed, for example, the [materials.xml](https://rest-for-physics.github.io/materials/materials.xml) file can be accessed in [https://rest-for-physics.github.io/materials/materials.xml](https://rest-for-physics.github.io/materials/materials.xml).
+
+These files are also automatically synced to [following website](https://sultan.unizar.es/materials/).
 
 The main objective is to define material files with version traceability features that will be integrated with restG4 and `TRestGeant4Metadata`.
 To allow for traceability we have implemented versioning of the material files via the `version` xml tag. A more sophisticated versioning system is being worked on (https://github.com/rest-for-physics/materials/issues/3).
