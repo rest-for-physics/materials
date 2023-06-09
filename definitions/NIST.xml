@@ -2427,7 +2427,7 @@
     </material>
     
     <!-- material G4_BREAST_ICRP -->
-    <material name="G4_BRAIN_ICRP" state="solid">
+    <material name="G4_BREAST_ICRP" state="solid">
         <D value="1.02000e+00" unit="g/cm3" />
         <fraction n="0.106000" ref="H" />
         <fraction n="0.332000" ref="C" />
