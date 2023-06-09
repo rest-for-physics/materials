@@ -2425,6 +2425,19 @@
         <fraction n="0.003000" ref="Cl" />
         <fraction n="0.003000" ref="K" />
     </material>
+    
+    <!-- material G4_BREAST_ICRP -->
+    <material name="G4_BRAIN_ICRP" state="solid">
+        <D value="1.02000e+00" unit="g/cm3" />
+        <fraction n="0.106000" ref="H" />
+        <fraction n="0.332000" ref="C" />
+        <fraction n="0.030000" ref="N" />
+        <fraction n="0.527000" ref="O" />
+        <fraction n="0.001000" ref="Na" />
+        <fraction n="0.001000" ref="P" />
+        <fraction n="0.002000" ref="S" />
+        <fraction n="0.001000" ref="Cl" />
+    </material>
 
     <!-- material G4_BUTANE -->
     <material name="G4_BUTANE" state="gas">
