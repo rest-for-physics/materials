@@ -2874,7 +2874,19 @@
         <fraction n="0.557560" ref="O" />
         <fraction n="0.023417" ref="H" />
     </material>
-
+   <!-- material G4_HEART_ICRP -->
+    <material name="G4_HEART_ICRP" state="solid">
+        <D value="1.05500e+00" unit="g/cm3" />
+        <fraction n="0.103000" ref="H" />
+        <fraction n="0.121000" ref="C" />
+        <fraction n="0.032000" ref="N" />
+        <fraction n="0.734000" ref="O" />
+        <fraction n="0.001000" ref="Na" />
+        <fraction n="0.001000" ref="P" />
+        <fraction n="0.002000" ref="S" />
+        <fraction n="0.003000" ref="Cl" />
+        <fraction n="0.002000" ref="K" />
+    </material>
     <!-- material G4_N-HEPTANE -->
     <material name="G4_N-HEPTANE" state="solid">
         <D value="6.83760e-01" unit="g/cm3" />
@@ -2896,6 +2908,20 @@
         <fraction n="0.026363" ref="H" />
         <fraction n="0.073271" ref="N" />
         <fraction n="0.209237" ref="O" />
+    </material>
+      <!-- material G4_KIDNEY_ICRP -->
+    <material name="G4_KIDNEY_ICRP" state="solid">
+        <D value="1.05000e+00" unit="g/cm3" />
+        <fraction n="0.103000" ref="H" />
+        <fraction n="0.132000" ref="C" />
+        <fraction n="0.03000" ref="N" />
+        <fraction n="0.724000" ref="O" />
+        <fraction n="0.002000" ref="Na" />
+        <fraction n="0.002000" ref="P" />
+        <fraction n="0.002000" ref="S" />
+        <fraction n="0.002000" ref="Cl" />
+        <fraction n="0.002000" ref="K" />
+        <fraction n="0.001000" ref="Ca" />
     </material>
 
     <!-- material G4_LANTHANUM_OXYBROMIDE -->
@@ -2973,6 +2999,19 @@
         <fraction n="0.662227" ref="O" />
     </material>
 
+        <!-- material G4_LIVER_ICRP -->
+    <material name="G4_LIVER_ICRP" state="solid">
+        <D value="1.06500e+00" unit="g/cm3" />
+        <fraction n="0.102000" ref="H" />
+        <fraction n="0.139000" ref="C" />
+        <fraction n="0.03000" ref="N" />
+        <fraction n="0.716000" ref="O" />
+        <fraction n="0.002000" ref="Na" />
+        <fraction n="0.003000" ref="P" />
+        <fraction n="0.003000" ref="S" />
+        <fraction n="0.002000" ref="Cl" />
+        <fraction n="0.003000" ref="K" />
+    </material>
     <!-- material G4_LUNG_ICRP -->
     <material name="G4_LUNG_ICRP" state="solid">
         <D value="1.04000e+00" unit="g/cm3" />
