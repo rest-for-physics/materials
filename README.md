@@ -4,6 +4,14 @@ This is a small project to host material definitions to be used in a GDML Geomet
 
 The materials produced by this repository are automatically deployed to GitHub Pages where the different xml files can be accessed, for example, the [materials.xml](https://rest-for-physics.github.io/materials/materials.xml) file can be accessed in [https://rest-for-physics.github.io/materials/materials.xml](https://rest-for-physics.github.io/materials/materials.xml).
 
+## How to update
+
+User should only modify the files in `definitions`. In order to propagate changes into output you need to run the Python script (from the root of the repository):
+
+```bash
+python materials.py
+```
+
 These files are also automatically synced to [following website](https://sultan.unizar.es/materials/).
 
 The main objective is to define material files with version traceability features that will be integrated with restG4 and `TRestGeant4Metadata`.
