@@ -23,11 +23,6 @@
       <fraction n="0.045113" ref="6Li" />
       <fraction n="0.954887" ref="I" />
    </material>
-   <material name="SiO2" state="solid">
-	  <MEE unit="eV" value="168"/>
-	  <D unit="g/cm3" value="2.65"/>
-	  <fraction n="1" ref="Si"/>
-	  <fraction n="2" ref="O"/>
-	</material>
+  
 
 </materials>
