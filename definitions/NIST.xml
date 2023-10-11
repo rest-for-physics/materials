@@ -2501,6 +2501,8 @@
         <fraction n="0.285309" ref="O" />
     </material>
 
+     
+
     <!-- material G4_CALCIUM_SULFATE -->
     <material name="G4_CALCIUM_SULFATE" state="solid">
         <D value="2.96000e+00" unit="g/cm3" />
@@ -3072,6 +3074,14 @@
         <fraction n="0.441452" ref="Hg" />
         <fraction n="0.558548" ref="I" />
     </material>
+
+      <!-- material G4_SILICUM_OXIDE -->
+     <material name="G4_SILICUM_OXIDE" state="solid">
+	  <MEE unit="eV" value="168"/>
+	  <D unit="g/cm3" value="2.65"/>
+	  <fraction n="0.467" ref="Si"/>
+	  <fraction n="0.532" ref="O"/>
+	</material>
 
     <!-- material G4_METHANE -->
     <material name="G4_METHANE" state="gas">
