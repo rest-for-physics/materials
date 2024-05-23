@@ -26,7 +26,7 @@
   
 <material name="LUNG20_AIR80" state="solid">
       <D unit="g/cm3" value="0.209" />
-      <fraction n="0.20" ref="G4_LUNG_ICRP " />
+      <fraction n="0.20" ref="G4_LUNG_ICRP" />
       <fraction n="0.80" ref="G4_AIR" />
    </material>
 
