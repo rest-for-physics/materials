@@ -3161,14 +3161,14 @@
    </material>
    <material name="TMAGas" state="gas">
       <D unit="kg/m3" value="6.70"/>
-      <composite n="3" ref="C"/>
-      <composite n="9" ref="H"/>
-      <composite n="1" ref="N"/>
+      <fraction n="0.6095775385572637" ref="C"/>
+      <fraction n="0.1534682886203227" ref="H"/>
+      <fraction n="0.2369541728224135" ref="N"/>
    </material>
    <material name="IsobutaneGas" state="gas">
       <D unit="kg/m3" value="2.38467"/>
-      <composite n="4" ref="C"/>
-      <composite n="10" ref="H"/>
+      <fraction n="0.8265819278538703" ref="C"/>
+      <fraction n="0.1734180721461297" ref="H"/>
    </material>
    <material name="HeliumGas" state="gas">
       <D unit="kg/m3" value="0.125"/>
