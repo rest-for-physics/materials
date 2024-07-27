@@ -2477,6 +2477,12 @@
       <fraction n="0.441452" ref="Hg"/>
       <fraction n="0.558548" ref="I"/>
    </material>
+   <material name="G4_SILICUM_OXIDE" state="solid">
+      <MEE unit="eV" value="168"/>
+      <D unit="g/cm3" value="2.65"/>
+      <fraction n="0.467" ref="Si"/>
+      <fraction n="0.532" ref="O"/>
+   </material>
    <material name="G4_METHANE" state="gas">
       <D value="6.67151e-04" unit="g/cm3"/>
       <fraction n="0.748682" ref="C"/>
@@ -3153,6 +3159,177 @@
       <fraction n="0.252195" ref="N"/>
       <fraction n="0.288072" ref="O"/>
    </material>
+   <material name="TMAGas" state="gas">
+      <D unit="kg/m3" value="6.70"/>
+      <composite n="3" ref="C"/>
+      <composite n="9" ref="H"/>
+      <composite n="1" ref="N"/>
+   </material>
+   <material name="IsobutaneGas" state="gas">
+      <D unit="kg/m3" value="2.38467"/>
+      <composite n="4" ref="C"/>
+      <composite n="10" ref="H"/>
+   </material>
+   <material name="HeliumGas" state="gas">
+      <D unit="kg/m3" value="0.125"/>
+      <fraction n="1" ref="He"/>
+   </material>
+   <material name="XenonGas" state="gas">
+      <D unit="kg/m3" value="5.894"/>
+      <fraction n="1" ref="Xe"/>
+   </material>
+   <material name="ArgonGas" state="gas">
+      <D unit="kg/m3" value="1.63897"/>
+      <fraction n="1" ref="Ar"/>
+   </material>
+   <material name="Xenon50Neon50Gas" state="gas">
+      <D unit="kg/m3" value="3.0553"/>
+      <fraction n="0.8667868153341387" ref="Xe"/>
+      <fraction n="0.1332131846658613" ref="Ne"/>
+   </material>
+   <material name="Argon1%Isobutane1bar" state="gas">
+      <D unit="kg/m3" value="1.61882"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="0.9855" ref="ArgonGas"/>
+      <fraction n="0.0145" ref="IsobutaneGas"/>
+   </material>
+   <material name="Argon2%Isobutane1bar" state="gas">
+      <D unit="kg/m3" value="1.62615"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="0.9711" ref="ArgonGas"/>
+      <fraction n="0.0289" ref="IsobutaneGas"/>
+   </material>
+   <material name="Argon3%Isobutane1bar" state="gas">
+      <D unit="kg/m3" value="1.63348"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="0.9569" ref="ArgonGas"/>
+      <fraction n="0.0431" ref="IsobutaneGas"/>
+   </material>
+   <material name="Argon4%Isobutane1bar" state="gas">
+      <D unit="kg/m3" value="1.64081"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="0.9428" ref="ArgonGas"/>
+      <fraction n="0.0572" ref="IsobutaneGas"/>
+   </material>
+   <material name="Argon5%Isobutane1bar" state="gas">
+      <D unit="kg/m3" value="1.64814"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="0.9288" ref="ArgonGas"/>
+      <fraction n="0.0712" ref="IsobutaneGas"/>
+   </material>
+   <material name="Argon10%Isobutane1bar" state="gas">
+      <D unit="kg/m3" value="1.6848"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="0.8608" ref="ArgonGas"/>
+      <fraction n="0.1392" ref="IsobutaneGas"/>
+   </material>
+   <material name="XenonNeon1%Isobutane1bar" state="gas">
+      <D unit="kg/m3" value="3.04819"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="0.99230795006" ref="Xenon50Neon50Gas"/>
+      <fraction n="0.00769204994" ref="IsobutaneGas"/>
+   </material>
+   <material name="XenonNeon2.3%Isobutane1bar" state="gas">
+      <D unit="kg/m3" value="3.03895"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="0.98225450491" ref="Xenon50Neon50Gas"/>
+      <fraction n="0.01774549509" ref="IsobutaneGas"/>
+   </material>
+   <material name="XenonNeon2.3%Isobutane1.05bar" state="gas">
+      <D unit="kg/m3" value="3.1908975"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="XenonNeon2.3%Isobutane1bar"/>
+   </material>
+   <material name="Argon1%Isobutane1.2bar" state="gas">
+      <D unit="kg/m3" value="1.942584"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon1%Isobutane1bar"/>
+   </material>
+   <material name="Argon2%Isobutane1.2bar" state="gas">
+      <D unit="kg/m3" value="1.95138"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon2%Isobutane1bar"/>
+   </material>
+   <material name="Argon3%Isobutane1.2bar" state="gas">
+      <D unit="kg/m3" value="1.960176"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon3%Isobutane1bar"/>
+   </material>
+   <material name="Argon4%Isobutane1.2bar" state="gas">
+      <D unit="kg/m3" value="1.968972"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon4%Isobutane1bar"/>
+   </material>
+   <material name="Argon5%Isobutane1.2bar" state="gas">
+      <D unit="kg/m3" value="1.977768"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon5%Isobutane1bar"/>
+   </material>
+   <material name="Argon10%Isobutane1.2bar" state="gas">
+      <D unit="kg/m3" value="2.02176"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon10%Isobutane1bar"/>
+   </material>
+   <material name="Argon1%Isobutane1.4bar" state="gas">
+      <D unit="kg/m3" value="2.266348"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon1%Isobutane1bar"/>
+   </material>
+   <material name="Argon2%Isobutane1.4bar" state="gas">
+      <D unit="kg/m3" value="2.27661"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon2%Isobutane1bar"/>
+   </material>
+   <material name="Argon3%Isobutane1.4bar" state="gas">
+      <D unit="kg/m3" value="2.286872"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon3%Isobutane1bar"/>
+   </material>
+   <material name="Argon4%Isobutane1.4bar" state="gas">
+      <D unit="kg/m3" value="2.297134"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon4%Isobutane1bar"/>
+   </material>
+   <material name="Argon5%Isobutane1.4bar" state="gas">
+      <D unit="kg/m3" value="2.307396"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon5%Isobutane1bar"/>
+   </material>
+   <material name="Argon10%Isobutane1.4bar" state="gas">
+      <D unit="kg/m3" value="2.35872"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon10%Isobutane1bar"/>
+   </material>
+   <material name="Argon1%Isobutane1.6bar" state="gas">
+      <D unit="kg/m3" value="2.590112"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon1%Isobutane1bar"/>
+   </material>
+   <material name="Argon2%Isobutane1.6bar" state="gas">
+      <D unit="kg/m3" value="2.60184"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon2%Isobutane1bar"/>
+   </material>
+   <material name="Argon3%Isobutane1.6bar" state="gas">
+      <D unit="kg/m3" value="2.613568"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon3%Isobutane1bar"/>
+   </material>
+   <material name="Argon4%Isobutane1.6bar" state="gas">
+      <D unit="kg/m3" value="2.625296"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon4%Isobutane1bar"/>
+   </material>
+   <material name="Argon5%Isobutane1.6bar" state="gas">
+      <D unit="kg/m3" value="2.637024"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon5%Isobutane1bar"/>
+   </material>
+   <material name="Argon10%Isobutane1.6bar" state="gas">
+      <D unit="kg/m3" value="2.69568"/>
+      <T unit="K" value="298.15"/>
+      <fraction n="1" ref="Argon10%Isobutane1bar"/>
+   </material>
    <material name="TMA" state="gas">
       <D unit="mg/cm3" value="quencherDensity"/>
       <T unit="K" value="gasTemperature"/>
@@ -3243,6 +3420,11 @@
       <D unit="g/cm3" value="3.494"/>
       <fraction n="0.045113" ref="6Li"/>
       <fraction n="0.954887" ref="I"/>
+   </material>
+   <material name="LUNG20_AIR80" state="solid">
+      <D unit="g/cm3" value="0.209"/>
+      <fraction n="0.20" ref="G4_LUNG_ICRP"/>
+      <fraction n="0.80" ref="G4_AIR"/>
    </material>
    <material name="Copper" state="solid">
       <D value="8.96000e+00" unit="g/cm3"/>
