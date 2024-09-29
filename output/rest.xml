@@ -3426,6 +3426,11 @@
       <fraction n="0.20" ref="G4_LUNG_ICRP"/>
       <fraction n="0.80" ref="G4_AIR"/>
    </material>
+   <material name="BoratedHDPE5pct" state="solid">
+      <D unit="g/cm3" value="1.04"/>
+      <fraction n="0.05" ref="G4_B"/>
+      <fraction n="0.95" ref="G4_POLYETHYLENE"/>
+   </material>
    <material name="Copper" state="solid">
       <D value="8.96000e+00" unit="g/cm3"/>
       <fraction n="1.000000" ref="Cu"/>

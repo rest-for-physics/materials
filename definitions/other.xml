@@ -23,14 +23,18 @@
       <fraction n="0.045113" ref="6Li" />
       <fraction n="0.954887" ref="I" />
    </material>
-  
-<material name="LUNG20_AIR80" state="solid">
+
+   <material name="LUNG20_AIR80" state="solid">
       <D unit="g/cm3" value="0.209" />
       <fraction n="0.20" ref="G4_LUNG_ICRP" />
       <fraction n="0.80" ref="G4_AIR" />
    </material>
 
+   <!-- Borated HDPE 5% https://johncaunt.com/products/jcpe5/ -->
+   <material name="BoratedHDPE5pct" state="solid">
+      <D unit="g/cm3" value="1.04" />
+      <fraction n="0.05" ref="G4_B" />
+      <fraction n="0.95" ref="G4_POLYETHYLENE" />
+   </material>
 
-
-   
 </materials>
