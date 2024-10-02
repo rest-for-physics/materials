@@ -3236,7 +3236,7 @@
       <fraction n="0.01774549509" ref="IsobutaneGas"/>
    </material>
    <material name="XenonNeon5%Isobutane1bar" state="gas">
-      <D unit="kg/m3" value="3.03895"/>
+      <D unit="kg/m3" value="3.01977"/>
       <T unit="K" value="298.15"/>
       <fraction n="0.961177731" ref="Xenon50Neon50Gas"/>
       <fraction n="0.038822269" ref="IsobutaneGas"/>
