@@ -272,31 +272,31 @@
    <material name="XenonNeon2.3%Isobutane1.05bar" state="gas">
       <D unit="kg/m3" value="3.1908975" />
       <T unit="K" value="298.15" />
-      <fraction n="1" ref="XenonNeon2.3%Isobutane1bar" />
+      <fraction n="1" ref="XenonNeon1%Isobutane1bar" />
    </material>
 
    <material name="XenonNeon2.3%Isobutane1.5bar" state="gas">
       <D unit="kg/m3" value="4.55850" />
       <T unit="K" value="298.15" />
-      <fraction n="1" ref="XenonNeon2.3%Isobutane1bar" />
+      <fraction n="1" ref="XenonNeon1%Isobutane1bar" />
    </material>
 
    <material name="XenonNeon2.3%Isobutane2.0bar" state="gas">
       <D unit="kg/m3" value="6.07800" />
       <T unit="K" value="298.15" />
-      <fraction n="1" ref="XenonNeon2.3%Isobutane1bar" />
+      <fraction n="1" ref="XenonNeon1%Isobutane1bar" />
    </material>
 
    <material name="XenonNeon5%Isobutane1.5bar" state="gas">
       <D unit="kg/m3" value="4.52972" />
       <T unit="K" value="298.15" />
-      <fraction n="1" ref="XenonNeon2.3%Isobutane1bar" />
+      <fraction n="1" ref="XenonNeon1%Isobutane1bar" />
    </material>
 
    <material name="XenonNeon5%Isobutane2.0bar" state="gas">
       <D unit="kg/m3" value="6.03963" />
       <T unit="K" value="298.15" />
-      <fraction n="1" ref="XenonNeon2.3%Isobutane1bar" />
+      <fraction n="1" ref="XenonNeon1%Isobutane1bar" />
    </material>
 
 </materials>
