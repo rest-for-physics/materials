@@ -14,6 +14,13 @@
       <fraction n="0.085000" ref="G4_H" />
       <fraction n="0.915000" ref="G4_C" />
    </material>
+
+   <material name="PVT" state="solid">
+      <D unit="g/cm3" value="1.03" />
+      <fraction n="0.085000" ref="G4_H" />
+      <fraction n="0.915000" ref="G4_C" />
+   </material>
+
    <!-- 6LiI detector -->
    <element name="6Li">
       <fraction n="1.0000" ref="Li6" />
@@ -35,6 +42,30 @@
       <D unit="g/cm3" value="1.04" />
       <fraction n="0.05" ref="G4_B" />
       <fraction n="0.95" ref="G4_POLYETHYLENE" />
+   </material>
+
+   <!-- Scintillator with boron for neutron detection
+   https://eljentechnology.com/products/plastic-scintillators/ej-254 -->
+
+   <material name="EJ254-5pct" state="solid">
+      <D unit="g/cm3" value="1.026" />
+      <fraction n="0.084647652" ref="G4_H" />
+      <fraction n="0.865300985" ref="G4_C" />
+      <fraction n="0.050051363" ref="G4_B" />
+   </material>
+
+   <material name="EJ254-2.5pct" state="solid">
+      <D unit="g/cm3" value="1.023" />
+      <fraction n="0.084484239" ref="G4_H" />
+      <fraction n="0.886738622" ref="G4_C" />
+      <fraction n="0.024937563" ref="G4_B" />
+   </material>
+
+   <material name="EJ254-1pct" state="solid">
+      <D unit="g/cm3" value="1.021" />
+      <fraction n="0.084320827" ref="G4_H" />
+      <fraction n="0.900380755" ref="G4_C" />
+      <fraction n="0.01004552" ref="G4_B" />
    </material>
 
 </materials>
