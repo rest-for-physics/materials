@@ -3530,15 +3530,15 @@
    </material>
    <material name="EJ254-2.5pct" state="solid">
       <D unit="g/cm3" value="1.023"/>
-      <fraction n="0.084484239" ref="G4_H"/>
-      <fraction n="0.886738622" ref="G4_C"/>
-      <fraction n="0.024937563" ref="G4_B"/>
+      <fraction n="0.084809873" ref="G4_H"/>
+      <fraction n="0.890156445" ref="G4_C"/>
+      <fraction n="0.025033682" ref="G4_B"/>
    </material>
    <material name="EJ254-1pct" state="solid">
       <D unit="g/cm3" value="1.021"/>
-      <fraction n="0.084320827" ref="G4_H"/>
-      <fraction n="0.900380755" ref="G4_C"/>
-      <fraction n="0.01004552" ref="G4_B"/>
+      <fraction n="0.084766095" ref="G4_H"/>
+      <fraction n="0.905135339" ref="G4_C"/>
+      <fraction n="0.010098567" ref="G4_B"/>
    </material>
    <material name="Copper" state="solid">
       <D value="8.96000e+00" unit="g/cm3"/>
