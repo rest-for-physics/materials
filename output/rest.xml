@@ -3540,6 +3540,22 @@
       <fraction n="0.905135339" ref="G4_C"/>
       <fraction n="0.010098567" ref="G4_B"/>
    </material>
+   <material name="mirrobor_B4C" state="solid">
+      <D unit="g/cm3" value="1.55"/>
+      <fraction n="0.2080661841" ref="G4_C"/>
+      <fraction n="0.7919338159" ref="G4_B"/>
+   </material>
+   <material name="mirrobor_additives" state="solid">
+      <D unit="g/cm3" value="1.55"/>
+      <fraction n="0.70" ref="G4_C"/>
+      <fraction n="0.25" ref="G4_O"/>
+      <fraction n="0.05" ref="G4_H"/>
+   </material>
+   <material name="mirrobor" state="solid">
+      <D unit="g/cm3" value="1.55"/>
+      <fraction n="0.8" ref="mirrobor_B4C"/>
+      <fraction n="0.2" ref="mirrobor_additives"/>
+   </material>
    <material name="Copper" state="solid">
       <D value="8.96000e+00" unit="g/cm3"/>
       <fraction n="1.000000" ref="Cu"/>
