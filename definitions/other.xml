@@ -44,6 +44,13 @@
       <fraction n="0.95" ref="G4_POLYETHYLENE" />
    </material>
 
+   <!-- I haven't found a supplier with specifications, this is a guess -->
+   <material name="BoratedHDPE1pct" state="solid">
+      <D unit="g/cm3" value="0.96" />
+      <fraction n="0.01" ref="G4_B" />
+      <fraction n="0.99" ref="G4_POLYETHYLENE" />
+   </material>
+
    <!-- Scintillator with boron for neutron detection
    https://eljentechnology.com/products/plastic-scintillators/ej-254 -->
 
